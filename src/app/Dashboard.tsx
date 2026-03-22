@@ -1,9 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PlayerTable from './PlayerTable';
-import { calculateHitterScore } from '../scoring/hitterModel';
-import { calculatePitcherScore } from '../scoring/pitcherModel';
-import { parseCSV } from '../data_ingestion/csvParser';
-import * as DataMerging from '../data_ingestion/dataMerging';
 
 interface Player {
   name: string;
@@ -22,18 +18,25 @@ const Dashboard: React.FC = () => {
   const [hitters, setHitters] = useState<Player[]>([]);
   const [pitchers, setPitchers] = useState<Player[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+  const [lastUpdated, setLastUpdated] = useState('');
 
-  // State for raw data
-  const [rawHitterFG, setRawHitterFG] = useState<DataMerging.RawHitterFG[]>([]);
-  const [rawHitterSavant, setRawHitterSavant] = useState<DataMerging.RawHitterSavant[]>([]);
-  const [rawContact, setRawContact] = useState<DataMerging.RawContact[]>([]);
-  const [rawHitterAuction, setRawHitterAuction] = useState<DataMerging.RawAuction[]>([]);
-
-  const [rawPitcherFG, setRawPitcherFG] = useState<DataMerging.RawPitcherFG[]>([]);
-  const [rawPitcherSavant, setRawPitcherSavant] = useState<DataMerging.RawPitcherSavant[]>([]);
-  const [rawPitcherProjections, setRawPitcherProjections] = useState<DataMerging.RawPitcherProjections[]>([]);
-  const [rawPitcherAuction, setRawPitcherAuction] = useState<DataMerging.RawAuction[]>([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/data/players.json');
+        const data = await response.json();
+        setHitters(data.hitters);
+        setPitchers(data.pitchers);
+        setLastUpdated(data.lastUpdated);
+      } catch (e) {
+        console.error('Error loading pre-processed data:', e);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
 
   const totalSpent = [...hitters, ...pitchers]
     .filter(p => p.isDrafted)
@@ -44,76 +47,6 @@ const Dashboard: React.FC = () => {
   const handleUpdatePlayer = (name: string, updates: Partial<Player>) => {
     setHitters(prev => prev.map(p => p.name === name ? { ...p, ...updates } : p));
     setPitchers(prev => prev.map(p => p.name === name ? { ...p, ...updates } : p));
-  };
-
-  const processHitters = () => {
-    if (rawHitterAuction.length && rawHitterFG.length) {
-      const merged = DataMerging.mergeHitterData(rawHitterFG, rawHitterSavant, rawContact, rawHitterAuction);
-      const players: Player[] = merged.map(data => ({
-        name: data.name,
-        team: data.team,
-        age: data.age,
-        fgValue: rawHitterAuction.find(a => a.Name.trim() === data.name)?.Dollars || 0,
-        isDrafted: false,
-        score: calculateHitterScore(data),
-        stats: {
-          OBP: data.obp,
-          'K%': (data.kRate * 100).toFixed(1) + '%',
-          'BB%': (data.bbRate * 100).toFixed(1) + '%',
-          'HH%': (data.hardHitRate * 100).toFixed(1) + '%',
-          'xwOBA': data.xwOBA,
-        }
-      }));
-      setHitters(players);
-    }
-  };
-
-  const processPitchers = () => {
-    if (rawPitcherAuction.length && rawPitcherProjections.length) {
-      const merged = DataMerging.mergePitcherData(rawPitcherFG, rawPitcherSavant, rawPitcherProjections, rawPitcherAuction);
-      const players: Player[] = merged.map(data => ({
-        name: data.name,
-        team: data.team,
-        age: data.age,
-        fgValue: rawPitcherAuction.find(a => a.Name.trim() === data.name)?.Dollars || 0,
-        isDrafted: false,
-        score: calculatePitcherScore(data),
-        stats: {
-          SIERA: data.siera,
-          'Proj IP': data.projectedIP,
-          'Pitching+': data.pitchingPlus,
-          'Stuff+': data.stuffPlus,
-          'xERA': data.xERA,
-        }
-      }));
-      setPitchers(players);
-    }
-  };
-
-  const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>, type: string) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
-    setIsLoading(true);
-    try {
-      const text = await file.text();
-      const data = await parseCSV<any>(text);
-      
-      switch (type) {
-        case 'hitter_auction': setRawHitterAuction(data); break;
-        case 'hitter_stats': setRawHitterFG(data); break;
-        case 'hitter_savant': setRawHitterSavant(data); break;
-        case 'hitter_contact': setRawContact(data); break;
-        case 'pitcher_auction': setRawPitcherAuction(data); break;
-        case 'pitcher_stats': setRawPitcherFG(data); break;
-        case 'pitcher_savant': setRawPitcherSavant(data); break;
-        case 'pitcher_projections': setRawPitcherProjections(data); break;
-      }
-    } catch (e) {
-      console.error(e);
-      alert('Error parsing CSV');
-    }
-    setIsLoading(false);
   };
 
   const filteredHitters = hitters.filter(p => 
@@ -143,28 +76,14 @@ const Dashboard: React.FC = () => {
               {hitters.filter(p => p.isDrafted).length} H / {pitchers.filter(p => p.isDrafted).length} P
             </div>
           </div>
+          {lastUpdated && (
+            <div className="summary-item">
+              <div className="summary-label">Data Last Updated</div>
+              <div className="summary-value" style={{ fontSize: '0.8rem' }}>{new Date(lastUpdated).toLocaleString()}</div>
+            </div>
+          )}
         </div>
       </header>
-
-      <div className="controls" style={{ background: '#eee', padding: '15px', borderRadius: '8px' }}>
-        <div>
-          <strong>Upload CSVs:</strong>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', marginTop: '10px' }}>
-            <label>Auction (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_auction')} /></label>
-            <label>THE BATX (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_stats')} /></label>
-            <label>Savant (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_savant')} /></label>
-            <label>Contact%: <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_contact')} /></label>
-            <label>Auction (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_auction')} /></label>
-            <label>ATC (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_projections')} /></label>
-            <label>Savant (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_savant')} /></label>
-            <label>Stuff+/Pitching+: <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_stats')} /></label>
-          </div>
-          <div style={{ marginTop: '10px' }}>
-            <button className="btn btn-secondary" onClick={processHitters} disabled={!rawHitterAuction.length || !rawHitterFG.length}>Process Hitters</button>
-            <button className="btn btn-secondary" onClick={processPitchers} disabled={!rawPitcherAuction.length || !rawPitcherProjections.length} style={{ marginLeft: '10px' }}>Process Pitchers</button>
-          </div>
-        </div>
-      </div>
 
       <div className="controls">
         <button 
@@ -194,7 +113,7 @@ const Dashboard: React.FC = () => {
         />
       </div>
 
-      {isLoading && <p>Processing data...</p>}
+      {isLoading && <p>Loading draft data...</p>}
 
       {!isLoading && view === 'hitters' && (
         <PlayerTable 
@@ -218,10 +137,10 @@ const Dashboard: React.FC = () => {
         />
       )}
       
-      {hitters.length === 0 && pitchers.length === 0 && !isLoading && (
+      {!isLoading && hitters.length === 0 && pitchers.length === 0 && (
         <div style={{ textAlign: 'center', padding: '40px', background: 'white', borderRadius: '8px' }}>
-          <h3>No data loaded yet.</h3>
-          <p>Please upload the FanGraphs and Baseball Savant CSV files and click "Process" to get started.</p>
+          <h3>No data found.</h3>
+          <p>Please run `npm run preprocess` to generate the draft data from your CSV exports.</p>
         </div>
       )}
     </div>
