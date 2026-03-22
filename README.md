@@ -1,4 +1,4 @@
-# Fantasy Baseball Draft Tracker
+# Fantasy Baseball Draft Tracker 
 
 **[🚀 View Live App](https://willfleischer007.github.io/fantasy-baseball-draft-tracker/)**
 
