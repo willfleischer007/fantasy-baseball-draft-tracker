@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/data/players.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}data/players.json`);
         const data = await response.json();
         // Load notes from local storage
         const savedNotes = JSON.parse(localStorage.getItem('playerNotes') || '{}');
