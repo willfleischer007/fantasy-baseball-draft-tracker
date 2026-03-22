@@ -80,7 +80,8 @@ header {
 .table-container {
   background: var(--white);
   border-radius: 8px;
-  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
@@ -325,3 +326,69 @@ tr:hover {
 .tier-ELITE { color: #d4af37; }
 .tier-STRONG-BUY { color: #2ecc71; }
 .tier-GOOD-TARGET { color: #2196f3; }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .summary-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .summary-item {
+    padding: 8px;
+  }
+
+  .filter-panel {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .control-group {
+    width: 100%;
+  }
+
+  .control-group .btn, 
+  .control-group input, 
+  .control-group select {
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+  }
+  
+  .control-group.view-toggles {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .control-group.view-toggles .btn {
+    width: 32%;
+    margin: 0;
+    padding: 10px 5px;
+    font-size: 0.8rem;
+  }
+
+  table {
+    min-width: 800px; /* Forces scrolling instead of squishing */
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .modal-content {
+    width: 95%;
+    max-height: 90vh;
+    overflow-y: auto;
+    margin: auto;
+  }
+
+  .stats-grid {
+    justify-content: center;
+  }
+}
