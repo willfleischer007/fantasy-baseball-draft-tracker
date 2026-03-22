@@ -132,6 +132,13 @@ tr:hover {
   border-radius: 4px;
 }
 
+.score-cell {
+  cursor: help;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: underline dotted;
+}
+
 .drafted {
   opacity: 0.5;
   background: #f9f9f9 !important;
@@ -141,10 +148,23 @@ tr:hover {
   position: absolute;
   background: white;
   border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  z-index: 100;
-  max-width: 300px;
-  font-size: 0.85rem;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  z-index: 1000;
+  max-width: 350px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.tooltip hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.tooltip strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
 }

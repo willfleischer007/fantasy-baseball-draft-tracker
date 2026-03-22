@@ -25,6 +25,48 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
     key: 'totalScore',
     direction: 'desc',
   });
+  const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; content: React.ReactNode }>({
+    visible: false,
+    x: 0,
+    y: 0,
+    content: null,
+  });
+
+  const renderScoreBreakdown = (score: any) => {
+    if (type === 'hitter') {
+      const s = score as HitterScore;
+      return (
+        <div className="tooltip">
+          <strong>{s.total} Total Points</strong>
+          <hr />
+          <div>Plate Discipline: {s.breakdown.plateDiscipline}/28</div>
+          <div>Contact Quality: {s.breakdown.contactQuality}/25</div>
+          <div>On-Base Ability: {s.breakdown.onBaseAbility}/15</div>
+          <div>Contact Rate: {s.breakdown.contactRate}/10</div>
+          <div>Sustainability: {s.breakdown.sustainability}/10</div>
+          <div>Speed Upside: {s.breakdown.speedUpside}/8</div>
+          <div>Age: {s.breakdown.age}/6</div>
+          <div>Playing Time: {s.breakdown.playingTime}/4</div>
+        </div>
+      );
+    } else {
+      const s = score as PitcherScore;
+      return (
+        <div className="tooltip">
+          <strong>{s.total} Total Points</strong>
+          <hr />
+          <div>Control: {s.breakdown.control}/25</div>
+          <div>Strikeout Ability: {s.breakdown.strikeoutAbility}/20</div>
+          <div>Stuff & Command: {s.breakdown.stuffAndCommand}/15</div>
+          <div>Contact Management: {s.breakdown.contactManagement}/12</div>
+          <div>Volume & Durability: {s.breakdown.volumeAndDurability}/12</div>
+          <div>Team & Environment: {s.breakdown.teamAndEnvironment}/10</div>
+          <div>Sustainability: {s.breakdown.sustainability}/6</div>
+          <div>Age & Health: {s.breakdown.ageAndHealth}/4</div>
+        </div>
+      );
+    }
+  };
 
   const sortedPlayers = [...players].sort((a, b) => {
     if (!sortConfig) return 0;
@@ -75,7 +117,21 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
               <td>{player.name}</td>
               <td>{player.team}</td>
               {type === 'hitter' && <td>{player.pos}</td>}
-              <td title="Hover for breakdown">{player.score.total}</td>
+              <td 
+                className="score-cell"
+                onMouseEnter={(e) => {
+                  const rect = e.currentTarget.getBoundingClientRect();
+                  setTooltip({
+                    visible: true,
+                    x: rect.left + window.scrollX,
+                    y: rect.bottom + window.scrollY,
+                    content: renderScoreBreakdown(player.score)
+                  });
+                }}
+                onMouseLeave={() => setTooltip({ ...tooltip, visible: false })}
+              >
+                {player.score.total}
+              </td>
               <td>
                 <span className={`tier-badge tier-${player.score.tier.replace(' ', '-')}`}>
                   {player.score.tier}
@@ -107,6 +163,18 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
           ))}
         </tbody>
       </table>
+      {tooltip.visible && (
+        <div 
+          style={{ 
+            position: 'absolute', 
+            left: tooltip.x, 
+            top: tooltip.y, 
+            pointerEvents: 'none' 
+          }}
+        >
+          {tooltip.content}
+        </div>
+      )}
     </div>
   );
 };

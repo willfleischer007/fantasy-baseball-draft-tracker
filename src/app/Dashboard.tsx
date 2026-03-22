@@ -2,22 +2,8 @@ import React, { useState } from 'react';
 import PlayerTable from './PlayerTable';
 import { calculateHitterScore } from '../scoring/hitterModel';
 import { calculatePitcherScore } from '../scoring/pitcherModel';
-import { 
-  parseCSV, 
-  mergeHitterData, 
-  mergePitcherData,
-  RawHitterFG,
-  RawHitterSavant,
-  RawSprintSpeed,
-  RawAuction,
-  RawPitcherFG,
-  RawPitcherSavant,
-  RawStuffPlus
-} from '../data_ingestion/csvParser'; // Actually I should export from dataMerging too
-
-// Refactoring imports to be cleaner
+import { parseCSV } from '../data_ingestion/csvParser';
 import * as DataMerging from '../data_ingestion/dataMerging';
-import * as CSVParser from '../data_ingestion/csvParser';
 
 interface Player {
   name: string;
@@ -38,6 +24,17 @@ const Dashboard: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+  // State for raw data
+  const [rawHitterFG, setRawHitterFG] = useState<DataMerging.RawHitterFG[]>([]);
+  const [rawHitterSavant, setRawHitterSavant] = useState<DataMerging.RawHitterSavant[]>([]);
+  const [rawSprintSpeed, setRawSprintSpeed] = useState<DataMerging.RawSprintSpeed[]>([]);
+  const [rawHitterAuction, setRawHitterAuction] = useState<DataMerging.RawAuction[]>([]);
+
+  const [rawPitcherFG, setRawPitcherFG] = useState<DataMerging.RawPitcherFG[]>([]);
+  const [rawPitcherSavant, setRawPitcherSavant] = useState<DataMerging.RawPitcherSavant[]>([]);
+  const [rawStuffPlus, setRawStuffPlus] = useState<DataMerging.RawStuffPlus[]>([]);
+  const [rawPitcherAuction, setRawPitcherAuction] = useState<DataMerging.RawAuction[]>([]);
+
   const totalSpent = [...hitters, ...pitchers]
     .filter(p => p.isDrafted)
     .reduce((sum, p) => sum + (p.paidValue || 0), 0);
@@ -49,17 +46,73 @@ const Dashboard: React.FC = () => {
     setPitchers(prev => prev.map(p => p.name === name ? { ...p, ...updates } : p));
   };
 
+  const processHitters = () => {
+    if (rawHitterAuction.length && rawHitterFG.length) {
+      const merged = DataMerging.mergeHitterData(rawHitterFG, rawHitterSavant, rawSprintSpeed, rawHitterAuction);
+      const players: Player[] = merged.map(data => ({
+        name: data.name,
+        team: data.team,
+        age: data.age,
+        fgValue: rawHitterAuction.find(a => a.Name === data.name)?.Dollars || 0,
+        isDrafted: false,
+        score: calculateHitterScore(data),
+        stats: {
+          OBP: data.obp,
+          'K%': data.kRate * 100,
+          'BB%': data.bbRate * 100,
+          'HH%': data.hardHitRate * 100,
+          'xwOBA': data.xwOBA,
+        }
+      }));
+      setHitters(players);
+    }
+  };
+
+  const processPitchers = () => {
+    if (rawPitcherAuction.length && rawPitcherFG.length) {
+      const merged = DataMerging.mergePitcherData(rawPitcherFG, rawPitcherSavant, rawStuffPlus, rawPitcherAuction);
+      const players: Player[] = merged.map(data => ({
+        name: data.name,
+        team: data.team,
+        age: data.age,
+        fgValue: rawPitcherAuction.find(a => a.Name === data.name)?.Dollars || 0,
+        isDrafted: false,
+        score: calculatePitcherScore(data),
+        stats: {
+          SIERA: data.siera,
+          'K-BB%': (data.kRate - data.bbRate) * 100,
+          'Pitching+': data.pitchingPlus,
+          'Stuff+': data.stuffPlus,
+          'xERA': data.xERA,
+        }
+      }));
+      setPitchers(players);
+    }
+  };
+
   const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>, type: string) => {
     const file = event.target.files?.[0];
     if (!file) return;
 
     setIsLoading(true);
-    const text = await file.text();
-    const data = await CSVParser.parseCSV(text);
-    
-    // In a real app, we'd wait for all files and then merge.
-    // For now, I'll provide a mock process for demonstration if I don't have all files yet.
-    console.log(`Loaded ${type}:`, data);
+    try {
+      const text = await file.text();
+      const data = await parseCSV<any>(text);
+      
+      switch (type) {
+        case 'hitter_auction': setRawHitterAuction(data); break;
+        case 'hitter_stats': setRawHitterFG(data); break;
+        case 'hitter_savant': setRawHitterSavant(data); break;
+        case 'hitter_speed': setRawSprintSpeed(data); break;
+        case 'pitcher_auction': setRawPitcherAuction(data); break;
+        case 'pitcher_stats': setRawPitcherFG(data); break;
+        case 'pitcher_savant': setRawPitcherSavant(data); break;
+        case 'pitcher_stuff': setRawStuffPlus(data); break;
+      }
+    } catch (e) {
+      console.error(e);
+      alert('Error parsing CSV');
+    }
     setIsLoading(false);
   };
 
@@ -96,11 +149,19 @@ const Dashboard: React.FC = () => {
       <div className="controls" style={{ background: '#eee', padding: '15px', borderRadius: '8px' }}>
         <div>
           <strong>Upload CSVs:</strong>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px', marginTop: '10px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', marginTop: '10px' }}>
             <label>Auction (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_auction')} /></label>
-            <label>Auction (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_auction')} /></label>
             <label>FG Stats (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_stats')} /></label>
+            <label>Savant (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_savant')} /></label>
+            <label>Speed: <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_speed')} /></label>
+            <label>Auction (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_auction')} /></label>
             <label>FG Stats (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_stats')} /></label>
+            <label>Savant (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_savant')} /></label>
+            <label>Stuff+: <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_stuff')} /></label>
+          </div>
+          <div style={{ marginTop: '10px' }}>
+            <button className="btn btn-secondary" onClick={processHitters} disabled={!rawHitterAuction.length || !rawHitterFG.length}>Process Hitters</button>
+            <button className="btn btn-secondary" onClick={processPitchers} disabled={!rawPitcherAuction.length || !rawPitcherFG.length} style={{ marginLeft: '10px' }}>Process Pitchers</button>
           </div>
         </div>
       </div>
@@ -157,10 +218,10 @@ const Dashboard: React.FC = () => {
         />
       )}
       
-      {hitters.length === 0 && !isLoading && (
+      {hitters.length === 0 && pitchers.length === 0 && !isLoading && (
         <div style={{ textAlign: 'center', padding: '40px', background: 'white', borderRadius: '8px' }}>
           <h3>No data loaded yet.</h3>
-          <p>Please upload the FanGraphs and Baseball Savant CSV files to get started.</p>
+          <p>Please upload the FanGraphs and Baseball Savant CSV files and click "Process" to get started.</p>
         </div>
       )}
     </div>
