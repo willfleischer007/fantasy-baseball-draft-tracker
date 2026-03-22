@@ -1,0 +1,150 @@
+:root {
+  --primary-color: #1a237e;
+  --secondary-color: #c51162;
+  --bg-color: #f5f5f5;
+  --text-color: #212121;
+  --white: #ffffff;
+  --elite: #ffd700;
+  --strong-buy: #4caf50;
+  --good-target: #2196f3;
+  --usable: #9e9e9e;
+  --caution: #ff9800;
+  --avoid: #f44336;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.summary-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.summary-label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.summary-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.btn-primary { background: var(--primary-color); color: white; }
+.btn-secondary { background: var(--secondary-color); color: white; }
+
+.table-container {
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f8f9fa;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+tr:hover {
+  background: #fcfcfc;
+}
+
+.tier-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tier-ELITE { background: var(--elite); color: black; }
+.tier-STRONG-BUY { background: var(--strong-buy); color: white; }
+.tier-GOOD-TARGET { background: var(--good-target); color: white; }
+.tier-USABLE { background: var(--usable); color: white; }
+.tier-CAUTION { background: var(--caution); color: white; }
+.tier-AVOID { background: var(--avoid); color: white; }
+
+.flag-icon {
+  margin-right: 4px;
+  cursor: help;
+}
+
+.input-paid {
+  width: 60px;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.drafted {
+  opacity: 0.5;
+  background: #f9f9f9 !important;
+}
+
+.tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 100;
+  max-width: 300px;
+  font-size: 0.85rem;
+}

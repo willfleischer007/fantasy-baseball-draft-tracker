@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+data/raw/*.csv
+data/processed/*.json
+output/
+.DS_Store
+.env
