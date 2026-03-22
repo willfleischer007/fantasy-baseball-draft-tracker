@@ -17,7 +17,16 @@ export const parseCSV = <T>(fileContent: string): Promise<T[]> => {
 };
 
 export const normalizeName = (name: string): string => {
-  return name
+  if (!name) return '';
+  let cleanName = name.trim();
+  
+  // Handle "Last, First" format
+  if (cleanName.includes(',')) {
+    const [last, first] = cleanName.split(',').map(s => s.trim());
+    cleanName = `${first} ${last}`;
+  }
+
+  return cleanName
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()

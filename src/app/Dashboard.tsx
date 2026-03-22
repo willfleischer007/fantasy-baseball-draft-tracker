@@ -27,12 +27,12 @@ const Dashboard: React.FC = () => {
   // State for raw data
   const [rawHitterFG, setRawHitterFG] = useState<DataMerging.RawHitterFG[]>([]);
   const [rawHitterSavant, setRawHitterSavant] = useState<DataMerging.RawHitterSavant[]>([]);
-  const [rawSprintSpeed, setRawSprintSpeed] = useState<DataMerging.RawSprintSpeed[]>([]);
+  const [rawContact, setRawContact] = useState<DataMerging.RawContact[]>([]);
   const [rawHitterAuction, setRawHitterAuction] = useState<DataMerging.RawAuction[]>([]);
 
   const [rawPitcherFG, setRawPitcherFG] = useState<DataMerging.RawPitcherFG[]>([]);
   const [rawPitcherSavant, setRawPitcherSavant] = useState<DataMerging.RawPitcherSavant[]>([]);
-  const [rawStuffPlus, setRawStuffPlus] = useState<DataMerging.RawStuffPlus[]>([]);
+  const [rawPitcherProjections, setRawPitcherProjections] = useState<DataMerging.RawPitcherProjections[]>([]);
   const [rawPitcherAuction, setRawPitcherAuction] = useState<DataMerging.RawAuction[]>([]);
 
   const totalSpent = [...hitters, ...pitchers]
@@ -48,19 +48,19 @@ const Dashboard: React.FC = () => {
 
   const processHitters = () => {
     if (rawHitterAuction.length && rawHitterFG.length) {
-      const merged = DataMerging.mergeHitterData(rawHitterFG, rawHitterSavant, rawSprintSpeed, rawHitterAuction);
+      const merged = DataMerging.mergeHitterData(rawHitterFG, rawHitterSavant, rawContact, rawHitterAuction);
       const players: Player[] = merged.map(data => ({
         name: data.name,
         team: data.team,
         age: data.age,
-        fgValue: rawHitterAuction.find(a => a.Name === data.name)?.Dollars || 0,
+        fgValue: rawHitterAuction.find(a => a.Name.trim() === data.name)?.Dollars || 0,
         isDrafted: false,
         score: calculateHitterScore(data),
         stats: {
           OBP: data.obp,
-          'K%': data.kRate * 100,
-          'BB%': data.bbRate * 100,
-          'HH%': data.hardHitRate * 100,
+          'K%': (data.kRate * 100).toFixed(1) + '%',
+          'BB%': (data.bbRate * 100).toFixed(1) + '%',
+          'HH%': (data.hardHitRate * 100).toFixed(1) + '%',
           'xwOBA': data.xwOBA,
         }
       }));
@@ -69,18 +69,18 @@ const Dashboard: React.FC = () => {
   };
 
   const processPitchers = () => {
-    if (rawPitcherAuction.length && rawPitcherFG.length) {
-      const merged = DataMerging.mergePitcherData(rawPitcherFG, rawPitcherSavant, rawStuffPlus, rawPitcherAuction);
+    if (rawPitcherAuction.length && rawPitcherProjections.length) {
+      const merged = DataMerging.mergePitcherData(rawPitcherFG, rawPitcherSavant, rawPitcherProjections, rawPitcherAuction);
       const players: Player[] = merged.map(data => ({
         name: data.name,
         team: data.team,
         age: data.age,
-        fgValue: rawPitcherAuction.find(a => a.Name === data.name)?.Dollars || 0,
+        fgValue: rawPitcherAuction.find(a => a.Name.trim() === data.name)?.Dollars || 0,
         isDrafted: false,
         score: calculatePitcherScore(data),
         stats: {
           SIERA: data.siera,
-          'K-BB%': (data.kRate - data.bbRate) * 100,
+          'Proj IP': data.projectedIP,
           'Pitching+': data.pitchingPlus,
           'Stuff+': data.stuffPlus,
           'xERA': data.xERA,
@@ -103,11 +103,11 @@ const Dashboard: React.FC = () => {
         case 'hitter_auction': setRawHitterAuction(data); break;
         case 'hitter_stats': setRawHitterFG(data); break;
         case 'hitter_savant': setRawHitterSavant(data); break;
-        case 'hitter_speed': setRawSprintSpeed(data); break;
+        case 'hitter_contact': setRawContact(data); break;
         case 'pitcher_auction': setRawPitcherAuction(data); break;
         case 'pitcher_stats': setRawPitcherFG(data); break;
         case 'pitcher_savant': setRawPitcherSavant(data); break;
-        case 'pitcher_stuff': setRawStuffPlus(data); break;
+        case 'pitcher_projections': setRawPitcherProjections(data); break;
       }
     } catch (e) {
       console.error(e);
@@ -151,17 +151,17 @@ const Dashboard: React.FC = () => {
           <strong>Upload CSVs:</strong>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '10px', marginTop: '10px' }}>
             <label>Auction (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_auction')} /></label>
-            <label>FG Stats (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_stats')} /></label>
+            <label>THE BATX (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_stats')} /></label>
             <label>Savant (Batters): <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_savant')} /></label>
-            <label>Speed: <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_speed')} /></label>
+            <label>Contact%: <input type="file" onChange={(e) => handleFileUpload(e, 'hitter_contact')} /></label>
             <label>Auction (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_auction')} /></label>
-            <label>FG Stats (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_stats')} /></label>
+            <label>ATC (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_projections')} /></label>
             <label>Savant (Pitchers): <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_savant')} /></label>
-            <label>Stuff+: <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_stuff')} /></label>
+            <label>Stuff+/Pitching+: <input type="file" onChange={(e) => handleFileUpload(e, 'pitcher_stats')} /></label>
           </div>
           <div style={{ marginTop: '10px' }}>
             <button className="btn btn-secondary" onClick={processHitters} disabled={!rawHitterAuction.length || !rawHitterFG.length}>Process Hitters</button>
-            <button className="btn btn-secondary" onClick={processPitchers} disabled={!rawPitcherAuction.length || !rawPitcherFG.length} style={{ marginLeft: '10px' }}>Process Pitchers</button>
+            <button className="btn btn-secondary" onClick={processPitchers} disabled={!rawPitcherAuction.length || !rawPitcherProjections.length} style={{ marginLeft: '10px' }}>Process Pitchers</button>
           </div>
         </div>
       </div>

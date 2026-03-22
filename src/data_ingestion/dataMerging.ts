@@ -5,77 +5,75 @@ import { PitcherData } from '../scoring/pitcherModel';
 export interface RawHitterFG {
   Name: string;
   Team: string;
-  Age: number;
   PA: number;
-  OBP: number;
+  OBP: number | string;
   'K%': string | number;
   'BB%': string | number;
-  'Contact%': string | number;
-  'O-Swing%': string | number;
-  wOBA: number;
+  wOBA: number | string;
 }
 
 export interface RawHitterSavant {
-  Name: string;
-  Team: string;
-  xwOBA: number;
-  'HardHit%': string | number;
-  'Barrel%': string | number;
-  wOBA: number;
+  'last_name, first_name': string;
+  xwoba: number | string;
+  hard_hit_percent: number | string;
+  barrel_batted_rate: number | string;
+  oz_swing_percent: number | string;
+  sprint_speed: number | string;
 }
 
-export interface RawSprintSpeed {
+export interface RawContact {
   Name: string;
-  Team: string;
-  SprintSpeed: number;
+  'Contact%': string | number;
 }
 
 export interface RawAuction {
   Name: string;
-  POS: string;
   Dollars: number;
-  PTS: number;
-  ADP: number;
 }
 
 export const mergeHitterData = (
   fg: RawHitterFG[],
   savant: RawHitterSavant[],
-  speed: RawSprintSpeed[],
+  contact: RawContact[],
   auction: RawAuction[]
 ): HitterData[] => {
   const merged: HitterData[] = [];
+
+  const parseNum = (val: any): number => {
+    if (typeof val === 'number') return val;
+    if (typeof val === 'string') {
+      const clean = val.replace('%', '').trim();
+      return isNaN(parseFloat(clean)) ? 0 : parseFloat(clean);
+    }
+    return 0;
+  };
+
+  const parsePct = (val: any): number => parseNum(val) / 100;
 
   auction.forEach((player) => {
     const name = normalizeName(player.Name);
     
     const fgMatch = fg.find((f) => normalizeName(f.Name) === name);
-    const savantMatch = savant.find((s) => normalizeName(s.Name) === name);
-    const speedMatch = speed.find((sp) => normalizeName(sp.Name) === name);
+    const savantMatch = savant.find((s) => normalizeName(s['last_name, first_name']) === name);
+    const contactMatch = contact.find((c) => normalizeName(c.Name) === name);
 
     if (fgMatch) {
-      const parsePct = (val: string | number | undefined): number => {
-        if (typeof val === 'number') return val / 100;
-        if (typeof val === 'string') return parseFloat(val.replace('%', '')) / 100;
-        return 0;
-      };
-
       merged.push({
-        name: player.Name,
+        name: player.Name.trim(),
         team: fgMatch.Team,
-        age: fgMatch.Age,
+        age: 28, // Default if not in projection
         pa: fgMatch.PA,
-        obp: fgMatch.OBP,
+        obp: parseNum(fgMatch.OBP),
         kRate: parsePct(fgMatch['K%']),
         bbRate: parsePct(fgMatch['BB%']),
-        contactRate: parsePct(fgMatch['Contact%']),
-        oSwingRate: parsePct(fgMatch['O-Swing%']),
-        hardHitRate: savantMatch ? parsePct(savantMatch['HardHit%']) : 0,
-        barrelRate: savantMatch ? parsePct(savantMatch['Barrel%']) : 0,
-        xwOBA: savantMatch ? savantMatch.xwOBA : fgMatch.wOBA, // fallback
-        wOBA: fgMatch.wOBA,
-        sprintSpeed: speedMatch ? speedMatch.SprintSpeed : 26.0, // default
-        projectedPA: fgMatch.PA, // Use FG PA as projection for now
+        contactRate: contactMatch ? parsePct(contactMatch['Contact%']) : 0.75,
+        oSwingRate: savantMatch ? parsePct(savantMatch.oz_swing_percent) : 0.30,
+        hardHitRate: savantMatch ? parsePct(savantMatch.hard_hit_percent) : 0,
+        barrelRate: savantMatch ? parsePct(savantMatch.barrel_batted_rate) : 0,
+        xwOBA: savantMatch ? parseNum(savantMatch.xwoba) : parseNum(fgMatch.wOBA),
+        wOBA: parseNum(fgMatch.wOBA),
+        sprintSpeed: savantMatch ? parseNum(savantMatch.sprint_speed) : 27.0,
+        projectedPA: fgMatch.PA,
       });
     }
   });
@@ -86,75 +84,79 @@ export const mergeHitterData = (
 export interface RawPitcherFG {
   Name: string;
   Team: string;
-  Age: number;
-  IP: number;
-  GS: number;
-  QS: number;
-  'K%': string | number;
-  'BB%': string | number;
-  'F-Strike%': string | number;
-  SIERA: number;
-  ERA: number;
-  wOBA: number;
+  SIERA: number | string;
+  'Stuff+': number | string;
+  'Location+': number | string;
+  'Pitching+': number | string;
+  QS: number | string;
+  GS: number | string;
 }
 
 export interface RawPitcherSavant {
-  Name: string;
-  Team: string;
-  xERA: number;
-  'HardHit%': string | number;
+  'last_name, first_name': string;
+  hard_hit_percent: number | string;
+  f_strike_percent: number | string;
+  whiff_percent: number | string;
+  oz_swing_miss_percent: number | string;
+  p_era: number | string;
+  player_age: number;
+  p_formatted_ip: number | string;
 }
 
-export interface RawStuffPlus {
+export interface RawPitcherProjections {
   Name: string;
-  'Stuff+': number;
-  'Location+': number;
-  'Pitching+': number;
-  'CSW%': string | number;
+  Team: string;
+  IP: number | string;
+  ERA: number | string;
 }
 
 export const mergePitcherData = (
   fg: RawPitcherFG[],
   savant: RawPitcherSavant[],
-  stuff: RawStuffPlus[],
+  projections: RawPitcherProjections[],
   auction: RawAuction[]
 ): PitcherData[] => {
   const merged: PitcherData[] = [];
+
+  const parseNum = (val: any): number => {
+    if (typeof val === 'number') return val;
+    if (typeof val === 'string') {
+      const clean = val.replace('%', '').trim();
+      return isNaN(parseFloat(clean)) ? 0 : parseFloat(clean);
+    }
+    return 0;
+  };
+
+  const parsePct = (val: any): number => parseNum(val) / 100;
 
   auction.forEach((player) => {
     const name = normalizeName(player.Name);
     
     const fgMatch = fg.find((f) => normalizeName(f.Name) === name);
-    const savantMatch = savant.find((s) => normalizeName(s.Name) === name);
-    const stuffMatch = stuff.find((st) => normalizeName(st.Name) === name);
+    const savantMatch = savant.find((s) => normalizeName(s['last_name, first_name']) === name);
+    const projMatch = projections.find((p) => normalizeName(p.Name) === name);
 
-    if (fgMatch) {
-      const parsePct = (val: string | number | undefined): number => {
-        if (typeof val === 'number') return val / 100;
-        if (typeof val === 'string') return parseFloat(val.replace('%', '')) / 100;
-        return 0;
-      };
-
+    if (projMatch) {
       merged.push({
-        name: player.Name,
-        team: fgMatch.Team,
-        age: fgMatch.Age,
-        ip2025: fgMatch.IP,
-        gs2025: fgMatch.GS,
-        qs2025: fgMatch.QS,
-        kRate: parsePct(fgMatch['K%']),
-        bbRate: parsePct(fgMatch['BB%']),
-        fStrikeRate: parsePct(fgMatch['F-Strike%']),
-        pitchingPlus: stuffMatch ? stuffMatch['Pitching+'] : 100,
-        stuffPlus: stuffMatch ? stuffMatch['Stuff+'] : 100,
-        cswRate: stuffMatch ? parsePct(stuffMatch['CSW%']) : 0.28,
-        siera: fgMatch.SIERA,
-        xERA: savantMatch ? savantMatch.xERA : fgMatch.SIERA, // fallback
-        hardHitRateAgainst: savantMatch ? parsePct(savantMatch['HardHit%']) : 0.35,
-        projectedIP: fgMatch.IP, // fallback
-        teamProjectedWins: 81, // default
-        parkFactor: 100, // default
-        era: fgMatch.ERA,
+        name: player.Name.trim(),
+        team: projMatch.Team,
+        age: savantMatch ? savantMatch.player_age : 30,
+        ip2025: savantMatch ? parseNum(savantMatch.p_formatted_ip) : 150,
+        gs2025: fgMatch ? parseNum(fgMatch.GS) : 25,
+        qs2025: fgMatch ? parseNum(fgMatch.QS) : 10,
+        kRate: 0.24, // Fallback if not available
+        bbRate: 0.08, // Fallback
+        fStrikeRate: savantMatch ? parsePct(savantMatch.f_strike_percent) : 0.62,
+        pitchingPlus: fgMatch ? parseNum(fgMatch['Pitching+']) : 100,
+        stuffPlus: fgMatch ? parseNum(fgMatch['Stuff+']) : 100,
+        cswRate: 0.28, // Default
+        siera: fgMatch ? parseNum(fgMatch.SIERA) : 4.0,
+        xERA: savantMatch ? parseNum(savantMatch.p_era) : 4.0,
+        hardHitRateAgainst: savantMatch ? parsePct(savantMatch.hard_hit_percent) : 0.35,
+        projectedIP: parseNum(projMatch.IP),
+        teamProjectedWins: 81,
+        parkFactor: 100,
+        era: parseNum(projMatch.ERA),
       });
     }
   });
