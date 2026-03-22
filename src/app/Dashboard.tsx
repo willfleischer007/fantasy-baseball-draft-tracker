@@ -21,6 +21,12 @@ const Dashboard: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [minPA, setMinPA] = useState(200);
   const [posFilter, setPosFilter] = useState('ALL');
+  const [flagFilter, setFlagFilter] = useState('ALL');
+  const [minContactQuality, setMinContactQuality] = useState(0);
+  const [minContactRate, setMinContactRate] = useState(0);
+  const [minControl, setMinControl] = useState(0);
+  const [minStrikeoutAbility, setMinStrikeoutAbility] = useState(0);
+  const [minContactManagement, setMinContactManagement] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState('');
 
@@ -75,16 +81,25 @@ const Dashboard: React.FC = () => {
     const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesPA = (p.stats['PA'] as number || 0) >= minPA;
     const matchesPos = posFilter === 'ALL' || (p.pos || '').includes(posFilter);
-    return matchesSearch && matchesPA && matchesPos;
+    const matchesFlag = flagFilter === 'ALL' || (p.score?.flags || []).includes(flagFilter);
+    const matchesContactQuality = (p.score?.breakdown?.contactQuality?.score || 0) >= minContactQuality;
+    const matchesContactRate = (p.score?.breakdown?.contactRate?.score || 0) >= minContactRate;
+    return matchesSearch && matchesPA && matchesPos && matchesFlag && matchesContactQuality && matchesContactRate;
   });
 
   const filteredPitchers = pitchers.filter(p => {
     const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesIP = (p.stats['Proj IP'] as number || 0) >= (minPA / 4); // Rough proxy for pitchers
-    return matchesSearch && matchesIP;
+    const matchesFlag = flagFilter === 'ALL' || (p.score?.flags || []).includes(flagFilter);
+    const matchesControl = (p.score?.breakdown?.control?.score || 0) >= minControl;
+    const matchesStrikeout = (p.score?.breakdown?.strikeoutAbility?.score || 0) >= minStrikeoutAbility;
+    const matchesContactMgmt = (p.score?.breakdown?.contactManagement?.score || 0) >= minContactManagement;
+    return matchesSearch && matchesIP && matchesFlag && matchesControl && matchesStrikeout && matchesContactMgmt;
   });
 
   const positions = ['ALL', 'C', '1B', '2B', '3B', 'SS', 'OF', 'DH'];
+  const hitterFlags = ['ALL', 'REGRESSION RISK', 'BREAKOUT CANDIDATE', 'SPEED UPSIDE', 'INJURY RISK', 'AGE CLIFF'];
+  const pitcherFlags = ['ALL', 'REGRESSION RISK', 'BREAKOUT CANDIDATE', 'CONTROL PROBLEM', 'ELITE STUFF', 'WORKHORSE', 'INJURY RISK', 'GOOD PARK', 'BAD PARK', 'AGE CONCERN', 'WIN SUPPORT'];
 
   return (
     <div className="app-container">
@@ -132,13 +147,49 @@ const Dashboard: React.FC = () => {
           <input type="number" value={minPA} onChange={(e) => setMinPA(parseInt(e.target.value) || 0)} style={{ width: '80px' }} />
         </div>
 
-        {view === 'hitters' && (
+        {view !== 'all' && (
           <div className="control-group">
-            <label>Position:</label>
-            <select value={posFilter} onChange={(e) => setPosFilter(e.target.value)}>
-              {positions.map(p => <option key={p} value={p}>{p}</option>)}
+            <label>Flag:</label>
+            <select value={flagFilter} onChange={(e) => setFlagFilter(e.target.value)}>
+              {(view === 'pitchers' ? pitcherFlags : hitterFlags).map(f => <option key={f} value={f}>{f}</option>)}
             </select>
           </div>
+        )}
+
+        {view === 'hitters' && (
+          <>
+            <div className="control-group">
+              <label>Position:</label>
+              <select value={posFilter} onChange={(e) => setPosFilter(e.target.value)}>
+                {positions.map(p => <option key={p} value={p}>{p}</option>)}
+              </select>
+            </div>
+            <div className="control-group">
+              <label>Min Contact Qual:</label>
+              <input type="number" step="1" value={minContactQuality} onChange={(e) => setMinContactQuality(parseFloat(e.target.value) || 0)} style={{ width: '60px' }} />
+            </div>
+            <div className="control-group">
+              <label>Min Contact Rate:</label>
+              <input type="number" step="1" value={minContactRate} onChange={(e) => setMinContactRate(parseFloat(e.target.value) || 0)} style={{ width: '60px' }} />
+            </div>
+          </>
+        )}
+
+        {view === 'pitchers' && (
+          <>
+            <div className="control-group">
+              <label>Min Control:</label>
+              <input type="number" step="1" value={minControl} onChange={(e) => setMinControl(parseFloat(e.target.value) || 0)} style={{ width: '60px' }} />
+            </div>
+            <div className="control-group">
+              <label>Min K Ability:</label>
+              <input type="number" step="1" value={minStrikeoutAbility} onChange={(e) => setMinStrikeoutAbility(parseFloat(e.target.value) || 0)} style={{ width: '60px' }} />
+            </div>
+            <div className="control-group">
+              <label>Min Contact Mgmt:</label>
+              <input type="number" step="1" value={minContactManagement} onChange={(e) => setMinContactManagement(parseFloat(e.target.value) || 0)} style={{ width: '60px' }} />
+            </div>
+          </>
         )}
       </div>
 
