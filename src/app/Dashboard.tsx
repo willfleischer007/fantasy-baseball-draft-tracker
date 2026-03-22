@@ -11,6 +11,7 @@ interface Player {
   isDrafted: boolean;
   score: any;
   stats: Record<string, string | number>;
+  notes?: string;
 }
 
 const Dashboard: React.FC = () => {
@@ -18,6 +19,8 @@ const Dashboard: React.FC = () => {
   const [hitters, setHitters] = useState<Player[]>([]);
   const [pitchers, setPitchers] = useState<Player[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [minPA, setMinPA] = useState(200);
+  const [posFilter, setPosFilter] = useState('ALL');
   const [isLoading, setIsLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState('');
 
@@ -26,8 +29,15 @@ const Dashboard: React.FC = () => {
       try {
         const response = await fetch('/data/players.json');
         const data = await response.json();
-        setHitters(data.hitters);
-        setPitchers(data.pitchers);
+        // Load notes from local storage
+        const savedNotes = JSON.parse(localStorage.getItem('playerNotes') || '{}');
+        const addNotes = (players: Player[]) => players.map(p => ({
+          ...p,
+          notes: savedNotes[p.name] || ''
+        }));
+
+        setHitters(addNotes(data.hitters));
+        setPitchers(addNotes(data.pitchers));
         setLastUpdated(data.lastUpdated);
       } catch (e) {
         console.error('Error loading pre-processed data:', e);
@@ -45,17 +55,36 @@ const Dashboard: React.FC = () => {
   const budgetRemaining = 260 - totalSpent;
 
   const handleUpdatePlayer = (name: string, updates: Partial<Player>) => {
-    setHitters(prev => prev.map(p => p.name === name ? { ...p, ...updates } : p));
-    setPitchers(prev => prev.map(p => p.name === name ? { ...p, ...updates } : p));
+    const updateFn = (prev: Player[]) => prev.map(p => {
+      if (p.name === name) {
+        const updated = { ...p, ...updates };
+        if (updates.notes !== undefined) {
+          const savedNotes = JSON.parse(localStorage.getItem('playerNotes') || '{}');
+          savedNotes[name] = updates.notes;
+          localStorage.setItem('playerNotes', JSON.stringify(savedNotes));
+        }
+        return updated;
+      }
+      return p;
+    });
+    setHitters(updateFn);
+    setPitchers(updateFn);
   };
 
-  const filteredHitters = hitters.filter(p => 
-    p.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredHitters = hitters.filter(p => {
+    const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesPA = (p.stats['PA'] as number || 0) >= minPA;
+    const matchesPos = posFilter === 'ALL' || (p.pos || '').includes(posFilter);
+    return matchesSearch && matchesPA && matchesPos;
+  });
 
-  const filteredPitchers = pitchers.filter(p => 
-    p.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredPitchers = pitchers.filter(p => {
+    const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesIP = (p.stats['Proj IP'] as number || 0) >= (minPA / 4); // Rough proxy for pitchers
+    return matchesSearch && matchesIP;
+  });
+
+  const positions = ['ALL', 'C', '1B', '2B', '3B', 'SS', 'OF', 'DH'];
 
   return (
     <div className="app-container">
@@ -85,32 +114,32 @@ const Dashboard: React.FC = () => {
         </div>
       </header>
 
-      <div className="controls">
-        <button 
-          className={`btn ${view === 'hitters' ? 'btn-primary' : ''}`}
-          onClick={() => setView('hitters')}
-        >
-          Hitters
-        </button>
-        <button 
-          className={`btn ${view === 'pitchers' ? 'btn-primary' : ''}`}
-          onClick={() => setView('pitchers')}
-        >
-          Pitchers
-        </button>
-        <button 
-          className={`btn ${view === 'all' ? 'btn-primary' : ''}`}
-          onClick={() => setView('all')}
-        >
-          All Players
-        </button>
-        <input 
-          type="text" 
-          placeholder="Search player..." 
-          style={{ marginLeft: 'auto', padding: '8px', borderRadius: '4px', border: '1px solid #ddd' }}
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
+      <div className="controls filter-panel">
+        <div className="control-group">
+          <label>View:</label>
+          <button className={`btn ${view === 'hitters' ? 'btn-primary' : ''}`} onClick={() => setView('hitters')}>Hitters</button>
+          <button className={`btn ${view === 'pitchers' ? 'btn-primary' : ''}`} onClick={() => setView('pitchers')}>Pitchers</button>
+          <button className={`btn ${view === 'all' ? 'btn-primary' : ''}`} onClick={() => setView('all')}>All Players</button>
+        </div>
+
+        <div className="control-group">
+          <label>Search:</label>
+          <input type="text" placeholder="Search..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
+        </div>
+
+        <div className="control-group">
+          <label>Min PA/IP:</label>
+          <input type="number" value={minPA} onChange={(e) => setMinPA(parseInt(e.target.value) || 0)} style={{ width: '80px' }} />
+        </div>
+
+        {view === 'hitters' && (
+          <div className="control-group">
+            <label>Position:</label>
+            <select value={posFilter} onChange={(e) => setPosFilter(e.target.value)}>
+              {positions.map(p => <option key={p} value={p}>{p}</option>)}
+            </select>
+          </div>
+        )}
       </div>
 
       {isLoading && <p>Loading draft data...</p>}

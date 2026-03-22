@@ -1,6 +1,7 @@
 export interface HitterData {
   name: string;
   team: string;
+  pos?: string;
   age: number;
   pa: number;
   obp: number;

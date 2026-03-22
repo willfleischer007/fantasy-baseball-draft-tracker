@@ -26,7 +26,11 @@ An interactive auction draft tracker for a custom fantasy baseball points league
     npm install
     ```
 3.  Place your FanGraphs and Baseball Savant CSV exports in `data/raw/`.
-4.  Start the app:
+4.  Run the pre-processing script to generate the draft data:
+    ```bash
+    npm run preprocess
+    ```
+5.  Start the app:
     ```bash
     npm run dev
     ```

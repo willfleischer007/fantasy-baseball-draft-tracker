@@ -47,6 +47,7 @@ const main = () => {
   const hitters = mergedHitters.map(data => ({
     name: data.name,
     team: data.team,
+    pos: data.pos, // Include position
     age: data.age,
     fgValue: rawHitterAuction.find((a: any) => normalizeName(a.Name) === normalizeName(data.name))?.Dollars || 0,
     isDrafted: false,

@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { HitterScore } from '../scoring/hitterModel';
-import { PitcherScore } from '../scoring/pitcherModel';
 
 interface Player {
   name: string;
@@ -10,8 +8,9 @@ interface Player {
   fgValue: number;
   paidValue?: number;
   isDrafted: boolean;
-  score: HitterScore | PitcherScore;
+  score: any;
   stats: Record<string, string | number>;
+  notes?: string;
 }
 
 interface PlayerTableProps {
@@ -21,156 +20,161 @@ interface PlayerTableProps {
 }
 
 const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type }) => {
-  const [sortConfig, setSortConfig] = useState<{ key: string; direction: 'asc' | 'desc' } | null>({
-    key: 'totalScore',
-    direction: 'desc',
-  });
-  const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; content: React.ReactNode }>({
-    visible: false,
-    x: 0,
-    y: 0,
-    content: null,
-  });
+  const [sortConfig, setSortConfig] = useState<{ key: string, direction: 'asc' | 'desc' } | null>(null);
+  const [tooltip, setTooltip] = useState<{ visible: boolean, x: number, y: number, content: any } | null>(null);
 
-  const renderScoreBreakdown = (score: any) => {
-    if (type === 'hitter') {
-      const s = score as HitterScore;
-      return (
-        <div className="tooltip">
-          <strong>{s.total} Total Points</strong>
-          <hr />
-          <div>Plate Discipline: {s.breakdown.plateDiscipline}/28</div>
-          <div>Contact Quality: {s.breakdown.contactQuality}/25</div>
-          <div>On-Base Ability: {s.breakdown.onBaseAbility}/15</div>
-          <div>Contact Rate: {s.breakdown.contactRate}/10</div>
-          <div>Sustainability: {s.breakdown.sustainability}/10</div>
-          <div>Speed Upside: {s.breakdown.speedUpside}/8</div>
-          <div>Age: {s.breakdown.age}/6</div>
-          <div>Playing Time: {s.breakdown.playingTime}/4</div>
-        </div>
-      );
-    } else {
-      const s = score as PitcherScore;
-      return (
-        <div className="tooltip">
-          <strong>{s.total} Total Points</strong>
-          <hr />
-          <div>Control: {s.breakdown.control}/25</div>
-          <div>Strikeout Ability: {s.breakdown.strikeoutAbility}/20</div>
-          <div>Stuff & Command: {s.breakdown.stuffAndCommand}/15</div>
-          <div>Contact Management: {s.breakdown.contactManagement}/12</div>
-          <div>Volume & Durability: {s.breakdown.volumeAndDurability}/12</div>
-          <div>Team & Environment: {s.breakdown.teamAndEnvironment}/10</div>
-          <div>Sustainability: {s.breakdown.sustainability}/6</div>
-          <div>Age & Health: {s.breakdown.ageAndHealth}/4</div>
-        </div>
-      );
-    }
-  };
-
-  const sortedPlayers = [...players].sort((a, b) => {
-    if (!sortConfig) return 0;
-    
-    let aVal: any = a[sortConfig.key as keyof Player] || a.score.total;
-    let bVal: any = b[sortConfig.key as keyof Player] || b.score.total;
-
-    if (sortConfig.key === 'totalScore') {
-      aVal = a.score.total;
-      bVal = b.score.total;
-    }
-
-    if (aVal < bVal) return sortConfig.direction === 'asc' ? -1 : 1;
-    if (aVal > bVal) return sortConfig.direction === 'asc' ? 1 : -1;
-    return 0;
-  });
-
-  const requestSort = (key: string) => {
-    let direction: 'asc' | 'desc' = 'asc';
-    if (sortConfig && sortConfig.key === key && sortConfig.direction === 'asc') {
-      direction = 'desc';
+  const handleSort = (key: string) => {
+    let direction: 'asc' | 'desc' = 'desc';
+    if (sortConfig && sortConfig.key === key && sortConfig.direction === 'desc') {
+      direction = 'asc';
     }
     setSortConfig({ key, direction });
   };
 
+  const sortedPlayers = [...players].sort((a, b) => {
+    if (!sortConfig) return 0;
+    const { key, direction } = sortConfig;
+    
+    let aValue: any = a[key as keyof Player] || a.stats[key] || 0;
+    let bValue: any = b[key as keyof Player] || b.stats[key] || 0;
+
+    if (key === 'score') {
+      aValue = a.score.totalScore;
+      bValue = b.score.totalScore;
+    }
+
+    if (aValue < bValue) return direction === 'asc' ? -1 : 1;
+    if (aValue > bValue) return direction === 'asc' ? 1 : -1;
+    return 0;
+  });
+
+  const getTierColor = (tier: string) => {
+    const tiers: Record<string, string> = {
+      'Elite': '#d4af37',
+      'Strong Buy': '#2ecc71',
+      'Average': '#3498db',
+      'Low End': '#95a5a6',
+      'Avoid': '#e74c3c',
+      'Ace': '#d4af37',
+      'SP1': '#2ecc71',
+      'SP2': '#27ae60',
+      'SP3': '#3498db',
+      'SP4': '#2980b9',
+      'Fringe': '#95a5a6',
+    };
+    return tiers[tier] || '#ccc';
+  };
+
+  const renderScoreBreakdown = (score: any) => {
+    return (
+      <div className="tooltip-content">
+        <h4>{type === 'hitter' ? 'Hitter' : 'Pitcher'} Score Breakdown</h4>
+        {Object.entries(score.componentScores).map(([name, val]: [string, any]) => (
+          <div key={name} className="tooltip-row">
+            <span className="label">{name}</span>
+            <span className="value">{val >= 0 ? `+${val}` : val}</span>
+          </div>
+        ))}
+        <div className="tooltip-total">
+          <div className="tooltip-row">
+            <span className="label">Total Score</span>
+            <span className="value">{score.totalScore}</span>
+          </div>
+        </div>
+        <div style={{ marginTop: '10px', fontSize: '0.8rem', color: '#666' }}>
+          <strong>Flags:</strong> {score.flags.join(', ') || 'None'}
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="table-container">
-      <table>
+      <table className="player-table">
         <thead>
           <tr>
-            <th onClick={() => requestSort('name')}>Player</th>
-            <th onClick={() => requestSort('team')}>Team</th>
-            {type === 'hitter' && <th onClick={() => requestSort('pos')}>Pos</th>}
-            <th onClick={() => requestSort('totalScore')}>Score</th>
-            <th onClick={() => requestSort('tier')}>Tier</th>
-            <th onClick={() => requestSort('fgValue')}>FG $</th>
+            <th onClick={() => handleSort('name')}>Player</th>
+            <th>Team</th>
+            <th>Pos</th>
+            <th onClick={() => handleSort('score')}>Score</th>
+            <th>Tier</th>
+            <th onClick={() => handleSort('fgValue')}>FG $</th>
             <th>Paid $</th>
             <th>Value</th>
+            <th>Notes</th>
             <th>Drafted</th>
-            {Object.keys(players[0]?.stats || {}).map((stat) => (
-              <th key={stat} onClick={() => requestSort(`stats.${stat}`)}>{stat}</th>
-            ))}
           </tr>
         </thead>
         <tbody>
-          {sortedPlayers.map((player) => (
+          {sortedPlayers.map(player => (
             <tr key={player.name} className={player.isDrafted ? 'drafted' : ''}>
-              <td>{player.name}</td>
+              <td>
+                <div style={{ fontWeight: 'bold' }}>{player.name}</div>
+                <div style={{ fontSize: '0.75rem', color: '#666' }}>Age: {player.age}</div>
+              </td>
               <td>{player.team}</td>
-              {type === 'hitter' && <td>{player.pos}</td>}
+              <td>{player.pos}</td>
               <td 
                 className="score-cell"
                 onMouseEnter={(e) => {
                   const rect = e.currentTarget.getBoundingClientRect();
                   setTooltip({
                     visible: true,
-                    x: rect.left + window.scrollX,
-                    y: rect.bottom + window.scrollY,
+                    x: rect.right + 10,
+                    y: rect.top,
                     content: renderScoreBreakdown(player.score)
                   });
                 }}
-                onMouseLeave={() => setTooltip({ ...tooltip, visible: false })}
+                onMouseLeave={() => setTooltip(null)}
               >
-                {player.score.total}
+                {player.score.totalScore}
               </td>
               <td>
-                <span className={`tier-badge tier-${player.score.tier.replace(' ', '-')}`}>
+                <span 
+                  className="tier-badge" 
+                  style={{ backgroundColor: getTierColor(player.score.tier) }}
+                >
                   {player.score.tier}
                 </span>
               </td>
-              <td>${player.fgValue}</td>
+              <td>${player.fgValue.toFixed(2)}</td>
               <td>
-                <input
-                  type="number"
-                  className="input-paid"
+                <input 
+                  type="number" 
+                  className="editable-input"
                   value={player.paidValue || ''}
-                  onChange={(e) => onUpdatePlayer(player.name, { paidValue: parseInt(e.target.value) || 0 })}
+                  onChange={(e) => onUpdatePlayer(player.name, { paidValue: parseFloat(e.target.value) || 0 })}
+                  placeholder="0"
                 />
               </td>
               <td style={{ color: (player.fgValue - (player.paidValue || 0)) >= 0 ? 'green' : 'red' }}>
-                ${player.fgValue - (player.paidValue || 0)}
+                ${(player.fgValue - (player.paidValue || 0)).toFixed(2)}
               </td>
               <td>
-                <input
-                  type="checkbox"
+                <input 
+                  type="text"
+                  className="notes-input"
+                  value={player.notes || ''}
+                  onChange={(e) => onUpdatePlayer(player.name, { notes: e.target.value })}
+                  placeholder="Add note..."
+                />
+              </td>
+              <td style={{ textAlign: 'center' }}>
+                <input 
+                  type="checkbox" 
                   checked={player.isDrafted}
                   onChange={(e) => onUpdatePlayer(player.name, { isDrafted: e.target.checked })}
                 />
               </td>
-              {Object.entries(player.stats).map(([key, val]) => (
-                <td key={key}>{typeof val === 'number' ? val.toFixed(3).replace(/\.000$/, '') : val}</td>
-              ))}
             </tr>
           ))}
         </tbody>
       </table>
-      {tooltip.visible && (
+
+      {tooltip && tooltip.visible && (
         <div 
-          style={{ 
-            position: 'absolute', 
-            left: tooltip.x, 
-            top: tooltip.y, 
-            pointerEvents: 'none' 
-          }}
+          className="tooltip"
+          style={{ left: tooltip.x, top: tooltip.y }}
         >
           {tooltip.content}
         </div>

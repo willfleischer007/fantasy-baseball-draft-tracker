@@ -3,6 +3,7 @@
     {
       "name": "Shohei Ohtani",
       "team": "LAD",
+      "pos": "DH",
       "age": 28,
       "fgValue": 46.75623295846579,
       "isDrafted": false,
@@ -45,6 +46,7 @@
     {
       "name": "Bobby Witt Jr.",
       "team": "KCR",
+      "pos": "SS",
       "age": 28,
       "fgValue": 41.521644391438954,
       "isDrafted": false,
@@ -89,6 +91,7 @@
     {
       "name": "Aaron Judge",
       "team": "NYY",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 41.408549617668044,
       "isDrafted": false,
@@ -133,6 +136,7 @@
     {
       "name": "Juan Soto",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": 38.818227221362754,
       "isDrafted": false,
@@ -177,6 +181,7 @@
     {
       "name": "Vladimir Guerrero Jr.",
       "team": "TOR",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 36.07810037915712,
       "isDrafted": false,
@@ -219,6 +224,7 @@
     {
       "name": "José Ramírez",
       "team": "CLE",
+      "pos": "3B/DH",
       "age": 28,
       "fgValue": 31.4942415834684,
       "isDrafted": false,
@@ -261,6 +267,7 @@
     {
       "name": "Ronald Acuña Jr.",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": 29.498034896542123,
       "isDrafted": false,
@@ -303,6 +310,7 @@
     {
       "name": "Fernando Tatis Jr.",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": 29.295336622558207,
       "isDrafted": false,
@@ -345,6 +353,7 @@
     {
       "name": "Julio Rodríguez",
       "team": "SEA",
+      "pos": "OF",
       "age": 28,
       "fgValue": 28.209247257726297,
       "isDrafted": false,
@@ -389,6 +398,7 @@
     {
       "name": "Kyle Tucker",
       "team": "LAD",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 28.062401192197356,
       "isDrafted": false,
@@ -431,6 +441,7 @@
     {
       "name": "Gunnar Henderson",
       "team": "BAL",
+      "pos": "SS",
       "age": 28,
       "fgValue": 25.13956433216329,
       "isDrafted": false,
@@ -473,6 +484,7 @@
     {
       "name": "Ketel Marte",
       "team": "ARI",
+      "pos": "2B/DH",
       "age": 28,
       "fgValue": 24.745175594288547,
       "isDrafted": false,
@@ -517,6 +529,7 @@
     {
       "name": "Corbin Carroll",
       "team": "ARI",
+      "pos": "OF",
       "age": 28,
       "fgValue": 24.553717877859963,
       "isDrafted": false,
@@ -561,6 +574,7 @@
     {
       "name": "Junior Caminero",
       "team": "TBR",
+      "pos": "3B",
       "age": 28,
       "fgValue": 24.04381261877317,
       "isDrafted": false,
@@ -603,6 +617,7 @@
     {
       "name": "Yordan Alvarez",
       "team": "HOU",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 23.9013317795193,
       "isDrafted": false,
@@ -645,6 +660,7 @@
     {
       "name": "Brent Rooker",
       "team": "ATH",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 23.614462814096626,
       "isDrafted": false,
@@ -687,6 +703,7 @@
     {
       "name": "Kyle Schwarber",
       "team": "PHI",
+      "pos": "DH",
       "age": 28,
       "fgValue": 22.121850949393988,
       "isDrafted": false,
@@ -731,6 +748,7 @@
     {
       "name": "Trea Turner",
       "team": "PHI",
+      "pos": "SS",
       "age": 28,
       "fgValue": 21.788403417130453,
       "isDrafted": false,
@@ -775,6 +793,7 @@
     {
       "name": "Pete Alonso",
       "team": "BAL",
+      "pos": "1B",
       "age": 28,
       "fgValue": 21.666196527009454,
       "isDrafted": false,
@@ -819,6 +838,7 @@
     {
       "name": "Bryce Harper",
       "team": "PHI",
+      "pos": "1B",
       "age": 28,
       "fgValue": 20.843477043729585,
       "isDrafted": false,
@@ -861,6 +881,7 @@
     {
       "name": "Jackson Chourio",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": 20.77608168380886,
       "isDrafted": false,
@@ -906,6 +927,7 @@
     {
       "name": "Elly De La Cruz",
       "team": "CIN",
+      "pos": "SS",
       "age": 28,
       "fgValue": 19.95237142524409,
       "isDrafted": false,
@@ -950,6 +972,7 @@
     {
       "name": "Yandy Díaz",
       "team": "TBR",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 19.671101173324928,
       "isDrafted": false,
@@ -992,6 +1015,7 @@
     {
       "name": "Mookie Betts",
       "team": "LAD",
+      "pos": "SS",
       "age": 28,
       "fgValue": 19.480385318656502,
       "isDrafted": false,
@@ -1034,6 +1058,7 @@
     {
       "name": "Francisco Lindor",
       "team": "NYM",
+      "pos": "SS",
       "age": 28,
       "fgValue": 19.24976462604754,
       "isDrafted": false,
@@ -1076,6 +1101,7 @@
     {
       "name": "Maikel Garcia",
       "team": "KCR",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": 18.866782318159434,
       "isDrafted": false,
@@ -1118,6 +1144,7 @@
     {
       "name": "Freddie Freeman",
       "team": "LAD",
+      "pos": "1B",
       "age": 28,
       "fgValue": 18.399306486043958,
       "isDrafted": false,
@@ -1160,6 +1187,7 @@
     {
       "name": "Manny Machado",
       "team": "SDP",
+      "pos": "3B/DH",
       "age": 28,
       "fgValue": 17.126317278633024,
       "isDrafted": false,
@@ -1204,6 +1232,7 @@
     {
       "name": "Rafael Devers",
       "team": "SFG",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 17.07614615767597,
       "isDrafted": false,
@@ -1248,6 +1277,7 @@
     {
       "name": "Cal Raleigh",
       "team": "SEA",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 17.075815427660384,
       "isDrafted": false,
@@ -1292,6 +1322,7 @@
     {
       "name": "Wyatt Langford",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": 16.606135719065215,
       "isDrafted": false,
@@ -1334,6 +1365,7 @@
     {
       "name": "Zach Neto",
       "team": "LAA",
+      "pos": "SS",
       "age": 28,
       "fgValue": 16.551043239703493,
       "isDrafted": false,
@@ -1376,6 +1408,7 @@
     {
       "name": "Vinnie Pasquantino",
       "team": "KCR",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 16.112520038822957,
       "isDrafted": false,
@@ -1418,6 +1451,7 @@
     {
       "name": "Jackson Merrill",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": 16.052801821771627,
       "isDrafted": false,
@@ -1460,6 +1494,7 @@
     {
       "name": "Jarren Duran",
       "team": "BOS",
+      "pos": "OF",
       "age": 28,
       "fgValue": 15.925712457784924,
       "isDrafted": false,
@@ -1504,6 +1539,7 @@
     {
       "name": "Austin Riley",
       "team": "ATL",
+      "pos": "3B",
       "age": 28,
       "fgValue": 15.65504698176154,
       "isDrafted": false,
@@ -1546,6 +1582,7 @@
     {
       "name": "James Wood",
       "team": "WSN",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 15.284252793061608,
       "isDrafted": false,
@@ -1588,6 +1625,7 @@
     {
       "name": "George Springer",
       "team": "TOR",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 14.85586078594759,
       "isDrafted": false,
@@ -1632,6 +1670,7 @@
     {
       "name": "Bo Bichette",
       "team": "NYM",
+      "pos": "SS",
       "age": 28,
       "fgValue": 14.736810401642394,
       "isDrafted": false,
@@ -1676,6 +1715,7 @@
     {
       "name": "Pete Crow-Armstrong",
       "team": "CHC",
+      "pos": "OF",
       "age": 28,
       "fgValue": 14.491923644949653,
       "isDrafted": false,
@@ -1720,6 +1760,7 @@
     {
       "name": "Alex Bregman",
       "team": "CHC",
+      "pos": "3B",
       "age": 28,
       "fgValue": 14.442821590839424,
       "isDrafted": false,
@@ -1762,6 +1803,7 @@
     {
       "name": "Seiya Suzuki",
       "team": "CHC",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 13.966005039581209,
       "isDrafted": false,
@@ -1804,6 +1846,7 @@
     {
       "name": "Corey Seager",
       "team": "TEX",
+      "pos": "SS",
       "age": 28,
       "fgValue": 13.733735891975169,
       "isDrafted": false,
@@ -1849,6 +1892,7 @@
     {
       "name": "Randy Arozarena",
       "team": "SEA",
+      "pos": "OF",
       "age": 28,
       "fgValue": 13.720036186243103,
       "isDrafted": false,
@@ -1891,6 +1935,7 @@
     {
       "name": "Matt Olson",
       "team": "ATL",
+      "pos": "1B",
       "age": 28,
       "fgValue": 13.690004356111485,
       "isDrafted": false,
@@ -1935,6 +1980,7 @@
     {
       "name": "Roman Anthony",
       "team": "BOS",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 13.651829253475498,
       "isDrafted": false,
@@ -1979,6 +2025,7 @@
     {
       "name": "Nick Kurtz",
       "team": "ATH",
+      "pos": "1B",
       "age": 28,
       "fgValue": 13.352380371835412,
       "isDrafted": false,
@@ -2021,6 +2068,7 @@
     {
       "name": "Taylor Ward",
       "team": "BAL",
+      "pos": "OF",
       "age": 28,
       "fgValue": 13.350740475448767,
       "isDrafted": false,
@@ -2063,6 +2111,7 @@
     {
       "name": "Willy Adames",
       "team": "SFG",
+      "pos": "SS",
       "age": 28,
       "fgValue": 12.81415809043335,
       "isDrafted": false,
@@ -2105,6 +2154,7 @@
     {
       "name": "William Contreras",
       "team": "MIL",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 12.662732884718823,
       "isDrafted": false,
@@ -2147,6 +2197,7 @@
     {
       "name": "Geraldo Perdomo",
       "team": "ARI",
+      "pos": "SS",
       "age": 28,
       "fgValue": 12.535136579655058,
       "isDrafted": false,
@@ -2191,6 +2242,7 @@
     {
       "name": "Nico Hoerner",
       "team": "CHC",
+      "pos": "2B",
       "age": 28,
       "fgValue": 12.41762102448721,
       "isDrafted": false,
@@ -2233,6 +2285,7 @@
     {
       "name": "Brice Turang",
       "team": "MIL",
+      "pos": "2B",
       "age": 28,
       "fgValue": 12.04868642434407,
       "isDrafted": false,
@@ -2277,6 +2330,7 @@
     {
       "name": "Jeremy Peña",
       "team": "HOU",
+      "pos": "SS",
       "age": 28,
       "fgValue": 11.911877177426055,
       "isDrafted": false,
@@ -2321,6 +2375,7 @@
     {
       "name": "Ezequiel Tovar",
       "team": "COL",
+      "pos": "SS",
       "age": 28,
       "fgValue": 11.581170853334537,
       "isDrafted": false,
@@ -2363,6 +2418,7 @@
     {
       "name": "Riley Greene",
       "team": "DET",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 11.549998131836153,
       "isDrafted": false,
@@ -2405,6 +2461,7 @@
     {
       "name": "Gleyber Torres",
       "team": "DET",
+      "pos": "2B/DH",
       "age": 28,
       "fgValue": 11.48473231197893,
       "isDrafted": false,
@@ -2449,6 +2506,7 @@
     {
       "name": "Josh Naylor",
       "team": "SEA",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 11.391058607513285,
       "isDrafted": false,
@@ -2493,6 +2551,7 @@
     {
       "name": "Jazz Chisholm Jr.",
       "team": "NYY",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": 11.34460174067248,
       "isDrafted": false,
@@ -2537,6 +2596,7 @@
     {
       "name": "Dansby Swanson",
       "team": "CHC",
+      "pos": "SS",
       "age": 28,
       "fgValue": 11.041360046804964,
       "isDrafted": false,
@@ -2581,6 +2641,7 @@
     {
       "name": "Brandon Nimmo",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": 10.958246434479033,
       "isDrafted": false,
@@ -2623,6 +2684,7 @@
     {
       "name": "CJ Abrams",
       "team": "WSN",
+      "pos": "SS",
       "age": 28,
       "fgValue": 10.746375154770483,
       "isDrafted": false,
@@ -2665,6 +2727,7 @@
     {
       "name": "Ian Happ",
       "team": "CHC",
+      "pos": "OF",
       "age": 28,
       "fgValue": 10.512055505055411,
       "isDrafted": false,
@@ -2709,6 +2772,7 @@
     {
       "name": "Jose Altuve",
       "team": "HOU",
+      "pos": "2B/OF/DH",
       "age": 28,
       "fgValue": 10.409967258892399,
       "isDrafted": false,
@@ -2753,6 +2817,7 @@
     {
       "name": "Cody Bellinger",
       "team": "NYY",
+      "pos": "OF",
       "age": 28,
       "fgValue": 10.311814784669975,
       "isDrafted": false,
@@ -2795,6 +2860,7 @@
     {
       "name": "Steven Kwan",
       "team": "CLE",
+      "pos": "OF",
       "age": 28,
       "fgValue": 10.27084594314046,
       "isDrafted": false,
@@ -2837,6 +2903,7 @@
     {
       "name": "Teoscar Hernández",
       "team": "LAD",
+      "pos": "OF",
       "age": 28,
       "fgValue": 9.987693620344595,
       "isDrafted": false,
@@ -2879,6 +2946,7 @@
     {
       "name": "Alec Burleson",
       "team": "STL",
+      "pos": "1B/OF/DH",
       "age": 28,
       "fgValue": 9.734302815089123,
       "isDrafted": false,
@@ -2923,6 +2991,7 @@
     {
       "name": "Heliot Ramos",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": 9.674798803900625,
       "isDrafted": false,
@@ -2965,6 +3034,7 @@
     {
       "name": "Bryan Reynolds",
       "team": "PIT",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 9.628951715553177,
       "isDrafted": false,
@@ -3007,6 +3077,7 @@
     {
       "name": "Matt Chapman",
       "team": "SFG",
+      "pos": "3B",
       "age": 28,
       "fgValue": 9.523171338051704,
       "isDrafted": false,
@@ -3049,6 +3120,7 @@
     {
       "name": "Luis Arraez",
       "team": "SFG",
+      "pos": "1B/2B/DH",
       "age": 28,
       "fgValue": 9.391072886728068,
       "isDrafted": false,
@@ -3091,6 +3163,7 @@
     {
       "name": "Tyler Soderstrom",
       "team": "ATH",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": 9.334341145145737,
       "isDrafted": false,
@@ -3133,6 +3206,7 @@
     {
       "name": "Andy Pages",
       "team": "LAD",
+      "pos": "OF",
       "age": 28,
       "fgValue": 9.325623309142825,
       "isDrafted": false,
@@ -3175,6 +3249,7 @@
     {
       "name": "Michael Harris II",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": 9.153450046507002,
       "isDrafted": false,
@@ -3217,6 +3292,7 @@
     {
       "name": "Salvador Perez",
       "team": "KCR",
+      "pos": "C/1B/DH",
       "age": 28,
       "fgValue": 9.038447332965793,
       "isDrafted": false,
@@ -3261,6 +3337,7 @@
     {
       "name": "Jacob Wilson",
       "team": "ATH",
+      "pos": "SS",
       "age": 28,
       "fgValue": 8.654098206935682,
       "isDrafted": false,
@@ -3303,6 +3380,7 @@
     {
       "name": "Christian Yelich",
       "team": "MIL",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 8.346167345347993,
       "isDrafted": false,
@@ -3345,6 +3423,7 @@
     {
       "name": "Hunter Goodman",
       "team": "COL",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 7.98342333884082,
       "isDrafted": false,
@@ -3387,6 +3466,7 @@
     {
       "name": "Xander Bogaerts",
       "team": "SDP",
+      "pos": "SS",
       "age": 28,
       "fgValue": 7.9653155595281,
       "isDrafted": false,
@@ -3429,6 +3509,7 @@
     {
       "name": "Otto Lopez",
       "team": "MIA",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": 7.850825213311517,
       "isDrafted": false,
@@ -3471,6 +3552,7 @@
     {
       "name": "Oneil Cruz",
       "team": "PIT",
+      "pos": "OF",
       "age": 28,
       "fgValue": 7.781265563569015,
       "isDrafted": false,
@@ -3516,6 +3598,7 @@
     {
       "name": "Byron Buxton",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": 7.721727571968071,
       "isDrafted": false,
@@ -3561,6 +3644,7 @@
     {
       "name": "Michael Busch",
       "team": "CHC",
+      "pos": "1B",
       "age": 28,
       "fgValue": 7.720138627329294,
       "isDrafted": false,
@@ -3605,6 +3689,7 @@
     {
       "name": "Brenton Doyle",
       "team": "COL",
+      "pos": "OF",
       "age": 28,
       "fgValue": 7.7092749941127465,
       "isDrafted": false,
@@ -3650,6 +3735,7 @@
     {
       "name": "Shea Langeliers",
       "team": "ATH",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 7.683744811799237,
       "isDrafted": false,
@@ -3694,6 +3780,7 @@
     {
       "name": "Eugenio Suárez",
       "team": "CIN",
+      "pos": "3B",
       "age": 28,
       "fgValue": 7.533123876677539,
       "isDrafted": false,
@@ -3736,6 +3823,7 @@
     {
       "name": "Trevor Story",
       "team": "BOS",
+      "pos": "SS",
       "age": 28,
       "fgValue": 7.3981773305382825,
       "isDrafted": false,
@@ -3778,6 +3866,7 @@
     {
       "name": "Jo Adell",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": 7.280844516799666,
       "isDrafted": false,
@@ -3822,6 +3911,7 @@
     {
       "name": "Will Smith",
       "team": "LAD",
+      "pos": "C",
       "age": 28,
       "fgValue": 7.250195857954001,
       "isDrafted": false,
@@ -3866,6 +3956,7 @@
     {
       "name": "Ben Rice",
       "team": "NYY",
+      "pos": "C/1B/DH",
       "age": 28,
       "fgValue": 7.246303501074475,
       "isDrafted": false,
@@ -3911,6 +4002,7 @@
     {
       "name": "Miguel Vargas",
       "team": "CHW",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": 6.818695939561429,
       "isDrafted": false,
@@ -3953,6 +4045,7 @@
     {
       "name": "Spencer Torkelson",
       "team": "DET",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 6.816996751644598,
       "isDrafted": false,
@@ -3995,6 +4088,7 @@
     {
       "name": "Ozzie Albies",
       "team": "ATL",
+      "pos": "2B",
       "age": 28,
       "fgValue": 6.561618669998564,
       "isDrafted": false,
@@ -4037,6 +4131,7 @@
     {
       "name": "Bryson Stott",
       "team": "PHI",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": 6.412872328763679,
       "isDrafted": false,
@@ -4079,6 +4174,7 @@
     {
       "name": "Marcus Semien",
       "team": "NYM",
+      "pos": "2B",
       "age": 28,
       "fgValue": 6.376852693874381,
       "isDrafted": false,
@@ -4121,6 +4217,7 @@
     {
       "name": "Jonathan Aranda",
       "team": "TBR",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 5.900925722784277,
       "isDrafted": false,
@@ -4165,6 +4262,7 @@
     {
       "name": "Brendan Donovan",
       "team": "SEA",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": 5.606053746416196,
       "isDrafted": false,
@@ -4209,6 +4307,7 @@
     {
       "name": "Willson Contreras",
       "team": "BOS",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 5.442534372621566,
       "isDrafted": false,
@@ -4251,6 +4350,7 @@
     {
       "name": "Jung Hoo Lee",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": 5.065047379234464,
       "isDrafted": false,
@@ -4293,6 +4393,7 @@
     {
       "name": "Lawrence Butler",
       "team": "ATH",
+      "pos": "OF",
       "age": 28,
       "fgValue": 4.997154136377633,
       "isDrafted": false,
@@ -4335,6 +4436,7 @@
     {
       "name": "Iván Herrera",
       "team": "STL",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 4.939018552969706,
       "isDrafted": false,
@@ -4380,6 +4482,7 @@
     {
       "name": "Luke Keaschall",
       "team": "MIN",
+      "pos": "2B",
       "age": 28,
       "fgValue": 4.7999410926568,
       "isDrafted": false,
@@ -4424,6 +4527,7 @@
     {
       "name": "Xavier Edwards",
       "team": "MIA",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": 4.5740787827718545,
       "isDrafted": false,
@@ -4466,6 +4570,7 @@
     {
       "name": "Ceddanne Rafaela",
       "team": "BOS",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": 4.3923861897177625,
       "isDrafted": false,
@@ -4510,6 +4615,7 @@
     {
       "name": "Masyn Winn",
       "team": "STL",
+      "pos": "SS",
       "age": 28,
       "fgValue": 4.196930345136197,
       "isDrafted": false,
@@ -4552,6 +4658,7 @@
     {
       "name": "Andrew Vaughn",
       "team": "MIL",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 4.039246567723184,
       "isDrafted": false,
@@ -4597,6 +4704,7 @@
     {
       "name": "Adley Rutschman",
       "team": "BAL",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 4.000525355049033,
       "isDrafted": false,
@@ -4639,6 +4747,7 @@
     {
       "name": "Alec Bohm",
       "team": "PHI",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": 3.860690432673052,
       "isDrafted": false,
@@ -4681,6 +4790,7 @@
     {
       "name": "Kyle Stowers",
       "team": "MIA",
+      "pos": "OF",
       "age": 28,
       "fgValue": 3.6473975058614982,
       "isDrafted": false,
@@ -4725,6 +4835,7 @@
     {
       "name": "Adolis García",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": 2.7747624152845916,
       "isDrafted": false,
@@ -4767,6 +4878,7 @@
     {
       "name": "Christian Walker",
       "team": "HOU",
+      "pos": "1B",
       "age": 28,
       "fgValue": 2.7268613640416577,
       "isDrafted": false,
@@ -4809,6 +4921,7 @@
     {
       "name": "Nolan Schanuel",
       "team": "LAA",
+      "pos": "1B",
       "age": 28,
       "fgValue": 2.552449233114187,
       "isDrafted": false,
@@ -4851,6 +4964,7 @@
     {
       "name": "Daylen Lile",
       "team": "WSN",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": 2.407521202117505,
       "isDrafted": false,
@@ -4897,6 +5011,7 @@
     {
       "name": "Nolan Arenado",
       "team": "ARI",
+      "pos": "3B",
       "age": 28,
       "fgValue": 2.182224815468376,
       "isDrafted": false,
@@ -4939,6 +5054,7 @@
     {
       "name": "Jakob Marsee",
       "team": "MIA",
+      "pos": "OF",
       "age": 28,
       "fgValue": 2.0779899073033365,
       "isDrafted": false,
@@ -4983,6 +5099,7 @@
     {
       "name": "Jordan Beck",
       "team": "COL",
+      "pos": "OF",
       "age": 28,
       "fgValue": 2.033178613315589,
       "isDrafted": false,
@@ -5027,6 +5144,7 @@
     {
       "name": "Josh Bell",
       "team": "MIN",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 1.807628461181759,
       "isDrafted": false,
@@ -5072,6 +5190,7 @@
     {
       "name": "Dylan Crews",
       "team": "WSN",
+      "pos": "OF",
       "age": 28,
       "fgValue": 1.7958758981121279,
       "isDrafted": false,
@@ -5116,6 +5235,7 @@
     {
       "name": "Daulton Varsho",
       "team": "TOR",
+      "pos": "OF",
       "age": 28,
       "fgValue": 1.5012330703367969,
       "isDrafted": false,
@@ -5160,6 +5280,7 @@
     {
       "name": "Munetaka Murakami",
       "team": "CHW",
+      "pos": "1B",
       "age": 28,
       "fgValue": 1.439951973868653,
       "isDrafted": false,
@@ -5204,6 +5325,7 @@
     {
       "name": "Yainer Diaz",
       "team": "HOU",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": 1.3458713908349726,
       "isDrafted": false,
@@ -5248,6 +5370,7 @@
     {
       "name": "Ernie Clement",
       "team": "TOR",
+      "pos": "1B/2B/3B/SS",
       "age": 28,
       "fgValue": 1.0243986648098375,
       "isDrafted": false,
@@ -5290,6 +5413,7 @@
     {
       "name": "Jake Burger",
       "team": "TEX",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": 1.0155175525551656,
       "isDrafted": false,
@@ -5334,6 +5458,7 @@
     {
       "name": "Kazuma Okamoto",
       "team": "TOR",
+      "pos": "3B",
       "age": 28,
       "fgValue": 1,
       "isDrafted": false,
@@ -5378,6 +5503,7 @@
     {
       "name": "Alejandro Kirk",
       "team": "TOR",
+      "pos": "C",
       "age": 28,
       "fgValue": 1,
       "isDrafted": false,
@@ -5423,6 +5549,7 @@
     {
       "name": "Sal Stewart",
       "team": "CIN",
+      "pos": "1B",
       "age": 28,
       "fgValue": 1,
       "isDrafted": false,
@@ -5467,6 +5594,7 @@
     {
       "name": "Luis García Jr.",
       "team": "WSN",
+      "pos": "2B",
       "age": 28,
       "fgValue": 1,
       "isDrafted": false,
@@ -5512,6 +5640,7 @@
     {
       "name": "Wilyer Abreu",
       "team": "BOS",
+      "pos": "OF",
       "age": 28,
       "fgValue": 1,
       "isDrafted": false,
@@ -5556,6 +5685,7 @@
     {
       "name": "Jake Cronenworth",
       "team": "SDP",
+      "pos": "1B/2B/SS",
       "age": 28,
       "fgValue": 1,
       "isDrafted": false,
@@ -5598,6 +5728,7 @@
     {
       "name": "Luis Robert Jr.",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": 0.5123781381150291,
       "isDrafted": false,
@@ -5643,6 +5774,7 @@
     {
       "name": "Carlos Correa",
       "team": "HOU",
+      "pos": "3B/SS",
       "age": 28,
       "fgValue": 0.20498782622675626,
       "isDrafted": false,
@@ -5688,6 +5820,7 @@
     {
       "name": "Trent Grisham",
       "team": "NYY",
+      "pos": "OF",
       "age": 28,
       "fgValue": 0.033764202094849094,
       "isDrafted": false,
@@ -5733,6 +5866,7 @@
     {
       "name": "Agustín Ramírez",
       "team": "MIA",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -0.20340300861138627,
       "isDrafted": false,
@@ -5778,6 +5912,7 @@
     {
       "name": "Drake Baldwin",
       "team": "ATL",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -0.22025409239619664,
       "isDrafted": false,
@@ -5823,6 +5958,7 @@
     {
       "name": "Jeff McNeil",
       "team": "ATH",
+      "pos": "2B/OF/DH",
       "age": 28,
       "fgValue": -0.6148206023425316,
       "isDrafted": false,
@@ -5867,6 +6003,7 @@
     {
       "name": "J.P. Crawford",
       "team": "SEA",
+      "pos": "SS",
       "age": 28,
       "fgValue": -0.630784144725923,
       "isDrafted": false,
@@ -5911,6 +6048,7 @@
     {
       "name": "Willi Castro",
       "team": "COL",
+      "pos": "2B/3B/OF",
       "age": 28,
       "fgValue": -0.7461090890062614,
       "isDrafted": false,
@@ -5955,6 +6093,7 @@
     {
       "name": "Kyle Manzardo",
       "team": "CLE",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -0.7668177029776921,
       "isDrafted": false,
@@ -5999,6 +6138,7 @@
     {
       "name": "Mike Trout",
       "team": "LAA",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -0.7890643584685018,
       "isDrafted": false,
@@ -6043,6 +6183,7 @@
     {
       "name": "Matt McLain",
       "team": "CIN",
+      "pos": "2B",
       "age": 28,
       "fgValue": -0.8132528220061817,
       "isDrafted": false,
@@ -6089,6 +6230,7 @@
     {
       "name": "Sal Frelick",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -1.0166860187581004,
       "isDrafted": false,
@@ -6133,6 +6275,7 @@
     {
       "name": "Caleb Durbin",
       "team": "BOS",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -1.0369319836589947,
       "isDrafted": false,
@@ -6177,6 +6320,7 @@
     {
       "name": "Mickey Moniak",
       "team": "COL",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -1.2277468288327689,
       "isDrafted": false,
@@ -6221,6 +6365,7 @@
     {
       "name": "Ryan O'Hearn",
       "team": "PIT",
+      "pos": "1B/OF/DH",
       "age": 28,
       "fgValue": -1.2540371846093907,
       "isDrafted": false,
@@ -6265,6 +6410,7 @@
     {
       "name": "Brandon Lowe",
       "team": "PIT",
+      "pos": "2B",
       "age": 28,
       "fgValue": -1.2792210859586022,
       "isDrafted": false,
@@ -6309,6 +6455,7 @@
     {
       "name": "Andrés Giménez",
       "team": "TOR",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -1.3861989159048589,
       "isDrafted": false,
@@ -6353,6 +6500,7 @@
     {
       "name": "Jorge Polanco",
       "team": "NYM",
+      "pos": "2B/DH",
       "age": 28,
       "fgValue": -1.4249640262957444,
       "isDrafted": false,
@@ -6398,6 +6546,7 @@
     {
       "name": "Kerry Carpenter",
       "team": "DET",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -1.600025039718811,
       "isDrafted": false,
@@ -6442,6 +6591,7 @@
     {
       "name": "TJ Friedl",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -1.9569995333925778,
       "isDrafted": false,
@@ -6484,6 +6634,7 @@
     {
       "name": "Ramón Laureano",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": -2.0205150020150158,
       "isDrafted": false,
@@ -6529,6 +6680,7 @@
     {
       "name": "Jonathan India",
       "team": "KCR",
+      "pos": "2B/3B/OF/DH",
       "age": 28,
       "fgValue": -2.2934761042807326,
       "isDrafted": false,
@@ -6573,6 +6725,7 @@
     {
       "name": "Lars Nootbaar",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -2.5884060766295174,
       "isDrafted": false,
@@ -6617,6 +6770,7 @@
     {
       "name": "Noelvi Marte",
       "team": "CIN",
+      "pos": "3B/OF",
       "age": 28,
       "fgValue": -2.8982975912471867,
       "isDrafted": false,
@@ -6662,6 +6816,7 @@
     {
       "name": "Chandler Simpson",
       "team": "TBR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -3.149452684162301,
       "isDrafted": false,
@@ -6707,6 +6862,7 @@
     {
       "name": "Marcell Ozuna",
       "team": "PIT",
+      "pos": "DH",
       "age": 28,
       "fgValue": -3.2858785881466073,
       "isDrafted": false,
@@ -6752,6 +6908,7 @@
     {
       "name": "Jackson Holliday",
       "team": "BAL",
+      "pos": "2B",
       "age": 28,
       "fgValue": -3.4281109279434094,
       "isDrafted": false,
@@ -6796,6 +6953,7 @@
     {
       "name": "Colton Cowser",
       "team": "BAL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -3.8826728809400395,
       "isDrafted": false,
@@ -6841,6 +6999,7 @@
     {
       "name": "Andrew Benintendi",
       "team": "CHW",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -3.9905917123935755,
       "isDrafted": false,
@@ -6885,6 +7044,7 @@
     {
       "name": "Colt Keith",
       "team": "DET",
+      "pos": "1B/2B/3B/DH",
       "age": 28,
       "fgValue": -4.3874640360649195,
       "isDrafted": false,
@@ -6930,6 +7090,7 @@
     {
       "name": "J.T. Realmuto",
       "team": "PHI",
+      "pos": "C",
       "age": 28,
       "fgValue": -4.994821479692412,
       "isDrafted": false,
@@ -6974,6 +7135,7 @@
     {
       "name": "Colson Montgomery",
       "team": "CHW",
+      "pos": "3B/SS",
       "age": 28,
       "fgValue": -5.0961361516203345,
       "isDrafted": false,
@@ -7018,6 +7180,7 @@
     {
       "name": "Cedric Mullins",
       "team": "TBR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -5.409748050716604,
       "isDrafted": false,
@@ -7063,6 +7226,7 @@
     {
       "name": "Joey Ortiz",
       "team": "MIL",
+      "pos": "SS",
       "age": 28,
       "fgValue": -5.5686753105042825,
       "isDrafted": false,
@@ -7107,6 +7271,7 @@
     {
       "name": "Isaac Paredes",
       "team": "HOU",
+      "pos": "3B/DH",
       "age": 28,
       "fgValue": -5.592348825779556,
       "isDrafted": false,
@@ -7151,6 +7316,7 @@
     {
       "name": "Chase Meidroth",
       "team": "CHW",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -6.025731018453749,
       "isDrafted": false,
@@ -7195,6 +7361,7 @@
     {
       "name": "Royce Lewis",
       "team": "MIN",
+      "pos": "3B",
       "age": 28,
       "fgValue": -6.234832979106555,
       "isDrafted": false,
@@ -7239,6 +7406,7 @@
     {
       "name": "Jordan Walker",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -6.265804987327622,
       "isDrafted": false,
@@ -7284,6 +7452,7 @@
     {
       "name": "Brooks Lee",
       "team": "MIN",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -6.268514197604588,
       "isDrafted": false,
@@ -7328,6 +7497,7 @@
     {
       "name": "Harrison Bader",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": -6.97547357568255,
       "isDrafted": false,
@@ -7372,6 +7542,7 @@
     {
       "name": "Ryan Jeffers",
       "team": "MIN",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -7.0668079911662005,
       "isDrafted": false,
@@ -7416,6 +7587,7 @@
     {
       "name": "Jorge Soler",
       "team": "LAA",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -7.361465040046776,
       "isDrafted": false,
@@ -7461,6 +7633,7 @@
     {
       "name": "Jac Caglianone",
       "team": "KCR",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -7.517618757722856,
       "isDrafted": false,
@@ -7505,6 +7678,7 @@
     {
       "name": "Josh Jung",
       "team": "TEX",
+      "pos": "3B",
       "age": 28,
       "fgValue": -7.610096539000212,
       "isDrafted": false,
@@ -7549,6 +7723,7 @@
     {
       "name": "Matt Wallner",
       "team": "MIN",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -7.837602355754131,
       "isDrafted": false,
@@ -7593,6 +7768,7 @@
     {
       "name": "Gabriel Moreno",
       "team": "ARI",
+      "pos": "C",
       "age": 28,
       "fgValue": -7.85140962021876,
       "isDrafted": false,
@@ -7637,6 +7813,7 @@
     {
       "name": "Spencer Horwitz",
       "team": "PIT",
+      "pos": "1B",
       "age": 28,
       "fgValue": -8.2020018076007,
       "isDrafted": false,
@@ -7681,6 +7858,7 @@
     {
       "name": "Kevin McGonigle",
       "team": "DET",
+      "pos": "SS",
       "age": 28,
       "fgValue": -8.363565768264262,
       "isDrafted": false,
@@ -7725,6 +7903,7 @@
     {
       "name": "Max Muncy",
       "team": "LAD",
+      "pos": "3B",
       "age": 28,
       "fgValue": -8.433087390181607,
       "isDrafted": false,
@@ -7770,6 +7949,7 @@
     {
       "name": "Jared Triolo",
       "team": "PIT",
+      "pos": "1B/2B/3B/SS",
       "age": 28,
       "fgValue": -8.540013046498997,
       "isDrafted": false,
@@ -7814,6 +7994,7 @@
     {
       "name": "Josh Smith",
       "team": "TEX",
+      "pos": "1B/3B/SS/OF/DH",
       "age": 28,
       "fgValue": -8.776157986821788,
       "isDrafted": false,
@@ -7858,6 +8039,7 @@
     {
       "name": "Addison Barger",
       "team": "TOR",
+      "pos": "3B/OF",
       "age": 28,
       "fgValue": -8.792421366897536,
       "isDrafted": false,
@@ -7903,6 +8085,7 @@
     {
       "name": "Mike Yastrzemski",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -8.888764990200624,
       "isDrafted": false,
@@ -7947,6 +8130,7 @@
     {
       "name": "Gavin Sheets",
       "team": "SDP",
+      "pos": "1B/OF/DH",
       "age": 28,
       "fgValue": -8.908727326293779,
       "isDrafted": false,
@@ -7992,6 +8176,7 @@
     {
       "name": "Brandon Marsh",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -9.074949097299205,
       "isDrafted": false,
@@ -8036,6 +8221,7 @@
     {
       "name": "Jake Meyers",
       "team": "HOU",
+      "pos": "OF",
       "age": 28,
       "fgValue": -9.503988665049139,
       "isDrafted": false,
@@ -8080,6 +8266,7 @@
     {
       "name": "Victor Scott II",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -9.533849011604813,
       "isDrafted": false,
@@ -8125,6 +8312,7 @@
     {
       "name": "Justin Crawford",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -9.743818273692138,
       "isDrafted": false,
@@ -8169,6 +8357,7 @@
     {
       "name": "Josh Lowe",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -9.806624970049768,
       "isDrafted": false,
@@ -8213,6 +8402,7 @@
     {
       "name": "Tommy Edman",
       "team": "LAD",
+      "pos": "2B/3B/OF",
       "age": 28,
       "fgValue": -9.819960733792508,
       "isDrafted": false,
@@ -8258,6 +8448,7 @@
     {
       "name": "JJ Wetherholt",
       "team": "STL",
+      "pos": "SS",
       "age": 28,
       "fgValue": -9.90366014642216,
       "isDrafted": false,
@@ -8302,6 +8493,7 @@
     {
       "name": "Jordan Westburg",
       "team": "BAL",
+      "pos": "2B/3B/DH",
       "age": 28,
       "fgValue": -10.24186654805728,
       "isDrafted": false,
@@ -8347,6 +8539,7 @@
     {
       "name": "Jesús Sánchez",
       "team": "TOR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -10.403468263283028,
       "isDrafted": false,
@@ -8391,6 +8584,7 @@
     {
       "name": "Ke'Bryan Hayes",
       "team": "CIN",
+      "pos": "3B",
       "age": 28,
       "fgValue": -10.758484363336105,
       "isDrafted": false,
@@ -8435,6 +8629,7 @@
     {
       "name": "Anthony Volpe",
       "team": "NYY",
+      "pos": "SS",
       "age": 28,
       "fgValue": -11.251128633310797,
       "isDrafted": false,
@@ -8479,6 +8674,7 @@
     {
       "name": "Evan Carter",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": -11.549971789313716,
       "isDrafted": false,
@@ -8524,6 +8720,7 @@
     {
       "name": "Cam Smith",
       "team": "HOU",
+      "pos": "OF",
       "age": 28,
       "fgValue": -12.064438439739513,
       "isDrafted": false,
@@ -8569,6 +8766,7 @@
     {
       "name": "Logan O'Hoppe",
       "team": "LAA",
+      "pos": "C",
       "age": 28,
       "fgValue": -12.09267507720065,
       "isDrafted": false,
@@ -8613,6 +8811,7 @@
     {
       "name": "Konnor Griffin",
       "team": "PIT",
+      "pos": "SS",
       "age": 28,
       "fgValue": -12.215085139421294,
       "isDrafted": false,
@@ -8657,6 +8856,7 @@
     {
       "name": "Chase DeLauter",
       "team": "CLE",
+      "pos": "OF",
       "age": 28,
       "fgValue": -12.292089240094421,
       "isDrafted": false,
@@ -8701,6 +8901,7 @@
     {
       "name": "Gavin Lux",
       "team": "TBR",
+      "pos": "2B/OF/DH",
       "age": 28,
       "fgValue": -12.440757394735948,
       "isDrafted": false,
@@ -8745,6 +8946,7 @@
     {
       "name": "Austin Hays",
       "team": "CHW",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -12.59793046889782,
       "isDrafted": false,
@@ -8789,6 +8991,7 @@
     {
       "name": "Trevor Larnach",
       "team": "MIN",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -12.762887366264536,
       "isDrafted": false,
@@ -8833,6 +9036,7 @@
     {
       "name": "Tyler O'Neill",
       "team": "BAL",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -12.774624093872633,
       "isDrafted": false,
@@ -8878,6 +9082,7 @@
     {
       "name": "Nolan Gorman",
       "team": "STL",
+      "pos": "2B/3B/DH",
       "age": 28,
       "fgValue": -13.006288762036702,
       "isDrafted": false,
@@ -8922,6 +9127,7 @@
     {
       "name": "Connor Norby",
       "team": "MIA",
+      "pos": "3B",
       "age": 28,
       "fgValue": -13.05427104042241,
       "isDrafted": false,
@@ -8966,6 +9172,7 @@
     {
       "name": "Samuel Basallo",
       "team": "BAL",
+      "pos": "C",
       "age": 28,
       "fgValue": -13.258741095009567,
       "isDrafted": false,
@@ -9010,6 +9217,7 @@
     {
       "name": "Brett Baty",
       "team": "NYM",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -13.362747072502696,
       "isDrafted": false,
@@ -9055,6 +9263,7 @@
     {
       "name": "Isaac Collins",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -13.443545792640363,
       "isDrafted": false,
@@ -9099,6 +9308,7 @@
     {
       "name": "Brayan Rocchio",
       "team": "CLE",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -13.594012241831729,
       "isDrafted": false,
@@ -9143,6 +9353,7 @@
     {
       "name": "Spencer Steer",
       "team": "CIN",
+      "pos": "1B/OF/DH",
       "age": 28,
       "fgValue": -13.995344561767888,
       "isDrafted": false,
@@ -9187,6 +9398,7 @@
     {
       "name": "Austin Wells",
       "team": "NYY",
+      "pos": "C",
       "age": 28,
       "fgValue": -14.007822298504847,
       "isDrafted": false,
@@ -9231,6 +9443,7 @@
     {
       "name": "Lane Thomas",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -14.074351957194269,
       "isDrafted": false,
@@ -9277,6 +9490,7 @@
     {
       "name": "Mark Vientos",
       "team": "NYM",
+      "pos": "3B/DH",
       "age": 28,
       "fgValue": -14.214894274451833,
       "isDrafted": false,
@@ -9321,6 +9535,7 @@
     {
       "name": "Wenceel Pérez",
       "team": "DET",
+      "pos": "OF",
       "age": 28,
       "fgValue": -14.38489962553368,
       "isDrafted": false,
@@ -9365,6 +9580,7 @@
     {
       "name": "Bo Naylor",
       "team": "CLE",
+      "pos": "C",
       "age": 28,
       "fgValue": -14.438191097856869,
       "isDrafted": false,
@@ -9409,6 +9625,7 @@
     {
       "name": "Dominic Canzone",
       "team": "SEA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -14.542388773852851,
       "isDrafted": false,
@@ -9454,6 +9671,7 @@
     {
       "name": "Brady House",
       "team": "WSN",
+      "pos": "3B",
       "age": 28,
       "fgValue": -14.801094845979389,
       "isDrafted": false,
@@ -9498,6 +9716,7 @@
     {
       "name": "Joc Pederson",
       "team": "TEX",
+      "pos": "DH",
       "age": 28,
       "fgValue": -14.822312712876052,
       "isDrafted": false,
@@ -9542,6 +9761,7 @@
     {
       "name": "Edgar Quero",
       "team": "CHW",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -14.877647098364026,
       "isDrafted": false,
@@ -9586,6 +9806,7 @@
     {
       "name": "Giancarlo Stanton",
       "team": "NYY",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -14.896072438585962,
       "isDrafted": false,
@@ -9631,6 +9852,7 @@
     {
       "name": "Ryan McMahon",
       "team": "NYY",
+      "pos": "3B",
       "age": 28,
       "fgValue": -14.990462158826135,
       "isDrafted": false,
@@ -9676,6 +9898,7 @@
     {
       "name": "Marcelo Mayer",
       "team": "BOS",
+      "pos": "3B",
       "age": 28,
       "fgValue": -15.04018271878823,
       "isDrafted": false,
@@ -9721,6 +9944,7 @@
     {
       "name": "Dylan Beavers",
       "team": "BAL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -15.056532005045216,
       "isDrafted": false,
@@ -9766,6 +9990,7 @@
     {
       "name": "Tyler Stephenson",
       "team": "CIN",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -15.067910133081863,
       "isDrafted": false,
@@ -9810,6 +10035,7 @@
     {
       "name": "Lourdes Gurriel Jr.",
       "team": "ARI",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -15.579250622037517,
       "isDrafted": false,
@@ -9854,6 +10080,7 @@
     {
       "name": "Nick Gonzales",
       "team": "PIT",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -15.719867587623003,
       "isDrafted": false,
@@ -9898,6 +10125,7 @@
     {
       "name": "Jake McCarthy",
       "team": "COL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -15.72921311626639,
       "isDrafted": false,
@@ -9944,6 +10172,7 @@
     {
       "name": "Zach McKinstry",
       "team": "DET",
+      "pos": "3B/SS/OF",
       "age": 28,
       "fgValue": -15.861023507603807,
       "isDrafted": false,
@@ -9988,6 +10217,7 @@
     {
       "name": "Francisco Alvarez",
       "team": "NYM",
+      "pos": "C",
       "age": 28,
       "fgValue": -15.951012598365562,
       "isDrafted": false,
@@ -10033,6 +10263,7 @@
     {
       "name": "Luis Rengifo",
       "team": "MIL",
+      "pos": "2B/3B/OF",
       "age": 28,
       "fgValue": -16.001137402974603,
       "isDrafted": false,
@@ -10078,6 +10309,7 @@
     {
       "name": "Alek Thomas",
       "team": "ARI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -16.410917753655294,
       "isDrafted": false,
@@ -10122,6 +10354,7 @@
     {
       "name": "Bryce Eldridge",
       "team": "SFG",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -16.50553752860171,
       "isDrafted": false,
@@ -10166,6 +10399,7 @@
     {
       "name": "Kyle Teel",
       "team": "CHW",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -17.00580851934904,
       "isDrafted": false,
@@ -10211,6 +10445,7 @@
     {
       "name": "Dillon Dingler",
       "team": "DET",
+      "pos": "C",
       "age": 28,
       "fgValue": -17.124837264711594,
       "isDrafted": false,
@@ -10256,6 +10491,7 @@
     {
       "name": "Parker Meadows",
       "team": "DET",
+      "pos": "OF",
       "age": 28,
       "fgValue": -17.152223416027095,
       "isDrafted": false,
@@ -10301,6 +10537,7 @@
     {
       "name": "Pavin Smith",
       "team": "ARI",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -17.170912547771692,
       "isDrafted": false,
@@ -10345,6 +10582,7 @@
     {
       "name": "Carter Jensen",
       "team": "KCR",
+      "pos": "C",
       "age": 28,
       "fgValue": -17.256399557958265,
       "isDrafted": false,
@@ -10389,6 +10627,7 @@
     {
       "name": "Tyler Freeman",
       "team": "COL",
+      "pos": "2B/OF/DH",
       "age": 28,
       "fgValue": -17.353358538782775,
       "isDrafted": false,
@@ -10433,6 +10672,7 @@
     {
       "name": "Ha-Seong Kim",
       "team": "ATL",
+      "pos": "SS",
       "age": 28,
       "fgValue": -17.37568349554302,
       "isDrafted": false,
@@ -10477,6 +10717,7 @@
     {
       "name": "Kyle Isbel",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -17.39968726380313,
       "isDrafted": false,
@@ -10522,6 +10763,7 @@
     {
       "name": "Gabriel Arias",
       "team": "CLE",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -17.526719306438387,
       "isDrafted": false,
@@ -10566,6 +10808,7 @@
     {
       "name": "Mauricio Dubón",
       "team": "ATL",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -17.77286047802019,
       "isDrafted": false,
@@ -10610,6 +10853,7 @@
     {
       "name": "Lenyn Sosa",
       "team": "CHW",
+      "pos": "1B/2B/DH",
       "age": 28,
       "fgValue": -18.249991544784418,
       "isDrafted": false,
@@ -10655,6 +10899,7 @@
     {
       "name": "Carlos Narváez",
       "team": "BOS",
+      "pos": "C",
       "age": 28,
       "fgValue": -18.420805645903158,
       "isDrafted": false,
@@ -10699,6 +10944,7 @@
     {
       "name": "Paul Goldschmidt",
       "team": "NYY",
+      "pos": "1B",
       "age": 28,
       "fgValue": -18.74635616875421,
       "isDrafted": false,
@@ -10744,6 +10990,7 @@
     {
       "name": "José Caballero",
       "team": "NYY",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -18.850810631913554,
       "isDrafted": false,
@@ -10788,6 +11035,7 @@
     {
       "name": "Carson Kelly",
       "team": "CHC",
+      "pos": "C",
       "age": 28,
       "fgValue": -19.05115382645342,
       "isDrafted": false,
@@ -10832,6 +11080,7 @@
     {
       "name": "Freddy Fermin",
       "team": "SDP",
+      "pos": "C",
       "age": 28,
       "fgValue": -19.145361580008377,
       "isDrafted": false,
@@ -10876,6 +11125,7 @@
     {
       "name": "Carson Benge",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": -19.216382463148836,
       "isDrafted": false,
@@ -10920,6 +11170,7 @@
     {
       "name": "Rhys Hoskins",
       "team": "CLE",
+      "pos": "1B",
       "age": 28,
       "fgValue": -19.3205015547688,
       "isDrafted": false,
@@ -10964,6 +11215,7 @@
     {
       "name": "Owen Caissie",
       "team": "MIA",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -19.321038962352436,
       "isDrafted": false,
@@ -11008,6 +11260,7 @@
     {
       "name": "Cole Young",
       "team": "SEA",
+      "pos": "2B",
       "age": 28,
       "fgValue": -19.62298170781506,
       "isDrafted": false,
@@ -11052,6 +11305,7 @@
     {
       "name": "Brooks Baldwin",
       "team": "CHW",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -19.63994833574388,
       "isDrafted": false,
@@ -11096,6 +11350,7 @@
     {
       "name": "Jake Fraley",
       "team": "TBR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -19.81421442104638,
       "isDrafted": false,
@@ -11141,6 +11396,7 @@
     {
       "name": "Christopher Morel",
       "team": "MIA",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -20.24981036994454,
       "isDrafted": false,
@@ -11185,6 +11441,7 @@
     {
       "name": "Patrick Bailey",
       "team": "SFG",
+      "pos": "C",
       "age": 28,
       "fgValue": -20.372322492796172,
       "isDrafted": false,
@@ -11229,6 +11486,7 @@
     {
       "name": "JJ Bleday",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -20.682584710756228,
       "isDrafted": false,
@@ -11274,6 +11532,7 @@
     {
       "name": "Nick Castellanos",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": -21.008471730088242,
       "isDrafted": false,
@@ -11318,6 +11577,7 @@
     {
       "name": "Yoán Moncada",
       "team": "LAA",
+      "pos": "3B",
       "age": 28,
       "fgValue": -21.0121370566166,
       "isDrafted": false,
@@ -11362,6 +11622,7 @@
     {
       "name": "Moisés Ballesteros",
       "team": "CHC",
+      "pos": "DH",
       "age": 28,
       "fgValue": -21.406380627626355,
       "isDrafted": false,
@@ -11406,6 +11667,7 @@
     {
       "name": "Luisangel Acuña",
       "team": "CHW",
+      "pos": "2B",
       "age": 28,
       "fgValue": -21.84927360190667,
       "isDrafted": false,
@@ -11451,6 +11713,7 @@
     {
       "name": "Victor Caratini",
       "team": "MIN",
+      "pos": "C/1B/DH",
       "age": 28,
       "fgValue": -21.951660951435905,
       "isDrafted": false,
@@ -11496,6 +11759,7 @@
     {
       "name": "Max Muncy",
       "team": "LAD",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -8.433087390181607,
       "isDrafted": false,
@@ -11541,6 +11805,7 @@
     {
       "name": "Austin Martin",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -22.4059040071023,
       "isDrafted": false,
@@ -11586,6 +11851,7 @@
     {
       "name": "Carson Williams",
       "team": "TBR",
+      "pos": "SS",
       "age": 28,
       "fgValue": -22.463283110270414,
       "isDrafted": false,
@@ -11631,6 +11897,7 @@
     {
       "name": "Sean Murphy",
       "team": "ATL",
+      "pos": "C",
       "age": 28,
       "fgValue": -22.483340346724788,
       "isDrafted": false,
@@ -11675,6 +11942,7 @@
     {
       "name": "Miguel Andujar",
       "team": "SDP",
+      "pos": "3B/OF/DH",
       "age": 28,
       "fgValue": -22.599808393424883,
       "isDrafted": false,
@@ -11719,6 +11987,7 @@
     {
       "name": "Javier Báez",
       "team": "DET",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -22.89072577355452,
       "isDrafted": false,
@@ -11763,6 +12032,7 @@
     {
       "name": "Carlos Santana",
       "team": "ARI",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -22.973679950733327,
       "isDrafted": false,
@@ -11807,6 +12077,7 @@
     {
       "name": "Jake Mangum",
       "team": "PIT",
+      "pos": "OF",
       "age": 28,
       "fgValue": -23.010007450822737,
       "isDrafted": false,
@@ -11852,6 +12123,7 @@
     {
       "name": "Jordan Lawlar",
       "team": "ARI",
+      "pos": "3B",
       "age": 28,
       "fgValue": -23.08080778589572,
       "isDrafted": false,
@@ -11896,6 +12168,7 @@
     {
       "name": "Victor Robles",
       "team": "SEA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -23.399281611878187,
       "isDrafted": false,
@@ -11941,6 +12214,7 @@
     {
       "name": "Davis Schneider",
       "team": "TOR",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -23.584559503517685,
       "isDrafted": false,
@@ -11985,6 +12259,7 @@
     {
       "name": "Nasim Nuñez",
       "team": "WSN",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -23.655335336011923,
       "isDrafted": false,
@@ -12029,6 +12304,7 @@
     {
       "name": "Garrett Mitchell",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -23.731006213193794,
       "isDrafted": false,
@@ -12073,6 +12349,7 @@
     {
       "name": "Denzel Clarke",
       "team": "ATH",
+      "pos": "OF",
       "age": 28,
       "fgValue": -24.087516498057077,
       "isDrafted": false,
@@ -12119,6 +12396,7 @@
     {
       "name": "Nathan Lukes",
       "team": "TOR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -24.41140897793755,
       "isDrafted": false,
@@ -12163,6 +12441,7 @@
     {
       "name": "George Valera",
       "team": "CLE",
+      "pos": "DH",
       "age": 28,
       "fgValue": -24.71972782974376,
       "isDrafted": false,
@@ -12207,6 +12486,7 @@
     {
       "name": "Heriberto Hernández",
       "team": "MIA",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -24.835372596565396,
       "isDrafted": false,
@@ -12252,6 +12532,7 @@
     {
       "name": "Kody Clemens",
       "team": "MIN",
+      "pos": "1B/2B/OF",
       "age": 28,
       "fgValue": -25.429942635917847,
       "isDrafted": false,
@@ -12297,6 +12578,7 @@
     {
       "name": "Christian Moore",
       "team": "LAA",
+      "pos": "2B",
       "age": 28,
       "fgValue": -25.445420197001276,
       "isDrafted": false,
@@ -12341,6 +12623,7 @@
     {
       "name": "Joey Loperfido",
       "team": "HOU",
+      "pos": "OF",
       "age": 28,
       "fgValue": -25.476743063613387,
       "isDrafted": false,
@@ -12386,6 +12669,7 @@
     {
       "name": "Taylor Walls",
       "team": "TBR",
+      "pos": "SS",
       "age": 28,
       "fgValue": -25.664063712371117,
       "isDrafted": false,
@@ -12430,6 +12714,7 @@
     {
       "name": "Keibert Ruiz",
       "team": "WSN",
+      "pos": "C",
       "age": 28,
       "fgValue": -25.861091391980114,
       "isDrafted": false,
@@ -12474,6 +12759,7 @@
     {
       "name": "Jake Bauers",
       "team": "MIL",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -25.989489931240218,
       "isDrafted": false,
@@ -12519,6 +12805,7 @@
     {
       "name": "Danny Jansen",
       "team": "TEX",
+      "pos": "C",
       "age": 28,
       "fgValue": -26.161563780411928,
       "isDrafted": false,
@@ -12563,6 +12850,7 @@
     {
       "name": "Matt Shaw",
       "team": "CHC",
+      "pos": "3B",
       "age": 28,
       "fgValue": -26.451217924484673,
       "isDrafted": false,
@@ -12608,6 +12896,7 @@
     {
       "name": "Luke Raley",
       "team": "SEA",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -26.594425665712468,
       "isDrafted": false,
@@ -12652,6 +12941,7 @@
     {
       "name": "Joey Bart",
       "team": "PIT",
+      "pos": "C",
       "age": 28,
       "fgValue": -26.957328272517575,
       "isDrafted": false,
@@ -12696,6 +12986,7 @@
     {
       "name": "Edouard Julien",
       "team": "COL",
+      "pos": "1B/2B/DH",
       "age": 28,
       "fgValue": -26.968823503712393,
       "isDrafted": false,
@@ -12740,6 +13031,7 @@
     {
       "name": "Colt Emerson",
       "team": "SEA",
+      "pos": "SS",
       "age": 28,
       "fgValue": -27.22898485569708,
       "isDrafted": false,
@@ -12784,6 +13076,7 @@
     {
       "name": "Jacob Young",
       "team": "WSN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -27.578970132032214,
       "isDrafted": false,
@@ -12830,6 +13123,7 @@
     {
       "name": "Casey Schmitt",
       "team": "SFG",
+      "pos": "1B/2B/3B",
       "age": 28,
       "fgValue": -27.65076879323,
       "isDrafted": false,
@@ -12875,6 +13169,7 @@
     {
       "name": "Michael Massey",
       "team": "KCR",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -27.779362098566978,
       "isDrafted": false,
@@ -12920,6 +13215,7 @@
     {
       "name": "Jonny DeLuca",
       "team": "TBR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -27.97437509457425,
       "isDrafted": false,
@@ -12964,6 +13260,7 @@
     {
       "name": "Liam Hicks",
       "team": "MIA",
+      "pos": "C/1B/DH",
       "age": 28,
       "fgValue": -28.07856030716635,
       "isDrafted": false,
@@ -13009,6 +13306,7 @@
     {
       "name": "Griffin Conine",
       "team": "MIA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -28.1097841438986,
       "isDrafted": false,
@@ -13053,6 +13351,7 @@
     {
       "name": "Ramón Urías",
       "team": "STL",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -28.15247948657659,
       "isDrafted": false,
@@ -13097,6 +13396,7 @@
     {
       "name": "Starling Marte",
       "team": "KCR",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -28.308092296734824,
       "isDrafted": false,
@@ -13141,6 +13441,7 @@
     {
       "name": "Zach Cole",
       "team": "HOU",
+      "pos": "OF",
       "age": 28,
       "fgValue": -28.370169695985016,
       "isDrafted": false,
@@ -13185,6 +13486,7 @@
     {
       "name": "CJ Kayfus",
       "team": "CLE",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -28.528649544831943,
       "isDrafted": false,
@@ -13230,6 +13532,7 @@
     {
       "name": "Matt Vierling",
       "team": "DET",
+      "pos": "OF",
       "age": 28,
       "fgValue": -28.538808905731518,
       "isDrafted": false,
@@ -13275,6 +13578,7 @@
     {
       "name": "Harry Ford",
       "team": "WSN",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -28.539224432908938,
       "isDrafted": false,
@@ -13319,6 +13623,7 @@
     {
       "name": "Graham Pauley",
       "team": "MIA",
+      "pos": "3B",
       "age": 28,
       "fgValue": -28.725735550308183,
       "isDrafted": false,
@@ -13363,6 +13668,7 @@
     {
       "name": "Tyrone Taylor",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": -29.004654701426684,
       "isDrafted": false,
@@ -13408,6 +13714,7 @@
     {
       "name": "Pedro Pagés",
       "team": "STL",
+      "pos": "C",
       "age": 28,
       "fgValue": -29.248753426350376,
       "isDrafted": false,
@@ -13452,6 +13759,7 @@
     {
       "name": "Blaze Alexander",
       "team": "BAL",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -29.412778457285317,
       "isDrafted": false,
@@ -13496,6 +13804,7 @@
     {
       "name": "Jasson Domínguez",
       "team": "NYY",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -29.45399527932631,
       "isDrafted": false,
@@ -13540,6 +13849,7 @@
     {
       "name": "Amed Rosario",
       "team": "NYY",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -29.786860753863696,
       "isDrafted": false,
@@ -13585,6 +13895,7 @@
     {
       "name": "Javier Sanoja",
       "team": "MIA",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -29.840562739188595,
       "isDrafted": false,
@@ -13629,6 +13940,7 @@
     {
       "name": "Edmundo Sosa",
       "team": "PHI",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -30.039199826234622,
       "isDrafted": false,
@@ -13674,6 +13986,7 @@
     {
       "name": "Colby Thomas",
       "team": "ATH",
+      "pos": "OF",
       "age": 28,
       "fgValue": -30.064459578559113,
       "isDrafted": false,
@@ -13718,6 +14031,7 @@
     {
       "name": "Andrés Chaparro",
       "team": "WSN",
+      "pos": "1B",
       "age": 28,
       "fgValue": -30.09295265552637,
       "isDrafted": false,
@@ -13762,6 +14076,7 @@
     {
       "name": "Kyle Karros",
       "team": "COL",
+      "pos": "3B",
       "age": 28,
       "fgValue": -30.34747767262925,
       "isDrafted": false,
@@ -13807,6 +14122,7 @@
     {
       "name": "Miguel Amaya",
       "team": "CHC",
+      "pos": "C",
       "age": 28,
       "fgValue": -30.35731475107656,
       "isDrafted": false,
@@ -13851,6 +14167,7 @@
     {
       "name": "Nick Fortes",
       "team": "TBR",
+      "pos": "C",
       "age": 28,
       "fgValue": -30.4582303137415,
       "isDrafted": false,
@@ -13895,6 +14212,7 @@
     {
       "name": "Henry Davis",
       "team": "PIT",
+      "pos": "C",
       "age": 28,
       "fgValue": -30.838905721203474,
       "isDrafted": false,
@@ -13939,6 +14257,7 @@
     {
       "name": "Tommy Pham",
       "team": null,
+      "pos": "OF",
       "age": 28,
       "fgValue": -30.847792739821113,
       "isDrafted": false,
@@ -13983,6 +14302,7 @@
     {
       "name": "Romy Gonzalez",
       "team": "BOS",
+      "pos": "1B/2B",
       "age": 28,
       "fgValue": -30.900168816610208,
       "isDrafted": false,
@@ -14028,6 +14348,7 @@
     {
       "name": "Oswald Peraza",
       "team": "LAA",
+      "pos": "1B/2B/3B/SS",
       "age": 28,
       "fgValue": -31.135768360354334,
       "isDrafted": false,
@@ -14074,6 +14395,7 @@
     {
       "name": "Ezequiel Duran",
       "team": "TEX",
+      "pos": "1B/2B/3B/SS/OF",
       "age": 28,
       "fgValue": -31.153199790796407,
       "isDrafted": false,
@@ -14119,6 +14441,7 @@
     {
       "name": "Will Benson",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -31.180282138840532,
       "isDrafted": false,
@@ -14165,6 +14488,7 @@
     {
       "name": "Robert Hassell III",
       "team": "WSN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -31.18913532238681,
       "isDrafted": false,
@@ -14209,6 +14533,7 @@
     {
       "name": "Angel Martínez",
       "team": "CLE",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -31.202859111549273,
       "isDrafted": false,
@@ -14254,6 +14579,7 @@
     {
       "name": "Kyle Higashioka",
       "team": "TEX",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -31.34188351049162,
       "isDrafted": false,
@@ -14298,6 +14624,7 @@
     {
       "name": "Dane Myers",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -31.528058626676327,
       "isDrafted": false,
@@ -14342,6 +14669,7 @@
     {
       "name": "Sung-Mun Song",
       "team": "SDP",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -31.60882833194882,
       "isDrafted": false,
@@ -14386,6 +14714,7 @@
     {
       "name": "Rob Refsnyder",
       "team": "SEA",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -31.638355274104605,
       "isDrafted": false,
@@ -14431,6 +14760,7 @@
     {
       "name": "Troy Johnston",
       "team": "COL",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -31.71781944689537,
       "isDrafted": false,
@@ -14476,6 +14806,7 @@
     {
       "name": "Jhostynxon Garcia",
       "team": "PIT",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -31.81289070886431,
       "isDrafted": false,
@@ -14520,6 +14851,7 @@
     {
       "name": "TJ Rumfield",
       "team": "COL",
+      "pos": "1B",
       "age": 28,
       "fgValue": -32.02561734881522,
       "isDrafted": false,
@@ -14564,6 +14896,7 @@
     {
       "name": "Masataka Yoshida",
       "team": "BOS",
+      "pos": "DH",
       "age": 28,
       "fgValue": -32.371544470233744,
       "isDrafted": false,
@@ -14608,6 +14941,7 @@
     {
       "name": "Jose Trevino",
       "team": "CIN",
+      "pos": "C",
       "age": 28,
       "fgValue": -32.56034796781167,
       "isDrafted": false,
@@ -14652,6 +14986,7 @@
     {
       "name": "Sam Haggerty",
       "team": "TEX",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -33.19830388291573,
       "isDrafted": false,
@@ -14696,6 +15031,7 @@
     {
       "name": "Dominic Smith",
       "team": "ATL",
+      "pos": "1B",
       "age": 28,
       "fgValue": -33.22251677010165,
       "isDrafted": false,
@@ -14740,6 +15076,7 @@
     {
       "name": "Vaughn Grissom",
       "team": "LAA",
+      "pos": "2B",
       "age": 28,
       "fgValue": -33.44247655522787,
       "isDrafted": false,
@@ -14784,6 +15121,7 @@
     {
       "name": "Jesse Winker",
       "team": null,
+      "pos": "DH",
       "age": 28,
       "fgValue": -33.635840078669204,
       "isDrafted": false,
@@ -14828,6 +15166,7 @@
     {
       "name": "Otto Kemp",
       "team": "PHI",
+      "pos": "1B/3B/OF",
       "age": 28,
       "fgValue": -33.64460048599295,
       "isDrafted": false,
@@ -14873,6 +15212,7 @@
     {
       "name": "Thomas Saggese",
       "team": "STL",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -33.76826124066595,
       "isDrafted": false,
@@ -14917,6 +15257,7 @@
     {
       "name": "Luis Campusano",
       "team": "SDP",
+      "pos": "DH",
       "age": 28,
       "fgValue": -33.807689612065126,
       "isDrafted": false,
@@ -14961,6 +15302,7 @@
     {
       "name": "Ben Williamson",
       "team": "TBR",
+      "pos": "3B",
       "age": 28,
       "fgValue": -33.99944527412131,
       "isDrafted": false,
@@ -15005,6 +15347,7 @@
     {
       "name": "Ryan Ritter",
       "team": "COL",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -34.31803099058047,
       "isDrafted": false,
@@ -15051,6 +15394,7 @@
     {
       "name": "Adam Frazier",
       "team": "LAA",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -34.500389336398214,
       "isDrafted": false,
@@ -15095,6 +15439,7 @@
     {
       "name": "Isiah Kiner-Falefa",
       "team": "BOS",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -34.89560708804669,
       "isDrafted": false,
@@ -15139,6 +15484,7 @@
     {
       "name": "Luis Torrens",
       "team": "NYM",
+      "pos": "C",
       "age": 28,
       "fgValue": -35.01364080948402,
       "isDrafted": false,
@@ -15184,6 +15530,7 @@
     {
       "name": "Tyler Locklear",
       "team": "ARI",
+      "pos": "1B",
       "age": 28,
       "fgValue": -35.10169176509984,
       "isDrafted": false,
@@ -15229,6 +15576,7 @@
     {
       "name": "Connor Wong",
       "team": "BOS",
+      "pos": "C",
       "age": 28,
       "fgValue": -35.12245259570364,
       "isDrafted": false,
@@ -15273,6 +15621,7 @@
     {
       "name": "Adrian Del Castillo",
       "team": "ARI",
+      "pos": "DH",
       "age": 28,
       "fgValue": -35.152807883354534,
       "isDrafted": false,
@@ -15318,6 +15667,7 @@
     {
       "name": "Luis Matos",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": -35.27170186217504,
       "isDrafted": false,
@@ -15363,6 +15713,7 @@
     {
       "name": "Everson Pereira",
       "team": "CHW",
+      "pos": "OF",
       "age": 28,
       "fgValue": -35.31225839090518,
       "isDrafted": false,
@@ -15407,6 +15758,7 @@
     {
       "name": "Joe Mack",
       "team": "MIA",
+      "pos": "C",
       "age": 28,
       "fgValue": -35.324741716287,
       "isDrafted": false,
@@ -15451,6 +15803,7 @@
     {
       "name": "Hunter Feduccia",
       "team": "TBR",
+      "pos": "C",
       "age": 28,
       "fgValue": -35.52256530204077,
       "isDrafted": false,
@@ -15495,6 +15848,7 @@
     {
       "name": "Nathaniel Lowe",
       "team": "CIN",
+      "pos": "1B",
       "age": 28,
       "fgValue": -35.5695885974543,
       "isDrafted": false,
@@ -15539,6 +15893,7 @@
     {
       "name": "Rowdy Tellez",
       "team": null,
+      "pos": "1B",
       "age": 28,
       "fgValue": -35.60085409132153,
       "isDrafted": false,
@@ -15584,6 +15939,7 @@
     {
       "name": "Enrique Hernández",
       "team": "LAD",
+      "pos": "1B/2B/3B/OF",
       "age": 28,
       "fgValue": -35.61982392404783,
       "isDrafted": false,
@@ -15628,6 +15984,7 @@
     {
       "name": "Travis d'Arnaud",
       "team": "LAA",
+      "pos": "C",
       "age": 28,
       "fgValue": -35.6345176853091,
       "isDrafted": false,
@@ -15672,6 +16029,7 @@
     {
       "name": "Ryan Mountcastle",
       "team": "BAL",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -35.73612165924509,
       "isDrafted": false,
@@ -15716,6 +16074,7 @@
     {
       "name": "Jeremiah Jackson",
       "team": "BAL",
+      "pos": "3B/OF",
       "age": 28,
       "fgValue": -35.87011412209326,
       "isDrafted": false,
@@ -15760,6 +16119,7 @@
     {
       "name": "Darell Hernaiz",
       "team": "ATH",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -36.149075420303646,
       "isDrafted": false,
@@ -15804,6 +16164,7 @@
     {
       "name": "Dalton Rushing",
       "team": "LAD",
+      "pos": "C",
       "age": 28,
       "fgValue": -36.18408949649073,
       "isDrafted": false,
@@ -15848,6 +16209,7 @@
     {
       "name": "José Tena",
       "team": "WSN",
+      "pos": "3B",
       "age": 28,
       "fgValue": -36.208722078749304,
       "isDrafted": false,
@@ -15893,6 +16255,7 @@
     {
       "name": "Daniel Schneemann",
       "team": "CLE",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -36.21573264942904,
       "isDrafted": false,
@@ -15937,6 +16300,7 @@
     {
       "name": "Wilmer Flores",
       "team": null,
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -36.263808168548024,
       "isDrafted": false,
@@ -15981,6 +16345,7 @@
     {
       "name": "Coby Mayo",
       "team": "BAL",
+      "pos": "1B",
       "age": 28,
       "fgValue": -36.28604581906259,
       "isDrafted": false,
@@ -16025,6 +16390,7 @@
     {
       "name": "David Hamilton",
       "team": "MIL",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -36.30712828216652,
       "isDrafted": false,
@@ -16070,6 +16436,7 @@
     {
       "name": "Triston Casas",
       "team": "BOS",
+      "pos": "1B",
       "age": 28,
       "fgValue": -36.385977733234924,
       "isDrafted": false,
@@ -16114,6 +16481,7 @@
     {
       "name": "Alan Roden",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -36.4946952892771,
       "isDrafted": false,
@@ -16159,6 +16527,7 @@
     {
       "name": "Abimelec Ortiz",
       "team": "WSN",
+      "pos": "1B",
       "age": 28,
       "fgValue": -36.573419498269615,
       "isDrafted": false,
@@ -16203,6 +16572,7 @@
     {
       "name": "David Fry",
       "team": "CLE",
+      "pos": "DH",
       "age": 28,
       "fgValue": -36.64997368907934,
       "isDrafted": false,
@@ -16248,6 +16618,7 @@
     {
       "name": "Braxton Fulford",
       "team": "COL",
+      "pos": "C",
       "age": 28,
       "fgValue": -36.65807448298356,
       "isDrafted": false,
@@ -16294,6 +16665,7 @@
     {
       "name": "Travis Bazzana",
       "team": "CLE",
+      "pos": "2B",
       "age": 28,
       "fgValue": -36.75732737462675,
       "isDrafted": false,
@@ -16338,6 +16710,7 @@
     {
       "name": "Andy Ibáñez",
       "team": "ATH",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -36.78657294883564,
       "isDrafted": false,
@@ -16382,6 +16755,7 @@
     {
       "name": "Andrew McCutchen",
       "team": "TEX",
+      "pos": "DH",
       "age": 28,
       "fgValue": -36.96074170153699,
       "isDrafted": false,
@@ -16427,6 +16801,7 @@
     {
       "name": "Blake Perkins",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -36.966094776135,
       "isDrafted": false,
@@ -16472,6 +16847,7 @@
     {
       "name": "James McCann",
       "team": "ARI",
+      "pos": "C",
       "age": 28,
       "fgValue": -37.24456060849816,
       "isDrafted": false,
@@ -16517,6 +16893,7 @@
     {
       "name": "Nathan Church",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -37.259930084645475,
       "isDrafted": false,
@@ -16561,6 +16938,7 @@
     {
       "name": "Miguel Rojas",
       "team": "LAD",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -37.5057683836104,
       "isDrafted": false,
@@ -16605,6 +16983,7 @@
     {
       "name": "Jorge Mateo",
       "team": "ATL",
+      "pos": "SS/OF",
       "age": 28,
       "fgValue": -37.737369681622255,
       "isDrafted": false,
@@ -16649,6 +17028,7 @@
     {
       "name": "Alex Call",
       "team": "LAD",
+      "pos": "OF",
       "age": 28,
       "fgValue": -37.86594540813082,
       "isDrafted": false,
@@ -16694,6 +17074,7 @@
     {
       "name": "Randal Grichuk",
       "team": "NYY",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -37.981928779695274,
       "isDrafted": false,
@@ -16738,6 +17119,7 @@
     {
       "name": "Ryan Waldschmidt",
       "team": "ARI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -37.984958697624215,
       "isDrafted": false,
@@ -16782,6 +17164,7 @@
     {
       "name": "Ty France",
       "team": "SDP",
+      "pos": "1B",
       "age": 28,
       "fgValue": -38.02171186828148,
       "isDrafted": false,
@@ -16827,6 +17210,7 @@
     {
       "name": "Tyler Austin",
       "team": "CHC",
+      "pos": "1B",
       "age": 28,
       "fgValue": -38.026148913632994,
       "isDrafted": false,
@@ -16871,6 +17255,7 @@
     {
       "name": "James Outman",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -38.06403478838301,
       "isDrafted": false,
@@ -16915,6 +17300,7 @@
     {
       "name": "Blaine Crim",
       "team": "COL",
+      "pos": "1B",
       "age": 28,
       "fgValue": -38.08654042693913,
       "isDrafted": false,
@@ -16959,6 +17345,7 @@
     {
       "name": "Tim Tawa",
       "team": "ARI",
+      "pos": "1B/2B/OF",
       "age": 28,
       "fgValue": -38.30486204416675,
       "isDrafted": false,
@@ -17003,6 +17390,7 @@
     {
       "name": "Charlie Condon",
       "team": "COL",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -38.32379323391085,
       "isDrafted": false,
@@ -17047,6 +17435,7 @@
     {
       "name": "Dylan Moore",
       "team": "PHI",
+      "pos": "1B/2B/3B/OF",
       "age": 28,
       "fgValue": -38.58383548824434,
       "isDrafted": false,
@@ -17092,6 +17481,7 @@
     {
       "name": "Hyeseong Kim",
       "team": "LAD",
+      "pos": "2B/SS/OF",
       "age": 28,
       "fgValue": -38.70829255985243,
       "isDrafted": false,
@@ -17137,6 +17527,7 @@
     {
       "name": "Jake Rogers",
       "team": "DET",
+      "pos": "C",
       "age": 28,
       "fgValue": -38.820707971965085,
       "isDrafted": false,
@@ -17181,6 +17572,7 @@
     {
       "name": "Richie Palacios",
       "team": "TBR",
+      "pos": "1B/2B/OF/DH",
       "age": 28,
       "fgValue": -38.99988317898955,
       "isDrafted": false,
@@ -17225,6 +17617,7 @@
     {
       "name": "Mike Tauchman",
       "team": "NYM",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -39.028077061502955,
       "isDrafted": false,
@@ -17269,6 +17662,7 @@
     {
       "name": "Eli White",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -39.08340777880767,
       "isDrafted": false,
@@ -17314,6 +17708,7 @@
     {
       "name": "Cody Freeman",
       "team": "TEX",
+      "pos": "2B",
       "age": 28,
       "fgValue": -39.08403840657541,
       "isDrafted": false,
@@ -17358,6 +17753,7 @@
     {
       "name": "José Fermín",
       "team": "STL",
+      "pos": "2B",
       "age": 28,
       "fgValue": -39.13576919266197,
       "isDrafted": false,
@@ -17402,6 +17798,7 @@
     {
       "name": "Gary Sánchez",
       "team": "MIL",
+      "pos": "C",
       "age": 28,
       "fgValue": -39.2380343906087,
       "isDrafted": false,
@@ -17446,6 +17843,7 @@
     {
       "name": "Adael Amador",
       "team": "COL",
+      "pos": "2B",
       "age": 28,
       "fgValue": -39.55424576435426,
       "isDrafted": false,
@@ -17491,6 +17889,7 @@
     {
       "name": "Jose Iglesias",
       "team": null,
+      "pos": "2B/3B/SS/DH",
       "age": 28,
       "fgValue": -39.6675519718024,
       "isDrafted": false,
@@ -17535,6 +17934,7 @@
     {
       "name": "Nick Yorke",
       "team": "PIT",
+      "pos": "2B",
       "age": 28,
       "fgValue": -39.6812799245053,
       "isDrafted": false,
@@ -17579,6 +17979,7 @@
     {
       "name": "Yohel Pozo",
       "team": "STL",
+      "pos": "C",
       "age": 28,
       "fgValue": -39.70145530655662,
       "isDrafted": false,
@@ -17623,6 +18024,7 @@
     {
       "name": "Zack Gelof",
       "team": "ATH",
+      "pos": "2B",
       "age": 28,
       "fgValue": -39.74538769694473,
       "isDrafted": false,
@@ -17668,6 +18070,7 @@
     {
       "name": "Jahmai Jones",
       "team": "DET",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -39.77493222954168,
       "isDrafted": false,
@@ -17713,6 +18116,7 @@
     {
       "name": "Bryce Teodosio",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -39.828813985967386,
       "isDrafted": false,
@@ -17759,6 +18163,7 @@
     {
       "name": "Myles Straw",
       "team": "TOR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -39.84909468901386,
       "isDrafted": false,
@@ -17804,6 +18209,7 @@
     {
       "name": "Jett Williams",
       "team": "MIL",
+      "pos": "SS",
       "age": 28,
       "fgValue": -39.930774942396816,
       "isDrafted": false,
@@ -17848,6 +18254,7 @@
     {
       "name": "Carlos Cortes",
       "team": "ATH",
+      "pos": "OF",
       "age": 28,
       "fgValue": -40.214498058896204,
       "isDrafted": false,
@@ -17892,6 +18299,7 @@
     {
       "name": "Michael Conforto",
       "team": "CHC",
+      "pos": "OF",
       "age": 28,
       "fgValue": -40.26948164859321,
       "isDrafted": false,
@@ -17937,6 +18345,7 @@
     {
       "name": "Justin Turner",
       "team": null,
+      "pos": "1B/3B/DH",
       "age": 28,
       "fgValue": -40.392660811048415,
       "isDrafted": false,
@@ -17981,6 +18390,7 @@
     {
       "name": "Max Kepler",
       "team": null,
+      "pos": "OF",
       "age": 28,
       "fgValue": -40.44052275357149,
       "isDrafted": false,
@@ -18025,6 +18435,7 @@
     {
       "name": "Jacob Melton",
       "team": "TBR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -40.73174581134595,
       "isDrafted": false,
@@ -18069,6 +18480,7 @@
     {
       "name": "Justyn-Henry Malloy",
       "team": "TBR",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -41.05686089257307,
       "isDrafted": false,
@@ -18113,6 +18525,7 @@
     {
       "name": "Leo Rivas",
       "team": "SEA",
+      "pos": "2B",
       "age": 28,
       "fgValue": -41.13908059534559,
       "isDrafted": false,
@@ -18157,6 +18570,7 @@
     {
       "name": "Derek Hill",
       "team": "CHW",
+      "pos": "OF",
       "age": 28,
       "fgValue": -41.18478313992565,
       "isDrafted": false,
@@ -18203,6 +18617,7 @@
     {
       "name": "Drew Gilbert",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": -41.41606046092828,
       "isDrafted": false,
@@ -18247,6 +18662,7 @@
     {
       "name": "Ronny Mauricio",
       "team": "NYM",
+      "pos": "3B",
       "age": 28,
       "fgValue": -41.43045551456468,
       "isDrafted": false,
@@ -18291,6 +18707,7 @@
     {
       "name": "Jon Berti",
       "team": null,
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -41.43999891353449,
       "isDrafted": false,
@@ -18335,6 +18752,7 @@
     {
       "name": "Rafael Marchán",
       "team": "PHI",
+      "pos": "C",
       "age": 28,
       "fgValue": -41.4965396185418,
       "isDrafted": false,
@@ -18379,6 +18797,7 @@
     {
       "name": "Andruw Monasterio",
       "team": "BOS",
+      "pos": "1B/2B/SS",
       "age": 28,
       "fgValue": -41.7028853471847,
       "isDrafted": false,
@@ -18423,6 +18842,7 @@
     {
       "name": "Nick Loftin",
       "team": "KCR",
+      "pos": "2B/3B/OF",
       "age": 28,
       "fgValue": -41.934643804059554,
       "isDrafted": false,
@@ -18467,6 +18887,7 @@
     {
       "name": "Chris Taylor",
       "team": "LAA",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -41.93734302445237,
       "isDrafted": false,
@@ -18511,6 +18932,7 @@
     {
       "name": "Jonah Heim",
       "team": "ATL",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -42.14755522147335,
       "isDrafted": false,
@@ -18555,6 +18977,7 @@
     {
       "name": "Zac Veen",
       "team": "COL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -42.154307731225515,
       "isDrafted": false,
@@ -18599,6 +19022,7 @@
     {
       "name": "Ryan Vilade",
       "team": "TBR",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -42.16785686652621,
       "isDrafted": false,
@@ -18643,6 +19067,7 @@
     {
       "name": "Anthony Santander",
       "team": "TOR",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -42.278763089587336,
       "isDrafted": false,
@@ -18688,6 +19113,7 @@
     {
       "name": "Thairo Estrada",
       "team": "BAL",
+      "pos": "2B",
       "age": 28,
       "fgValue": -42.30447494223367,
       "isDrafted": false,
@@ -18732,6 +19158,7 @@
     {
       "name": "Santiago Espinal",
       "team": "LAD",
+      "pos": "2B/3B/OF",
       "age": 28,
       "fgValue": -42.34020406520955,
       "isDrafted": false,
@@ -18777,6 +19204,7 @@
     {
       "name": "Austin Wynns",
       "team": "ATH",
+      "pos": "C",
       "age": 28,
       "fgValue": -42.434111633597745,
       "isDrafted": false,
@@ -18822,6 +19250,7 @@
     {
       "name": "Eric Wagaman",
       "team": "MIN",
+      "pos": "1B/OF/DH",
       "age": 28,
       "fgValue": -42.615998451293336,
       "isDrafted": false,
@@ -18866,6 +19295,7 @@
     {
       "name": "Bryce Johnson",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": -42.662819475141156,
       "isDrafted": false,
@@ -18910,6 +19340,7 @@
     {
       "name": "Kristian Campbell",
       "team": "BOS",
+      "pos": "2B",
       "age": 28,
       "fgValue": -42.80963887775346,
       "isDrafted": false,
@@ -18954,6 +19385,7 @@
     {
       "name": "Leo Jiménez",
       "team": "TOR",
+      "pos": "2B",
       "age": 28,
       "fgValue": -42.825695452566066,
       "isDrafted": false,
@@ -18998,6 +19430,7 @@
     {
       "name": "Esteury Ruiz",
       "team": "MIA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -42.88493784005459,
       "isDrafted": false,
@@ -19042,6 +19475,7 @@
     {
       "name": "Oswaldo Cabrera",
       "team": "NYY",
+      "pos": "3B",
       "age": 28,
       "fgValue": -42.91419732998919,
       "isDrafted": false,
@@ -19086,6 +19520,7 @@
     {
       "name": "J.C. Escarra",
       "team": "NYY",
+      "pos": "C",
       "age": 28,
       "fgValue": -42.934876521741316,
       "isDrafted": false,
@@ -19130,6 +19565,7 @@
     {
       "name": "Johnathan Rodríguez",
       "team": "CLE",
+      "pos": "OF",
       "age": 28,
       "fgValue": -42.95118525094845,
       "isDrafted": false,
@@ -19174,6 +19610,7 @@
     {
       "name": "Jack Suwinski",
       "team": "LAD",
+      "pos": "OF",
       "age": 28,
       "fgValue": -43.05137726954407,
       "isDrafted": false,
@@ -19218,6 +19655,7 @@
     {
       "name": "LaMonte Wade Jr.",
       "team": null,
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -43.06492062404487,
       "isDrafted": false,
@@ -19263,6 +19701,7 @@
     {
       "name": "Drew Millas",
       "team": "WSN",
+      "pos": "C",
       "age": 28,
       "fgValue": -43.29801215707402,
       "isDrafted": false,
@@ -19307,6 +19746,7 @@
     {
       "name": "Braden Montgomery",
       "team": "CHW",
+      "pos": "OF",
       "age": 28,
       "fgValue": -43.52969872564947,
       "isDrafted": false,
@@ -19351,6 +19791,7 @@
     {
       "name": "Nolan Jones",
       "team": "CLE",
+      "pos": "OF",
       "age": 28,
       "fgValue": -43.539681619280884,
       "isDrafted": false,
@@ -19395,6 +19836,7 @@
     {
       "name": "Jorge Barrosa",
       "team": "ARI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -43.57142337333385,
       "isDrafted": false,
@@ -19439,6 +19881,7 @@
     {
       "name": "Tyler Heineman",
       "team": "TOR",
+      "pos": "C",
       "age": 28,
       "fgValue": -43.57449989275869,
       "isDrafted": false,
@@ -19483,6 +19926,7 @@
     {
       "name": "Luis Urías",
       "team": "ARI",
+      "pos": "2B",
       "age": 28,
       "fgValue": -43.621772157402035,
       "isDrafted": false,
@@ -19527,6 +19971,7 @@
     {
       "name": "Orlando Arcia",
       "team": "MIN",
+      "pos": "1B/2B/3B/SS",
       "age": 28,
       "fgValue": -43.76476282822364,
       "isDrafted": false,
@@ -19572,6 +20017,7 @@
     {
       "name": "Juan Brito",
       "team": "CLE",
+      "pos": "2B",
       "age": 28,
       "fgValue": -43.788872729930404,
       "isDrafted": false,
@@ -19616,6 +20062,7 @@
     {
       "name": "Nelson Velázquez",
       "team": "STL",
+      "pos": "DH/OF",
       "age": 28,
       "fgValue": -43.85320602596431,
       "isDrafted": false,
@@ -19660,6 +20107,7 @@
     {
       "name": "Will Brennan",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": -43.99776672041426,
       "isDrafted": false,
@@ -19704,6 +20152,7 @@
     {
       "name": "Tyler Tolbert",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.05778393359513,
       "isDrafted": false,
@@ -19748,6 +20197,7 @@
     {
       "name": "Zach Dezenzo",
       "team": "HOU",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.30856671969856,
       "isDrafted": false,
@@ -19793,6 +20243,7 @@
     {
       "name": "Nick Allen",
       "team": "HOU",
+      "pos": "SS",
       "age": 28,
       "fgValue": -44.367147613406274,
       "isDrafted": false,
@@ -19837,6 +20288,7 @@
     {
       "name": "Joshua Báez",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.40679235436293,
       "isDrafted": false,
@@ -19881,6 +20333,7 @@
     {
       "name": "Jerar Encarnacion",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.44699836029288,
       "isDrafted": false,
@@ -19925,6 +20378,7 @@
     {
       "name": "Warming Bernabel",
       "team": "WSN",
+      "pos": "1B",
       "age": 28,
       "fgValue": -44.57482726393958,
       "isDrafted": false,
@@ -19969,6 +20423,7 @@
     {
       "name": "Leody Taveras",
       "team": "BAL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.64132909027029,
       "isDrafted": false,
@@ -20014,6 +20469,7 @@
     {
       "name": "Mitch Garver",
       "team": "SEA",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -44.6423156301608,
       "isDrafted": false,
@@ -20058,6 +20514,7 @@
     {
       "name": "Dylan Carlson",
       "team": "CHC",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.654184929860584,
       "isDrafted": false,
@@ -20102,6 +20559,7 @@
     {
       "name": "Brett Harris",
       "team": "ATH",
+      "pos": "3B",
       "age": 28,
       "fgValue": -44.72337841667177,
       "isDrafted": false,
@@ -20146,6 +20604,7 @@
     {
       "name": "Christian Koss",
       "team": "SFG",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -44.82084062938247,
       "isDrafted": false,
@@ -20192,6 +20651,7 @@
     {
       "name": "Joey Wiemer",
       "team": "WSN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -44.87781606799772,
       "isDrafted": false,
@@ -20236,6 +20696,7 @@
     {
       "name": "Christian Vázquez",
       "team": "HOU",
+      "pos": "C",
       "age": 28,
       "fgValue": -44.938254636783576,
       "isDrafted": false,
@@ -20280,6 +20741,7 @@
     {
       "name": "Korey Lee",
       "team": "CHW",
+      "pos": "C",
       "age": 28,
       "fgValue": -44.95103148605279,
       "isDrafted": false,
@@ -20324,6 +20786,7 @@
     {
       "name": "Ryan Bliss",
       "team": "SEA",
+      "pos": "2B",
       "age": 28,
       "fgValue": -45.100199740761994,
       "isDrafted": false,
@@ -20368,6 +20831,7 @@
     {
       "name": "DJ LeMahieu",
       "team": null,
+      "pos": "2B",
       "age": 28,
       "fgValue": -45.10802409470655,
       "isDrafted": false,
@@ -20412,6 +20876,7 @@
     {
       "name": "Mark Canha",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": -45.15344038599316,
       "isDrafted": false,
@@ -20457,6 +20922,7 @@
     {
       "name": "Austin Hedges",
       "team": "CLE",
+      "pos": "C",
       "age": 28,
       "fgValue": -45.16036525915859,
       "isDrafted": false,
@@ -20501,6 +20967,7 @@
     {
       "name": "John Rave",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -45.27957805855617,
       "isDrafted": false,
@@ -20546,6 +21013,7 @@
     {
       "name": "Gio Urshela",
       "team": null,
+      "pos": "3B",
       "age": 28,
       "fgValue": -45.398112297485774,
       "isDrafted": false,
@@ -20590,6 +21058,7 @@
     {
       "name": "Endy Rodríguez",
       "team": "PIT",
+      "pos": "1B",
       "age": 28,
       "fgValue": -45.432316466441726,
       "isDrafted": false,
@@ -20634,6 +21103,7 @@
     {
       "name": "MJ Melendez",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": -45.43797010507449,
       "isDrafted": false,
@@ -20678,6 +21148,7 @@
     {
       "name": "Alex Verdugo",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": -45.44382096090616,
       "isDrafted": false,
@@ -20722,6 +21193,7 @@
     {
       "name": "Jarred Kelenic",
       "team": "CHW",
+      "pos": "OF",
       "age": 28,
       "fgValue": -45.45596263437285,
       "isDrafted": false,
@@ -20766,6 +21238,7 @@
     {
       "name": "Curtis Mead",
       "team": "CHW",
+      "pos": "1B/2B/3B",
       "age": 28,
       "fgValue": -45.47660776297156,
       "isDrafted": false,
@@ -20810,6 +21283,7 @@
     {
       "name": "Johan Rojas",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -45.4893596416102,
       "isDrafted": false,
@@ -20855,6 +21329,7 @@
     {
       "name": "Christian Encarnacion-Strand",
       "team": "CIN",
+      "pos": "1B",
       "age": 28,
       "fgValue": -45.51112382394585,
       "isDrafted": false,
@@ -20900,6 +21375,7 @@
     {
       "name": "Jimmy Crooks",
       "team": "STL",
+      "pos": "C",
       "age": 28,
       "fgValue": -45.5520528325905,
       "isDrafted": false,
@@ -20944,6 +21420,7 @@
     {
       "name": "Ildemaro Vargas",
       "team": "ARI",
+      "pos": "1B/2B",
       "age": 28,
       "fgValue": -45.560715403064904,
       "isDrafted": false,
@@ -20989,6 +21466,7 @@
     {
       "name": "Tirso Ornelas",
       "team": "SDP",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -45.784315033765,
       "isDrafted": false,
@@ -21033,6 +21511,7 @@
     {
       "name": "Kyle Farmer",
       "team": "ATL",
+      "pos": "1B/2B/3B/SS/DH",
       "age": 28,
       "fgValue": -45.931851130546214,
       "isDrafted": false,
@@ -21077,6 +21556,7 @@
     {
       "name": "Michael Helman",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": -46.00882465951741,
       "isDrafted": false,
@@ -21122,6 +21602,7 @@
     {
       "name": "Jeimer Candelario",
       "team": "LAA",
+      "pos": "3B",
       "age": 28,
       "fgValue": -46.08966538122445,
       "isDrafted": false,
@@ -21166,6 +21647,7 @@
     {
       "name": "César Salazar",
       "team": "HOU",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -46.19682074137007,
       "isDrafted": false,
@@ -21210,6 +21692,7 @@
     {
       "name": "Walker Jenkins",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -46.20371713748671,
       "isDrafted": false,
@@ -21254,6 +21737,7 @@
     {
       "name": "Brendan Rodgers",
       "team": "BOS",
+      "pos": "2B",
       "age": 28,
       "fgValue": -46.364417862999225,
       "isDrafted": false,
@@ -21298,6 +21782,7 @@
     {
       "name": "Austin Slater",
       "team": "DET",
+      "pos": "OF",
       "age": 28,
       "fgValue": -46.366667991503036,
       "isDrafted": false,
@@ -21343,6 +21828,7 @@
     {
       "name": "Andrew Knizner",
       "team": "SEA",
+      "pos": "C",
       "age": 28,
       "fgValue": -46.58556470587218,
       "isDrafted": false,
@@ -21387,6 +21873,7 @@
     {
       "name": "Nick Sogard",
       "team": "BOS",
+      "pos": "1B",
       "age": 28,
       "fgValue": -46.64772768705335,
       "isDrafted": false,
@@ -21432,6 +21919,7 @@
     {
       "name": "Chas McCormick",
       "team": "CHC",
+      "pos": "OF",
       "age": 28,
       "fgValue": -46.81295204408065,
       "isDrafted": false,
@@ -21476,6 +21964,7 @@
     {
       "name": "Luke Maile",
       "team": "KCR",
+      "pos": "C",
       "age": 28,
       "fgValue": -47.098095730099764,
       "isDrafted": false,
@@ -21520,6 +22009,7 @@
     {
       "name": "Tyler Fitzgerald",
       "team": "SFG",
+      "pos": "2B",
       "age": 28,
       "fgValue": -47.17345583739242,
       "isDrafted": false,
@@ -21566,6 +22056,7 @@
     {
       "name": "Alex Freeland",
       "team": "LAD",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -47.23508896350821,
       "isDrafted": false,
@@ -21610,6 +22101,7 @@
     {
       "name": "Daniel Susac",
       "team": "SFG",
+      "pos": "C",
       "age": 28,
       "fgValue": -47.24788899031833,
       "isDrafted": false,
@@ -21654,6 +22146,7 @@
     {
       "name": "Nelson Rada",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -47.42451418578425,
       "isDrafted": false,
@@ -21698,6 +22191,7 @@
     {
       "name": "Ben Gamel",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -47.47193180509285,
       "isDrafted": false,
@@ -21742,6 +22236,7 @@
     {
       "name": "Elias Díaz",
       "team": "KCR",
+      "pos": "C",
       "age": 28,
       "fgValue": -47.50595363226208,
       "isDrafted": false,
@@ -21786,6 +22281,7 @@
     {
       "name": "Brandon Lockridge",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -47.50992916069729,
       "isDrafted": false,
@@ -21831,6 +22327,7 @@
     {
       "name": "Alejandro Osuna",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": -47.51952881046643,
       "isDrafted": false,
@@ -21876,6 +22373,7 @@
     {
       "name": "Riley Adams",
       "team": "WSN",
+      "pos": "C",
       "age": 28,
       "fgValue": -47.56115082976429,
       "isDrafted": false,
@@ -21920,6 +22418,7 @@
     {
       "name": "Maximo Acosta",
       "team": "MIA",
+      "pos": "3B",
       "age": 28,
       "fgValue": -47.5620095125286,
       "isDrafted": false,
@@ -21964,6 +22463,7 @@
     {
       "name": "Yanquiel Fernández",
       "team": "NYY",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -47.776415963584746,
       "isDrafted": false,
@@ -22009,6 +22509,7 @@
     {
       "name": "Emmanuel Rodriguez",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -47.844674171080314,
       "isDrafted": false,
@@ -22053,6 +22554,7 @@
     {
       "name": "Will Wagner",
       "team": "SDP",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": -47.854146993086296,
       "isDrafted": false,
@@ -22098,6 +22600,7 @@
     {
       "name": "Jacob Stallings",
       "team": "BAL",
+      "pos": "C",
       "age": 28,
       "fgValue": -47.86411524020408,
       "isDrafted": false,
@@ -22143,6 +22646,7 @@
     {
       "name": "Trey Sweeney",
       "team": "DET",
+      "pos": "SS",
       "age": 28,
       "fgValue": -47.94674014721932,
       "isDrafted": false,
@@ -22188,6 +22692,7 @@
     {
       "name": "Brice Matthews",
       "team": "HOU",
+      "pos": "2B",
       "age": 28,
       "fgValue": -47.97446233812594,
       "isDrafted": false,
@@ -22232,6 +22737,7 @@
     {
       "name": "Max Schuemann",
       "team": "NYY",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -48.01893222452031,
       "isDrafted": false,
@@ -22276,6 +22782,7 @@
     {
       "name": "Ryan Kreidler",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -48.04902951111063,
       "isDrafted": false,
@@ -22320,6 +22827,7 @@
     {
       "name": "Deyvison De Los Santos",
       "team": "MIA",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": -48.06436502626061,
       "isDrafted": false,
@@ -22364,6 +22872,7 @@
     {
       "name": "Orelvis Martinez",
       "team": "WSN",
+      "pos": "2B",
       "age": 28,
       "fgValue": -48.07209775028989,
       "isDrafted": false,
@@ -22408,6 +22917,7 @@
     {
       "name": "Kris Bryant",
       "team": "COL",
+      "pos": "DH",
       "age": 28,
       "fgValue": -48.09266017706035,
       "isDrafted": false,
@@ -22452,6 +22962,7 @@
     {
       "name": "Paul DeJong",
       "team": "NYY",
+      "pos": "2B/3B/SS",
       "age": 28,
       "fgValue": -48.24131287383681,
       "isDrafted": false,
@@ -22496,6 +23007,7 @@
     {
       "name": "Rafael Flores Jr.",
       "team": "PIT",
+      "pos": "C/1B",
       "age": 28,
       "fgValue": -48.31608434975979,
       "isDrafted": false,
@@ -22540,6 +23052,7 @@
     {
       "name": "Josh Rojas",
       "team": "KCR",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -48.36283627482219,
       "isDrafted": false,
@@ -22585,6 +23098,7 @@
     {
       "name": "Nate Eaton",
       "team": "BOS",
+      "pos": "3B/OF",
       "age": 28,
       "fgValue": -48.399660923340114,
       "isDrafted": false,
@@ -22629,6 +23143,7 @@
     {
       "name": "Tom Murphy",
       "team": null,
+      "pos": "C",
       "age": 28,
       "fgValue": -48.42183836056102,
       "isDrafted": false,
@@ -22673,6 +23188,7 @@
     {
       "name": "Dom Keegan",
       "team": "TBR",
+      "pos": "C",
       "age": 28,
       "fgValue": -48.4632515597804,
       "isDrafted": false,
@@ -22717,6 +23233,7 @@
     {
       "name": "Michael Toglia",
       "team": "CIN",
+      "pos": "1B",
       "age": 28,
       "fgValue": -48.50866694418235,
       "isDrafted": false,
@@ -22761,6 +23278,7 @@
     {
       "name": "Tristan Gray",
       "team": "MIN",
+      "pos": "2B",
       "age": 28,
       "fgValue": -48.54240139969405,
       "isDrafted": false,
@@ -22805,6 +23323,7 @@
     {
       "name": "Kyren Paris",
       "team": "LAA",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -48.65442723907629,
       "isDrafted": false,
@@ -22850,6 +23369,7 @@
     {
       "name": "Gabriel Gonzalez",
       "team": "MIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -48.76567938301516,
       "isDrafted": false,
@@ -22894,6 +23414,7 @@
     {
       "name": "Aidan Miller",
       "team": "PHI",
+      "pos": "SS",
       "age": 28,
       "fgValue": -48.769040048469584,
       "isDrafted": false,
@@ -22938,6 +23459,7 @@
     {
       "name": "Tommy Troy",
       "team": "ARI",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -48.81099175535561,
       "isDrafted": false,
@@ -22982,6 +23504,7 @@
     {
       "name": "Tyler Wade",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": -48.8692381087895,
       "isDrafted": false,
@@ -23026,6 +23549,7 @@
     {
       "name": "Tanner Murray",
       "team": "CHW",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -48.88824216548093,
       "isDrafted": false,
@@ -23070,6 +23594,7 @@
     {
       "name": "Grant McCray",
       "team": "SFG",
+      "pos": "OF",
       "age": 28,
       "fgValue": -48.892059258465125,
       "isDrafted": false,
@@ -23114,6 +23639,7 @@
     {
       "name": "Jesus Rodriguez",
       "team": "SFG",
+      "pos": "C/3B",
       "age": 28,
       "fgValue": -48.93835135336585,
       "isDrafted": false,
@@ -23158,6 +23684,7 @@
     {
       "name": "Reese McGuire",
       "team": "MIL",
+      "pos": "C",
       "age": 28,
       "fgValue": -48.971859559575805,
       "isDrafted": false,
@@ -23202,6 +23729,7 @@
     {
       "name": "Manuel Margot",
       "team": null,
+      "pos": "OF",
       "age": 28,
       "fgValue": -49.21543348606906,
       "isDrafted": false,
@@ -23246,6 +23774,7 @@
     {
       "name": "Tyler Callihan",
       "team": "PIT",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -49.37690567701049,
       "isDrafted": false,
@@ -23290,6 +23819,7 @@
     {
       "name": "Kevin Alcántara",
       "team": "CHC",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -49.40367024599772,
       "isDrafted": false,
@@ -23334,6 +23864,7 @@
     {
       "name": "Tim Anderson",
       "team": null,
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -49.46697027027373,
       "isDrafted": false,
@@ -23378,6 +23909,7 @@
     {
       "name": "Heston Kjerstad",
       "team": "BAL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -49.568286710790005,
       "isDrafted": false,
@@ -23422,6 +23954,7 @@
     {
       "name": "Matthew Lugo",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -49.58517828530485,
       "isDrafted": false,
@@ -23466,6 +23999,7 @@
     {
       "name": "Nick Madrigal",
       "team": "LAA",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -49.61312820151425,
       "isDrafted": false,
@@ -23510,6 +24044,7 @@
     {
       "name": "Mason McCoy",
       "team": "SDP",
+      "pos": "SS",
       "age": 28,
       "fgValue": -49.62224479785273,
       "isDrafted": false,
@@ -23554,6 +24089,7 @@
     {
       "name": "Joey Meneses",
       "team": "ATH",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -49.656323485871525,
       "isDrafted": false,
@@ -23598,6 +24134,7 @@
     {
       "name": "Ryan Clifford",
       "team": "NYM",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -49.696706079625834,
       "isDrafted": false,
@@ -23642,6 +24179,7 @@
     {
       "name": "Gabriel Rincones Jr.",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -49.71924303455268,
       "isDrafted": false,
@@ -23686,6 +24224,7 @@
     {
       "name": "Garrett Hampson",
       "team": "CIN",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -49.761849136188914,
       "isDrafted": false,
@@ -23730,6 +24269,7 @@
     {
       "name": "Jace Jung",
       "team": "DET",
+      "pos": "3B",
       "age": 28,
       "fgValue": -49.83179638013639,
       "isDrafted": false,
@@ -23774,6 +24314,7 @@
     {
       "name": "Kameron Misner",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -49.8341808971322,
       "isDrafted": false,
@@ -23819,6 +24360,7 @@
     {
       "name": "Enmanuel Valdez",
       "team": "PIT",
+      "pos": "1B",
       "age": 28,
       "fgValue": -50.042804525761284,
       "isDrafted": false,
@@ -23864,6 +24406,7 @@
     {
       "name": "Tre' Morgan",
       "team": "TBR",
+      "pos": "1B",
       "age": 28,
       "fgValue": -50.0602071765875,
       "isDrafted": false,
@@ -23908,6 +24451,7 @@
     {
       "name": "Junior Perez",
       "team": "ATH",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.06429844404349,
       "isDrafted": false,
@@ -23952,6 +24496,7 @@
     {
       "name": "Bryan De La Cruz",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.11773817649218,
       "isDrafted": false,
@@ -23996,6 +24541,7 @@
     {
       "name": "Bryan Torres",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.151265257352215,
       "isDrafted": false,
@@ -24040,6 +24586,7 @@
     {
       "name": "Miles Mastrobuoni",
       "team": "SEA",
+      "pos": "2B/3B/OF",
       "age": 28,
       "fgValue": -50.173735192088486,
       "isDrafted": false,
@@ -24085,6 +24632,7 @@
     {
       "name": "Brett Wisely",
       "team": "ATL",
+      "pos": "2B",
       "age": 28,
       "fgValue": -50.3109186872372,
       "isDrafted": false,
@@ -24129,6 +24677,7 @@
     {
       "name": "Nacho Alvarez Jr.",
       "team": "ATL",
+      "pos": "3B",
       "age": 28,
       "fgValue": -50.37843098292892,
       "isDrafted": false,
@@ -24174,6 +24723,7 @@
     {
       "name": "Leo De Vries",
       "team": "ATH",
+      "pos": "SS",
       "age": 28,
       "fgValue": -50.3946019065869,
       "isDrafted": false,
@@ -24218,6 +24768,7 @@
     {
       "name": "Justin Foscue",
       "team": "TEX",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -50.44562947485031,
       "isDrafted": false,
@@ -24262,6 +24813,7 @@
     {
       "name": "Rece Hinds",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.45537513458958,
       "isDrafted": false,
@@ -24306,6 +24858,7 @@
     {
       "name": "César Prieto",
       "team": "STL",
+      "pos": "2B/DH",
       "age": 28,
       "fgValue": -50.45884747414211,
       "isDrafted": false,
@@ -24350,6 +24903,7 @@
     {
       "name": "Taylor Trammell",
       "team": "HOU",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.460860945581814,
       "isDrafted": false,
@@ -24394,6 +24948,7 @@
     {
       "name": "Brett Sullivan",
       "team": "COL",
+      "pos": "C",
       "age": 28,
       "fgValue": -50.554518300993074,
       "isDrafted": false,
@@ -24438,6 +24993,7 @@
     {
       "name": "Pedro León",
       "team": "PHI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.56125815989269,
       "isDrafted": false,
@@ -24482,6 +25038,7 @@
     {
       "name": "Jose Siri",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.580867805952735,
       "isDrafted": false,
@@ -24526,6 +25083,7 @@
     {
       "name": "Yohandy Morales",
       "team": "WSN",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": -50.612416850919836,
       "isDrafted": false,
@@ -24570,6 +25128,7 @@
     {
       "name": "Esmerlyn Valdez",
       "team": "PIT",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -50.625508893905156,
       "isDrafted": false,
@@ -24614,6 +25173,7 @@
     {
       "name": "Victor Mesa Jr.",
       "team": "TBR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.657349797277135,
       "isDrafted": false,
@@ -24658,6 +25218,7 @@
     {
       "name": "Petey Halpin",
       "team": "CLE",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.67767821972991,
       "isDrafted": false,
@@ -24702,6 +25263,7 @@
     {
       "name": "Tyler Black",
       "team": "MIL",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -50.79283085039352,
       "isDrafted": false,
@@ -24746,6 +25308,7 @@
     {
       "name": "Mickey Gasper",
       "team": "BOS",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -50.80845402180455,
       "isDrafted": false,
@@ -24791,6 +25354,7 @@
     {
       "name": "Jonatan Clase",
       "team": "TOR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.8397144784045,
       "isDrafted": false,
@@ -24836,6 +25400,7 @@
     {
       "name": "Spencer Jones",
       "team": "NYY",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.897878280567845,
       "isDrafted": false,
@@ -24880,6 +25445,7 @@
     {
       "name": "Edwin Arroyo",
       "team": "CIN",
+      "pos": "SS",
       "age": 28,
       "fgValue": -50.92764359666299,
       "isDrafted": false,
@@ -24924,6 +25490,7 @@
     {
       "name": "Vidal Bruján",
       "team": "NYM",
+      "pos": "3B/SS/OF",
       "age": 28,
       "fgValue": -50.933434315681936,
       "isDrafted": false,
@@ -24968,6 +25535,7 @@
     {
       "name": "James Triantos",
       "team": "CHC",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -50.94800839493386,
       "isDrafted": false,
@@ -25012,6 +25580,7 @@
     {
       "name": "Wade Meckler",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.990104851078875,
       "isDrafted": false,
@@ -25056,6 +25625,7 @@
     {
       "name": "Blake Dunn",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -50.99262713787827,
       "isDrafted": false,
@@ -25100,6 +25670,7 @@
     {
       "name": "Denzer Guzman",
       "team": "LAA",
+      "pos": "SS",
       "age": 28,
       "fgValue": -51.02483504089061,
       "isDrafted": false,
@@ -25144,6 +25715,7 @@
     {
       "name": "Matt Koperniak",
       "team": "STL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.03941729072319,
       "isDrafted": false,
@@ -25188,6 +25760,7 @@
     {
       "name": "Alex Jackson",
       "team": "MIN",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.0603708660677,
       "isDrafted": false,
@@ -25232,6 +25805,7 @@
     {
       "name": "Drew Waters",
       "team": "KCR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.11446021316074,
       "isDrafted": false,
@@ -25276,6 +25850,7 @@
     {
       "name": "Akil Baddoo",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.1194982195575,
       "isDrafted": false,
@@ -25320,6 +25895,7 @@
     {
       "name": "Jared Serna",
       "team": "MIA",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -51.122163843666506,
       "isDrafted": false,
@@ -25364,6 +25940,7 @@
     {
       "name": "Austin Barnes",
       "team": "NYM",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.14694425782975,
       "isDrafted": false,
@@ -25408,6 +25985,7 @@
     {
       "name": "Eloy Jiménez",
       "team": "TOR",
+      "pos": "DH/OF",
       "age": 28,
       "fgValue": -51.180846889841355,
       "isDrafted": false,
@@ -25452,6 +26030,7 @@
     {
       "name": "Chadwick Tromp",
       "team": "ATL",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.2019972401016,
       "isDrafted": false,
@@ -25496,6 +26075,7 @@
     {
       "name": "Sam Antonacci",
       "team": "CHW",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -51.23609119905279,
       "isDrafted": false,
@@ -25540,6 +26120,7 @@
     {
       "name": "Liover Peguero",
       "team": "PHI",
+      "pos": "SS",
       "age": 28,
       "fgValue": -51.33307508228008,
       "isDrafted": false,
@@ -25584,6 +26165,7 @@
     {
       "name": "Dustin Harris",
       "team": "CHW",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.348184897375965,
       "isDrafted": false,
@@ -25628,6 +26210,7 @@
     {
       "name": "Tristan Peters",
       "team": "CHW",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.35951935849964,
       "isDrafted": false,
@@ -25672,6 +26255,7 @@
     {
       "name": "Matt Mervis",
       "team": "WSN",
+      "pos": "1B/DH",
       "age": 28,
       "fgValue": -51.36340228540281,
       "isDrafted": false,
@@ -25717,6 +26301,7 @@
     {
       "name": "Brock Wilken",
       "team": "MIL",
+      "pos": "3B",
       "age": 28,
       "fgValue": -51.38623778322101,
       "isDrafted": false,
@@ -25761,6 +26346,7 @@
     {
       "name": "Stuart Fairchild",
       "team": "CLE",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.39853134963652,
       "isDrafted": false,
@@ -25805,6 +26391,7 @@
     {
       "name": "Sterlin Thompson",
       "team": "COL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.40296042064502,
       "isDrafted": false,
@@ -25849,6 +26436,7 @@
     {
       "name": "Juan Yepez",
       "team": "TOR",
+      "pos": "1B/DH/OF",
       "age": 28,
       "fgValue": -51.426317598933366,
       "isDrafted": false,
@@ -25893,6 +26481,7 @@
     {
       "name": "Gustavo Campero",
       "team": "LAA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.43201003546297,
       "isDrafted": false,
@@ -25937,6 +26526,7 @@
     {
       "name": "Alika Williams",
       "team": "PIT",
+      "pos": "SS",
       "age": 28,
       "fgValue": -51.59827374779657,
       "isDrafted": false,
@@ -25981,6 +26571,7 @@
     {
       "name": "Ben Rortvedt",
       "team": "NYM",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.62639895482358,
       "isDrafted": false,
@@ -26025,6 +26616,7 @@
     {
       "name": "Jhonny Pereda",
       "team": "SEA",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.62936599235519,
       "isDrafted": false,
@@ -26069,6 +26661,7 @@
     {
       "name": "Connor Joe",
       "team": "SEA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.6303763287137,
       "isDrafted": false,
@@ -26113,6 +26706,7 @@
     {
       "name": "Ji Hwan Bae",
       "team": "NYM",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -51.638700654622575,
       "isDrafted": false,
@@ -26157,6 +26751,7 @@
     {
       "name": "Abraham Toro",
       "team": "KCR",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": -51.65322585845336,
       "isDrafted": false,
@@ -26201,6 +26796,7 @@
     {
       "name": "Jhonkensy Noel",
       "team": "BAL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.66262802624341,
       "isDrafted": false,
@@ -26246,6 +26842,7 @@
     {
       "name": "Willie MacIver",
       "team": "TEX",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.67849343896329,
       "isDrafted": false,
@@ -26290,6 +26887,7 @@
     {
       "name": "Shay Whitcomb",
       "team": "HOU",
+      "pos": "2B/3B/OF/DH",
       "age": 28,
       "fgValue": -51.681172894560085,
       "isDrafted": false,
@@ -26334,6 +26932,7 @@
     {
       "name": "Jose Miranda",
       "team": "SDP",
+      "pos": "3B",
       "age": 28,
       "fgValue": -51.69047340090803,
       "isDrafted": false,
@@ -26378,6 +26977,7 @@
     {
       "name": "Kyle McCann",
       "team": "COL",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.71365164090344,
       "isDrafted": false,
@@ -26422,6 +27022,7 @@
     {
       "name": "Kevin Newman",
       "team": "KCR",
+      "pos": "3B/SS",
       "age": 28,
       "fgValue": -51.73062468003312,
       "isDrafted": false,
@@ -26467,6 +27068,7 @@
     {
       "name": "Jorbit Vivas",
       "team": "NYY",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -51.752776615795675,
       "isDrafted": false,
@@ -26511,6 +27113,7 @@
     {
       "name": "DaShawn Keirsey Jr.",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.80937587011395,
       "isDrafted": false,
@@ -26555,6 +27158,7 @@
     {
       "name": "Jeferson Quero",
       "team": "MIL",
+      "pos": "C",
       "age": 28,
       "fgValue": -51.81281206424393,
       "isDrafted": false,
@@ -26599,6 +27203,7 @@
     {
       "name": "Kahlil Watson",
       "team": "CLE",
+      "pos": "SS/OF",
       "age": 28,
       "fgValue": -51.83805962302533,
       "isDrafted": false,
@@ -26643,6 +27248,7 @@
     {
       "name": "Michael Siani",
       "team": "LAD",
+      "pos": "OF",
       "age": 28,
       "fgValue": -51.89566315519376,
       "isDrafted": false,
@@ -26687,6 +27293,7 @@
     {
       "name": "Michael Arroyo",
       "team": "SEA",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -51.901674801282844,
       "isDrafted": false,
@@ -26731,6 +27338,7 @@
     {
       "name": "Jared Young",
       "team": "NYM",
+      "pos": "DH",
       "age": 28,
       "fgValue": -51.92884510148748,
       "isDrafted": false,
@@ -26775,6 +27383,7 @@
     {
       "name": "Trey Lipscomb",
       "team": "WSN",
+      "pos": "1B/3B/SS",
       "age": 28,
       "fgValue": -52.00305541817688,
       "isDrafted": false,
@@ -26819,6 +27428,7 @@
     {
       "name": "Luke Williams",
       "team": "ATL",
+      "pos": "SS",
       "age": 28,
       "fgValue": -52.00336165033139,
       "isDrafted": false,
@@ -26863,6 +27473,7 @@
     {
       "name": "Garrett Stubbs",
       "team": "PHI",
+      "pos": "C/DH",
       "age": 28,
       "fgValue": -52.01660383584477,
       "isDrafted": false,
@@ -26907,6 +27518,7 @@
     {
       "name": "Bryan Ramos",
       "team": "BAL",
+      "pos": "3B",
       "age": 28,
       "fgValue": -52.03459679753731,
       "isDrafted": false,
@@ -26951,6 +27563,7 @@
     {
       "name": "Justin Dean",
       "team": "CHC",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.03715995447771,
       "isDrafted": false,
@@ -26995,6 +27608,7 @@
     {
       "name": "Matt Thaiss",
       "team": "BOS",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.05249419533047,
       "isDrafted": false,
@@ -27039,6 +27653,7 @@
     {
       "name": "Héctor Rodríguez",
       "team": "CIN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.059360271302246,
       "isDrafted": false,
@@ -27083,6 +27698,7 @@
     {
       "name": "Max Anderson",
       "team": "DET",
+      "pos": "2B",
       "age": 28,
       "fgValue": -52.073485899363355,
       "isDrafted": false,
@@ -27127,6 +27743,7 @@
     {
       "name": "Jorge Alfaro",
       "team": "KCR",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.10892091337077,
       "isDrafted": false,
@@ -27171,6 +27788,7 @@
     {
       "name": "Christian Franklin",
       "team": "WSN",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.11168821919887,
       "isDrafted": false,
@@ -27215,6 +27833,7 @@
     {
       "name": "Shane McGuire",
       "team": "ATH",
+      "pos": "C/1B",
       "age": 28,
       "fgValue": -52.119118899563375,
       "isDrafted": false,
@@ -27259,6 +27878,7 @@
     {
       "name": "Rhylan Thomas",
       "team": "SEA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.131714647704044,
       "isDrafted": false,
@@ -27303,6 +27923,7 @@
     {
       "name": "Trei Cruz",
       "team": "DET",
+      "pos": "SS",
       "age": 28,
       "fgValue": -52.15396402752313,
       "isDrafted": false,
@@ -27347,6 +27968,7 @@
     {
       "name": "Luis Vázquez",
       "team": "BAL",
+      "pos": "3B/SS",
       "age": 28,
       "fgValue": -52.19030496322284,
       "isDrafted": false,
@@ -27391,6 +28013,7 @@
     {
       "name": "Jonah Bride",
       "team": "TEX",
+      "pos": "3B",
       "age": 28,
       "fgValue": -52.201251100351605,
       "isDrafted": false,
@@ -27436,6 +28059,7 @@
     {
       "name": "Cavan Biggio",
       "team": "HOU",
+      "pos": "OF/DH",
       "age": 28,
       "fgValue": -52.23284385296712,
       "isDrafted": false,
@@ -27480,6 +28104,7 @@
     {
       "name": "Dairon Blanco",
       "team": "TEX",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.23584612660978,
       "isDrafted": false,
@@ -27524,6 +28149,7 @@
     {
       "name": "Samad Taylor",
       "team": "SDP",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.23673232936746,
       "isDrafted": false,
@@ -27568,6 +28194,7 @@
     {
       "name": "Jonathon Long",
       "team": "CHC",
+      "pos": "1B",
       "age": 28,
       "fgValue": -52.25393666109725,
       "isDrafted": false,
@@ -27612,6 +28239,7 @@
     {
       "name": "Ryan Ward",
       "team": "LAD",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.28265845784671,
       "isDrafted": false,
@@ -27656,6 +28284,7 @@
     {
       "name": "Donovan Solano",
       "team": null,
+      "pos": "1B",
       "age": 28,
       "fgValue": -52.30240353912427,
       "isDrafted": false,
@@ -27701,6 +28330,7 @@
     {
       "name": "Ben Cowles",
       "team": "CHC",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -52.31083949654736,
       "isDrafted": false,
@@ -27745,6 +28375,7 @@
     {
       "name": "Tsung-Che Cheng",
       "team": "BOS",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -52.34286832409092,
       "isDrafted": false,
@@ -27789,6 +28420,7 @@
     {
       "name": "Brandon Valenzuela",
       "team": "TOR",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.3530749634745,
       "isDrafted": false,
@@ -27833,6 +28465,7 @@
     {
       "name": "Nicky Lopez",
       "team": "COL",
+      "pos": "3B",
       "age": 28,
       "fgValue": -52.376620750044445,
       "isDrafted": false,
@@ -27877,6 +28510,7 @@
     {
       "name": "Eric Haase",
       "team": "SFG",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.38838319821114,
       "isDrafted": false,
@@ -27921,6 +28555,7 @@
     {
       "name": "Aaron Schunk",
       "team": "ATL",
+      "pos": "2B/3B/SS/DH",
       "age": 28,
       "fgValue": -52.436085845666106,
       "isDrafted": false,
@@ -27965,6 +28600,7 @@
     {
       "name": "Billy Cook",
       "team": "PIT",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -52.45319988494497,
       "isDrafted": false,
@@ -28009,6 +28645,7 @@
     {
       "name": "Weston Wilson",
       "team": "BAL",
+      "pos": "2B/OF",
       "age": 28,
       "fgValue": -52.48515575436278,
       "isDrafted": false,
@@ -28054,6 +28691,7 @@
     {
       "name": "Marco Luciano",
       "team": "NYY",
+      "pos": "SS",
       "age": 28,
       "fgValue": -52.56721113335287,
       "isDrafted": false,
@@ -28098,6 +28736,7 @@
     {
       "name": "Niko Kavadas",
       "team": "LAA",
+      "pos": "1B",
       "age": 28,
       "fgValue": -52.570400474589356,
       "isDrafted": false,
@@ -28142,6 +28781,7 @@
     {
       "name": "Dominic Fletcher",
       "team": "PIT",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.62241217007722,
       "isDrafted": false,
@@ -28186,6 +28826,7 @@
     {
       "name": "Tomás Nido",
       "team": "DET",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.62996875856772,
       "isDrafted": false,
@@ -28230,6 +28871,7 @@
     {
       "name": "Drew Romo",
       "team": "CHW",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.63227543699604,
       "isDrafted": false,
@@ -28274,6 +28916,7 @@
     {
       "name": "Steward Berroa",
       "team": "MIL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.64225971658415,
       "isDrafted": false,
@@ -28318,6 +28961,7 @@
     {
       "name": "Tim Elko",
       "team": "CHW",
+      "pos": "1B",
       "age": 28,
       "fgValue": -52.64852990094911,
       "isDrafted": false,
@@ -28362,6 +29006,7 @@
     {
       "name": "Sebastián Rivero",
       "team": "LAA",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.64966468158405,
       "isDrafted": false,
@@ -28406,6 +29051,7 @@
     {
       "name": "Kemp Alderman",
       "team": "MIA",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.664856067102484,
       "isDrafted": false,
@@ -28450,6 +29096,7 @@
     {
       "name": "Will Banfield",
       "team": "CIN",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.6813456362671,
       "isDrafted": false,
@@ -28494,6 +29141,7 @@
     {
       "name": "Ethan Murray",
       "team": "MIL",
+      "pos": "2B/SS",
       "age": 28,
       "fgValue": -52.7006748688217,
       "isDrafted": false,
@@ -28538,6 +29186,7 @@
     {
       "name": "Kristian Robinson",
       "team": "ARI",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.725919096643736,
       "isDrafted": false,
@@ -28582,6 +29231,7 @@
     {
       "name": "Josh Kasevich",
       "team": "TOR",
+      "pos": "SS",
       "age": 28,
       "fgValue": -52.73004052574847,
       "isDrafted": false,
@@ -28626,6 +29276,7 @@
     {
       "name": "José Azocar",
       "team": "ATL",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.73759374629226,
       "isDrafted": false,
@@ -28670,6 +29321,7 @@
     {
       "name": "Ronny Simon",
       "team": "PIT",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.78425314571391,
       "isDrafted": false,
@@ -28714,6 +29366,7 @@
     {
       "name": "Ryan Fitzgerald",
       "team": "LAD",
+      "pos": "1B/2B/3B/SS",
       "age": 28,
       "fgValue": -52.78437703762403,
       "isDrafted": false,
@@ -28758,6 +29411,7 @@
     {
       "name": "Scott Kingery",
       "team": "CHC",
+      "pos": "2B/SS/OF",
       "age": 28,
       "fgValue": -52.798987892744854,
       "isDrafted": false,
@@ -28802,6 +29456,7 @@
     {
       "name": "Nick Morabito",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.80229827087415,
       "isDrafted": false,
@@ -28846,6 +29501,7 @@
     {
       "name": "RJ Schreck",
       "team": "TOR",
+      "pos": "OF",
       "age": 28,
       "fgValue": -52.84239899136171,
       "isDrafted": false,
@@ -28890,6 +29546,7 @@
     {
       "name": "Blake Hunt",
       "team": "SDP",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.8727950074415,
       "isDrafted": false,
@@ -28934,6 +29591,7 @@
     {
       "name": "Vinny Capra",
       "team": "BOS",
+      "pos": "3B/SS",
       "age": 28,
       "fgValue": -52.90776664002553,
       "isDrafted": false,
@@ -28979,6 +29637,7 @@
     {
       "name": "Eduardo Valencia",
       "team": "DET",
+      "pos": "C/1B",
       "age": 28,
       "fgValue": -52.91249668444154,
       "isDrafted": false,
@@ -29023,6 +29682,7 @@
     {
       "name": "Rodolfo Durán",
       "team": "SDP",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.917508093288866,
       "isDrafted": false,
@@ -29067,6 +29727,7 @@
     {
       "name": "Sergio Alcántara",
       "team": "WSN",
+      "pos": "3B/SS",
       "age": 28,
       "fgValue": -52.95801484086997,
       "isDrafted": false,
@@ -29111,6 +29772,7 @@
     {
       "name": "Jose Herrera",
       "team": "TEX",
+      "pos": "C",
       "age": 28,
       "fgValue": -52.989477062995604,
       "isDrafted": false,
@@ -29155,6 +29817,7 @@
     {
       "name": "A.J. Vukovich",
       "team": "ARI",
+      "pos": "3B/OF",
       "age": 28,
       "fgValue": -53.007556052803444,
       "isDrafted": false,
@@ -29199,6 +29862,7 @@
     {
       "name": "Trey Mancini",
       "team": "LAA",
+      "pos": "1B/DH/OF",
       "age": 28,
       "fgValue": -53.019342731198854,
       "isDrafted": false,
@@ -29243,6 +29907,7 @@
     {
       "name": "Grae Kessinger",
       "team": "NYM",
+      "pos": "2B/3B",
       "age": 28,
       "fgValue": -53.045431853635485,
       "isDrafted": false,
@@ -29287,6 +29952,7 @@
     {
       "name": "José Barrero",
       "team": "BAL",
+      "pos": "2B/3B/SS/OF",
       "age": 28,
       "fgValue": -53.06880645534076,
       "isDrafted": false,
@@ -29331,6 +29997,7 @@
     {
       "name": "Sandy León",
       "team": "ATL",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.162369670556515,
       "isDrafted": false,
@@ -29375,6 +30042,7 @@
     {
       "name": "Nate Furman",
       "team": "SFG",
+      "pos": "2B",
       "age": 28,
       "fgValue": -53.19375536201404,
       "isDrafted": false,
@@ -29419,6 +30087,7 @@
     {
       "name": "Jason Delay",
       "team": "BOS",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.21153756161938,
       "isDrafted": false,
@@ -29463,6 +30132,7 @@
     {
       "name": "Seby Zavala",
       "team": "LAD",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.22099045919916,
       "isDrafted": false,
@@ -29507,6 +30177,7 @@
     {
       "name": "Hayden Senger",
       "team": "NYM",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.23009557885619,
       "isDrafted": false,
@@ -29551,6 +30222,7 @@
     {
       "name": "Jack Winkler",
       "team": "HOU",
+      "pos": "1B/2B/3B/SS",
       "age": 28,
       "fgValue": -53.23864637055311,
       "isDrafted": false,
@@ -29595,6 +30267,7 @@
     {
       "name": "Cristian Pache",
       "team": "NYM",
+      "pos": "OF",
       "age": 28,
       "fgValue": -53.24683311475913,
       "isDrafted": false,
@@ -29639,6 +30312,7 @@
     {
       "name": "Dom Nuñez",
       "team": "CLE",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.254986356791285,
       "isDrafted": false,
@@ -29683,6 +30357,7 @@
     {
       "name": "Leandro Cedeño",
       "team": "SDP",
+      "pos": "1B/OF",
       "age": 28,
       "fgValue": -53.26449413202854,
       "isDrafted": false,
@@ -29727,6 +30402,7 @@
     {
       "name": "Sam Huff",
       "team": "BAL",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.31460068466659,
       "isDrafted": false,
@@ -29771,6 +30447,7 @@
     {
       "name": "Blake Sabol",
       "team": "TBR",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.33788642932154,
       "isDrafted": false,
@@ -29815,6 +30492,7 @@
     {
       "name": "Chad Wallach",
       "team": "ATH",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.34240633463459,
       "isDrafted": false,
@@ -29859,6 +30537,7 @@
     {
       "name": "Maverick Handley",
       "team": "BAL",
+      "pos": "C",
       "age": 28,
       "fgValue": -53.34718974940702,
       "isDrafted": false,
@@ -29903,6 +30582,7 @@
     {
       "name": "Blaze Jordan",
       "team": "STL",
+      "pos": "1B/3B",
       "age": 28,
       "fgValue": -53.39536146001387,
       "isDrafted": false,
@@ -29947,6 +30627,7 @@
     {
       "name": "Tristin English",
       "team": "ATL",
+      "pos": "1B",
       "age": 28,
       "fgValue": -53.50081055812171,
       "isDrafted": false,
@@ -29991,6 +30672,7 @@
     {
       "name": "Vimael Machín",
       "team": "COL",
+      "pos": "3B",
       "age": 28,
       "fgValue": -53.54580127196371,
       "isDrafted": false,
@@ -30035,6 +30717,7 @@
     {
       "name": "Anthony Seigler",
       "team": "BOS",
+      "pos": "3B",
       "age": 28,
       "fgValue": -53.61094900643122,
       "isDrafted": false,
@@ -30079,6 +30762,7 @@
     {
       "name": "Davis Wendzel",
       "team": "PIT",
+      "pos": "3B",
       "age": 28,
       "fgValue": -53.94091555418449,
       "isDrafted": false,
@@ -30123,6 +30807,7 @@
     {
       "name": "Emmanuel Rivera",
       "team": null,
+      "pos": "3B",
       "age": 28,
       "fgValue": -54.19391366298819,
       "isDrafted": false,
@@ -30167,6 +30852,7 @@
     {
       "name": "Oliver Dunn",
       "team": "CHW",
+      "pos": "3B",
       "age": 28,
       "fgValue": -54.26781743656397,
       "isDrafted": false,
@@ -30211,6 +30897,7 @@
     {
       "name": "Luken Baker",
       "team": "ARI",
+      "pos": "DH",
       "age": 28,
       "fgValue": -54.29867483400029,
       "isDrafted": false,
@@ -30255,6 +30942,7 @@
     {
       "name": "Patrick Wisdom",
       "team": "SEA",
+      "pos": "3B",
       "age": 28,
       "fgValue": -54.46912584301082,
       "isDrafted": false,
@@ -40742,5 +41430,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-03-22T05:06:24.875Z"
+  "lastUpdated": "2026-03-22T05:15:23.472Z"
 }

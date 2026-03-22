@@ -144,6 +144,31 @@ tr:hover {
   background: #f9f9f9 !important;
 }
 
+.filter-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.control-group label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+}
+
 .tooltip {
   position: absolute;
   background: white;
@@ -152,19 +177,50 @@ tr:hover {
   border-radius: 8px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   z-index: 1000;
-  max-width: 350px;
+  min-width: 250px;
   font-size: 0.9rem;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
-.tooltip hr {
-  margin: 10px 0;
-  border: 0;
-  border-top: 1px solid #eee;
+.tooltip h4 {
+  margin: 0 0 10px 0;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 5px;
 }
 
-.tooltip strong {
-  display: block;
-  margin-bottom: 5px;
-  font-size: 1.1rem;
+.tooltip-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.tooltip-row .label {
+  color: #666;
+}
+
+.tooltip-row .value {
+  font-weight: bold;
+}
+
+.tooltip-total {
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px dashed #ccc;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.notes-input {
+  width: 100%;
+  border: 1px solid transparent;
+  background: transparent;
+  padding: 4px;
+  font-size: 0.8rem;
+  border-radius: 4px;
+}
+
+.notes-input:focus {
+  border-color: #ddd;
+  background: white;
+  outline: none;
 }

@@ -28,6 +28,7 @@ export interface RawContact {
 
 export interface RawAuction {
   Name: string;
+  POS?: string;
   Dollars: number;
 }
 
@@ -61,7 +62,8 @@ export const mergeHitterData = (
       merged.push({
         name: player.Name.trim(),
         team: fgMatch.Team,
-        age: 28, // Default if not in projection
+        pos: player.POS || 'DH', // Capture position from auction calculator
+        age: 28,
         pa: fgMatch.PA,
         obp: parseNum(fgMatch.OBP),
         kRate: parsePct(fgMatch['K%']),
