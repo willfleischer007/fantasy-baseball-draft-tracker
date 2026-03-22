@@ -1,5 +1,7 @@
 # Fantasy Baseball Draft Tracker
 
+**[🚀 View Live App](https://willfleischer007.github.io/fantasy-baseball-draft-tracker/)**
+
 An interactive auction draft tracker for a custom fantasy baseball points league. It scores players based on custom models for hitters and pitchers and provides a real-time tracking interface.
 
 ## Features
