@@ -32,6 +32,11 @@ const main = () => {
 
   // Hitter CSVs
   const rawHitterAuction = parseCSV('fangraphs-auction-calculator-THEBATX-hitters.csv');
+  
+  if (rawHitterAuction.length === 0) {
+    console.error('ERROR: No auction data found. Skipping pre-processing to avoid overwriting existing data.');
+    process.exit(0); // Exit successfully so build can continue with existing JSON if it exists
+  }
   const rawHitterFG = parseCSV('2026-THEBATX-hitting-projections - Sheet1.csv');
   const rawHitterSavant = parseCSV('baseballsavant_hitters.csv');
   const rawContact = parseCSV('fangraphs-2025-hitters-contact-perct - Sheet1.csv');
