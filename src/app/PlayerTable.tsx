@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PlayerSummaryModal from './PlayerSummaryModal';
 
 interface Player {
   name: string;
@@ -22,6 +23,7 @@ interface PlayerTableProps {
 const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type }) => {
   const [sortConfig, setSortConfig] = useState<{ key: string, direction: 'asc' | 'desc' } | null>(null);
   const [tooltip, setTooltip] = useState<{ visible: boolean, x: number, y: number, content: any } | null>(null);
+  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
 
   const handleSort = (key: string) => {
     let direction: 'asc' | 'desc' = 'desc';
@@ -109,7 +111,12 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
           {sortedPlayers.map(player => (
             <tr key={player.name} className={player.isDrafted ? 'drafted' : ''}>
               <td>
-                <div style={{ fontWeight: 'bold' }}>{player.name}</div>
+                <div 
+                  style={{ fontWeight: 'bold', cursor: 'pointer', color: 'var(--primary-color)', textDecoration: 'underline' }}
+                  onClick={() => setSelectedPlayer(player)}
+                >
+                  {player.name}
+                </div>
                 <div style={{ fontSize: '0.75rem', color: '#666' }}>Age: {player.age}</div>
               </td>
               <td>{player.team}</td>
@@ -178,6 +185,14 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
         >
           {tooltip.content}
         </div>
+      )}
+
+      {selectedPlayer && (
+        <PlayerSummaryModal 
+          player={selectedPlayer} 
+          type={type} 
+          onClose={() => setSelectedPlayer(null)} 
+        />
       )}
     </div>
   );

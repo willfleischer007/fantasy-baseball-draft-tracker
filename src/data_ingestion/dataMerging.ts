@@ -23,11 +23,13 @@ export interface RawHitterSavant {
 
 export interface RawContact {
   Name: string;
+  Team: string;
   'Contact%': string | number;
 }
 
 export interface RawAuction {
   Name: string;
+  Team: string;
   POS?: string;
   Dollars: number;
 }
@@ -53,16 +55,18 @@ export const mergeHitterData = (
 
   auction.forEach((player) => {
     const name = normalizeName(player.Name);
+    const team = player.Team; // Using the team from auction calculator
     
-    const fgMatch = fg.find((f) => normalizeName(f.Name) === name);
+    // Match by name AND team for projection files (FanGraphs)
+    const fgMatch = fg.find((f) => normalizeName(f.Name) === name && f.Team === team);
     const savantMatch = savant.find((s) => normalizeName(s['last_name, first_name']) === name);
-    const contactMatch = contact.find((c) => normalizeName(c.Name) === name);
+    const contactMatch = contact.find((c) => normalizeName(c.Name) === name && c.Team === team);
 
     if (fgMatch) {
       merged.push({
         name: player.Name.trim(),
-        team: fgMatch.Team,
-        pos: player.POS || 'DH', // Capture position from auction calculator
+        team: team,
+        pos: player.POS || 'DH',
         age: 28,
         pa: fgMatch.PA,
         obp: parseNum(fgMatch.OBP),
@@ -133,15 +137,16 @@ export const mergePitcherData = (
 
   auction.forEach((player) => {
     const name = normalizeName(player.Name);
+    const team = player.Team;
     
-    const fgMatch = fg.find((f) => normalizeName(f.Name) === name);
+    const fgMatch = fg.find((f) => normalizeName(f.Name) === name && f.Team === team);
     const savantMatch = savant.find((s) => normalizeName(s['last_name, first_name']) === name);
-    const projMatch = projections.find((p) => normalizeName(p.Name) === name);
+    const projMatch = projections.find((p) => normalizeName(p.Name) === name && p.Team === team);
 
     if (projMatch) {
       merged.push({
         name: player.Name.trim(),
-        team: projMatch.Team,
+        team: team,
         age: savantMatch ? savantMatch.player_age : 30,
         ip2025: savantMatch ? parseNum(savantMatch.p_formatted_ip) : 150,
         gs2025: fgMatch ? parseNum(fgMatch.GS) : 25,

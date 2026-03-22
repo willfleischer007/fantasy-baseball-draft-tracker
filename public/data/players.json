@@ -412,12 +412,12 @@
       "fgValue": 28.062401192197356,
       "isDrafted": false,
       "score": {
-        "total": 76,
+        "total": 73,
         "breakdown": {
           "plateDiscipline": 23,
           "contactQuality": 19,
           "onBaseAbility": 12,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 8,
           "speedUpside": 0,
           "age": 4,
@@ -429,14 +429,14 @@
           "hardHitScore": 12,
           "barrelScore": 7,
           "obpScore": 12,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 5,
           "luckGapScore": 3,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 3
         },
-        "tier": "ELITE",
+        "tier": "STRONG BUY",
         "flags": []
       },
       "stats": {
@@ -1265,12 +1265,12 @@
       "fgValue": 17.07614615767597,
       "isDrafted": false,
       "score": {
-        "total": 59,
+        "total": 61,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 25,
           "onBaseAbility": 8,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 5,
           "speedUpside": 0,
           "age": 4,
@@ -1282,14 +1282,14 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 8,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 5,
           "luckGapScore": 0,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 4
         },
-        "tier": "GOOD TARGET",
+        "tier": "STRONG BUY",
         "flags": [
           "BREAKOUT CANDIDATE"
         ]
@@ -1713,12 +1713,12 @@
       "fgValue": 14.736810401642394,
       "isDrafted": false,
       "score": {
-        "total": 47,
+        "total": 44,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 19,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 5,
           "speedUpside": 0,
           "age": 4,
@@ -1730,7 +1730,7 @@
           "hardHitScore": 15,
           "barrelScore": 4,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 5,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -1805,12 +1805,12 @@
       "fgValue": 14.442821590839424,
       "isDrafted": false,
       "score": {
-        "total": 70,
+        "total": 64,
         "breakdown": {
           "plateDiscipline": 23,
           "contactQuality": 16,
           "onBaseAbility": 8,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 6,
           "speedUpside": 0,
           "age": 4,
@@ -1822,7 +1822,7 @@
           "hardHitScore": 12,
           "barrelScore": 4,
           "obpScore": 8,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 3,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -3196,12 +3196,12 @@
       "fgValue": 9.391072886728068,
       "isDrafted": false,
       "score": {
-        "total": 48,
+        "total": 42,
         "breakdown": {
           "plateDiscipline": 20,
           "contactQuality": 0,
           "onBaseAbility": 8,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -3213,7 +3213,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 8,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -3871,12 +3871,12 @@
       "fgValue": 7.533123876677539,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 37,
         "breakdown": {
           "plateDiscipline": 1,
           "contactQuality": 25,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 2,
           "speedUpside": 0,
           "age": 4,
@@ -3888,7 +3888,7 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -4364,12 +4364,12 @@
       "fgValue": 5.606053746416196,
       "isDrafted": false,
       "score": {
-        "total": 58,
+        "total": 52,
         "breakdown": {
           "plateDiscipline": 16,
           "contactQuality": 16,
           "onBaseAbility": 8,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -4381,7 +4381,7 @@
           "hardHitScore": 12,
           "barrelScore": 4,
           "obpScore": 8,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 3,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -4410,12 +4410,12 @@
       "fgValue": 5.442534372621566,
       "isDrafted": false,
       "score": {
-        "total": 51,
+        "total": 53,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 25,
           "onBaseAbility": 8,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 6,
           "speedUpside": 2,
           "age": 4,
@@ -4427,7 +4427,7 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 8,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 5,
           "luckGapScore": 1,
           "speedScore": 2,
@@ -4950,12 +4950,12 @@
       "fgValue": 2.7747624152845916,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 2,
           "contactQuality": 22,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -4967,7 +4967,7 @@
           "hardHitScore": 15,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -5130,12 +5130,12 @@
       "fgValue": 2.182224815468376,
       "isDrafted": false,
       "score": {
-        "total": 29,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 5,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -5147,7 +5147,7 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -5863,12 +5863,12 @@
       "fgValue": 0.5123781381150291,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 1,
           "contactQuality": 19,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 2,
           "speedUpside": 8,
           "age": 4,
@@ -5880,7 +5880,7 @@
           "hardHitScore": 12,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 1,
           "speedScore": 8,
@@ -6098,12 +6098,12 @@
       "fgValue": -0.6148206023425316,
       "isDrafted": false,
       "score": {
-        "total": 40,
+        "total": 34,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 5,
           "onBaseAbility": 4,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 4,
           "speedUpside": 0,
           "age": 4,
@@ -6115,14 +6115,14 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 3,
           "luckGapScore": 1,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "USABLE",
+        "tier": "CAUTION",
         "flags": [
           "INJURY RISK"
         ]
@@ -6190,12 +6190,12 @@
       "fgValue": -0.7461090890062614,
       "isDrafted": false,
       "score": {
-        "total": 34,
+        "total": 36,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 12,
           "onBaseAbility": 4,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 5,
           "age": 4,
@@ -6207,7 +6207,7 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 4,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 5,
@@ -6422,12 +6422,12 @@
       "fgValue": -1.0369319836589947,
       "isDrafted": false,
       "score": {
-        "total": 47,
+        "total": 41,
         "breakdown": {
           "plateDiscipline": 21,
           "contactQuality": 1,
           "onBaseAbility": 4,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 2,
           "speedUpside": 5,
           "age": 4,
@@ -6439,7 +6439,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 1,
           "speedScore": 5,
@@ -6560,12 +6560,12 @@
       "fgValue": -1.2792210859586022,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 40,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 25,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 4,
           "speedUpside": 0,
           "age": 4,
@@ -6577,14 +6577,14 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 3,
           "luckGapScore": 1,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "INJURY RISK"
         ]
@@ -6789,12 +6789,12 @@
       "fgValue": -2.0205150020150158,
       "isDrafted": false,
       "score": {
-        "total": 50,
+        "total": 52,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 25,
           "onBaseAbility": 4,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 5,
           "speedUpside": 2,
           "age": 4,
@@ -6806,7 +6806,7 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 4,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 5,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -7671,12 +7671,12 @@
       "fgValue": -6.97547357568255,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 19,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 5,
           "age": 4,
@@ -7688,7 +7688,7 @@
           "hardHitScore": 12,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 5,
@@ -8272,12 +8272,12 @@
       "fgValue": -8.888764990200624,
       "isDrafted": false,
       "score": {
-        "total": 46,
+        "total": 43,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 16,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 2,
           "speedUpside": 0,
           "age": 4,
@@ -8289,7 +8289,7 @@
           "hardHitScore": 12,
           "barrelScore": 4,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -8782,12 +8782,12 @@
       "fgValue": -10.758484363336105,
       "isDrafted": false,
       "score": {
-        "total": 37,
+        "total": 34,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 13,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -8799,7 +8799,7 @@
           "hardHitScore": 12,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -9106,12 +9106,12 @@
       "fgValue": -12.440757394735948,
       "isDrafted": false,
       "score": {
-        "total": 42,
+        "total": 39,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 9,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -9123,14 +9123,14 @@
           "hardHitScore": 8,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "USABLE",
+        "tier": "CAUTION",
         "flags": [
           "INJURY RISK"
         ]
@@ -9152,12 +9152,12 @@
       "fgValue": -12.59793046889782,
       "isDrafted": false,
       "score": {
-        "total": 28,
+        "total": 30,
         "breakdown": {
           "plateDiscipline": 2,
           "contactQuality": 15,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -9169,14 +9169,14 @@
           "hardHitScore": 8,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "AVOID",
+        "tier": "CAUTION",
         "flags": [
           "INJURY RISK"
         ]
@@ -9660,12 +9660,12 @@
       "fgValue": -14.074351957194269,
       "isDrafted": false,
       "score": {
-        "total": 23,
+        "total": 25,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 1,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 8,
           "age": 4,
@@ -9677,7 +9677,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 8,
@@ -10078,12 +10078,12 @@
       "fgValue": -14.990462158826135,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 40,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 25,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -10095,14 +10095,14 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "BREAKOUT CANDIDATE",
           "INJURY RISK"
@@ -10357,12 +10357,12 @@
       "fgValue": -15.72921311626639,
       "isDrafted": false,
       "score": {
-        "total": 29,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 1,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 8,
           "age": 4,
@@ -10374,7 +10374,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 8,
@@ -10498,12 +10498,12 @@
       "fgValue": -16.001137402974603,
       "isDrafted": false,
       "score": {
-        "total": 24,
+        "total": 21,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 5,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 2,
           "age": 4,
@@ -10515,7 +10515,7 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -10916,12 +10916,12 @@
       "fgValue": -17.37568349554302,
       "isDrafted": false,
       "score": {
-        "total": 52,
+        "total": 46,
         "breakdown": {
           "plateDiscipline": 18,
           "contactQuality": 13,
           "onBaseAbility": 4,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -10933,14 +10933,14 @@
           "hardHitScore": 12,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "GOOD TARGET",
+        "tier": "USABLE",
         "flags": [
           "INJURY RISK"
         ]
@@ -11055,12 +11055,12 @@
       "fgValue": -17.77286047802019,
       "isDrafted": false,
       "score": {
-        "total": 32,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 10,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 5,
           "age": 4,
@@ -11072,14 +11072,14 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 5,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "AVOID",
         "flags": [
           "INJURY RISK"
         ]
@@ -11656,12 +11656,12 @@
       "fgValue": -20.24981036994454,
       "isDrafted": false,
       "score": {
-        "total": 38,
+        "total": 42,
         "breakdown": {
           "plateDiscipline": 1,
           "contactQuality": 25,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 5,
           "age": 4,
@@ -11673,14 +11673,14 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 5,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "INJURY RISK"
         ]
@@ -11748,12 +11748,12 @@
       "fgValue": -20.682584710756228,
       "isDrafted": false,
       "score": {
-        "total": 31,
+        "total": 33,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 12,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 2,
           "age": 4,
@@ -11765,7 +11765,7 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -11795,12 +11795,12 @@
       "fgValue": -21.008471730088242,
       "isDrafted": false,
       "score": {
-        "total": 21,
+        "total": 23,
         "breakdown": {
           "plateDiscipline": 2,
           "contactQuality": 8,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -11812,7 +11812,7 @@
           "hardHitScore": 4,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -11980,12 +11980,12 @@
       "fgValue": -21.951660951435905,
       "isDrafted": false,
       "score": {
-        "total": 43,
+        "total": 40,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 16,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -11997,7 +11997,7 @@
           "hardHitScore": 12,
           "barrelScore": 4,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -12021,47 +12021,47 @@
     },
     {
       "name": "Max Muncy",
-      "team": "LAD",
+      "team": "ATH",
       "pos": "2B/3B",
       "age": 28,
       "fgValue": -8.433087390181607,
       "isDrafted": false,
       "score": {
-        "total": 61,
+        "total": 46,
         "breakdown": {
-          "plateDiscipline": 13,
+          "plateDiscipline": 8,
           "contactQuality": 25,
-          "onBaseAbility": 8,
-          "contactRate": 4,
+          "onBaseAbility": 0,
+          "contactRate": 2,
           "sustainability": 5,
           "speedUpside": 2,
           "age": 4,
           "playingTime": 0
         },
         "details": {
-          "kBBGapScore": 5,
+          "kBBGapScore": 0,
           "oSwingScore": 8,
           "hardHitScore": 15,
           "barrelScore": 10,
-          "obpScore": 8,
-          "contactRateScore": 4,
+          "obpScore": 0,
+          "contactRateScore": 2,
           "xwOBAScore": 5,
           "luckGapScore": 0,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "STRONG BUY",
+        "tier": "USABLE",
         "flags": [
           "BREAKOUT CANDIDATE",
           "INJURY RISK"
         ]
       },
       "stats": {
-        "PA": 443,
-        "OBP": 0.339,
-        "K%": "24.7%",
-        "BB%": "14.2%",
+        "PA": 378,
+        "OBP": 0.283,
+        "K%": "29.8%",
+        "BB%": "5.9%",
         "HH%": "51.5%",
         "xwOBA": 0.374
       }
@@ -12214,12 +12214,12 @@
       "fgValue": -22.599808393424883,
       "isDrafted": false,
       "score": {
-        "total": 29,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 10,
           "contactQuality": 5,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -12231,7 +12231,7 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -12352,12 +12352,12 @@
       "fgValue": -23.010007450822737,
       "isDrafted": false,
       "score": {
-        "total": 31,
+        "total": 28,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 4,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 8,
           "age": 4,
@@ -12369,14 +12369,14 @@
           "hardHitScore": 4,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 8,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "AVOID",
         "flags": [
           "SPEED UPSIDE",
           "INJURY RISK"
@@ -12910,12 +12910,12 @@
       "fgValue": -25.476743063613387,
       "isDrafted": false,
       "score": {
-        "total": 21,
+        "total": 23,
         "breakdown": {
           "plateDiscipline": 0,
           "contactQuality": 9,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 5,
           "age": 4,
@@ -12927,7 +12927,7 @@
           "hardHitScore": 8,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 5,
@@ -14071,12 +14071,12 @@
       "fgValue": -29.412778457285317,
       "isDrafted": false,
       "score": {
-        "total": 40,
+        "total": 42,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 22,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 5,
           "age": 4,
@@ -14088,7 +14088,7 @@
           "hardHitScore": 12,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 5,
@@ -14488,12 +14488,12 @@
       "fgValue": -30.4582303137415,
       "isDrafted": false,
       "score": {
-        "total": 29,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 9,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -14505,7 +14505,7 @@
           "hardHitScore": 8,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -14673,12 +14673,12 @@
       "fgValue": -31.135768360354334,
       "isDrafted": false,
       "score": {
-        "total": 27,
+        "total": 31,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 12,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 8,
           "age": 4,
@@ -14690,14 +14690,14 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 8,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "AVOID",
+        "tier": "CAUTION",
         "flags": [
           "REGRESSION RISK",
           "SPEED UPSIDE",
@@ -15094,12 +15094,12 @@
       "fgValue": -31.71781944689537,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 35,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 19,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -15111,7 +15111,7 @@
           "hardHitScore": 12,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 3,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -15371,12 +15371,12 @@
       "fgValue": -33.22251677010165,
       "isDrafted": false,
       "score": {
-        "total": 23,
+        "total": 20,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 5,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -15388,7 +15388,7 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -15648,12 +15648,12 @@
       "fgValue": -33.99944527412131,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 30,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 13,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 5,
           "age": 4,
@@ -15665,7 +15665,7 @@
           "hardHitScore": 12,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 5,
@@ -15742,12 +15742,12 @@
       "fgValue": -34.500389336398214,
       "isDrafted": false,
       "score": {
-        "total": 20,
+        "total": 17,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -15759,7 +15759,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -15788,12 +15788,12 @@
       "fgValue": -34.89560708804669,
       "isDrafted": false,
       "score": {
-        "total": 23,
+        "total": 17,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -15805,7 +15805,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 2,
@@ -16160,12 +16160,12 @@
       "fgValue": -35.52256530204077,
       "isDrafted": false,
       "score": {
-        "total": 25,
+        "total": 27,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 8,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -16177,7 +16177,7 @@
           "hardHitScore": 4,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -16252,12 +16252,12 @@
       "fgValue": -35.60085409132153,
       "isDrafted": false,
       "score": {
-        "total": 35,
+        "total": 37,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 25,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -16269,7 +16269,7 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -16668,12 +16668,12 @@
       "fgValue": -36.263808168548024,
       "isDrafted": false,
       "score": {
-        "total": 23,
+        "total": 20,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 1,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -16685,7 +16685,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -17087,12 +17087,12 @@
       "fgValue": -36.78657294883564,
       "isDrafted": false,
       "score": {
-        "total": 31,
+        "total": 28,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 9,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -17104,14 +17104,14 @@
           "hardHitScore": 8,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "AVOID",
         "flags": [
           "INJURY RISK"
         ]
@@ -17412,12 +17412,12 @@
       "fgValue": -37.86594540813082,
       "isDrafted": false,
       "score": {
-        "total": 37,
+        "total": 34,
         "breakdown": {
           "plateDiscipline": 18,
           "contactQuality": 1,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -17429,7 +17429,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -17459,12 +17459,12 @@
       "fgValue": -37.981928779695274,
       "isDrafted": false,
       "score": {
-        "total": 43,
+        "total": 40,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 22,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 2,
           "speedUpside": 2,
           "age": 4,
@@ -17476,7 +17476,7 @@
           "hardHitScore": 15,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 1,
           "speedScore": 2,
@@ -17551,12 +17551,12 @@
       "fgValue": -38.02171186828148,
       "isDrafted": false,
       "score": {
-        "total": 38,
+        "total": 35,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 16,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -17568,7 +17568,7 @@
           "hardHitScore": 12,
           "barrelScore": 4,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -17644,12 +17644,12 @@
       "fgValue": -38.06403478838301,
       "isDrafted": false,
       "score": {
-        "total": 31,
+        "total": 35,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 18,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 5,
           "age": 4,
@@ -17661,7 +17661,7 @@
           "hardHitScore": 8,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 5,
@@ -17828,12 +17828,12 @@
       "fgValue": -38.58383548824434,
       "isDrafted": false,
       "score": {
-        "total": 20,
+        "total": 24,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 8,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 2,
           "age": 4,
@@ -17845,7 +17845,7 @@
           "hardHitScore": 4,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -18292,12 +18292,12 @@
       "fgValue": -39.6675519718024,
       "isDrafted": false,
       "score": {
-        "total": 22,
+        "total": 19,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -18309,7 +18309,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -18758,12 +18758,12 @@
       "fgValue": -40.392660811048415,
       "isDrafted": false,
       "score": {
-        "total": 23,
+        "total": 20,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 1,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -18775,7 +18775,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -18896,12 +18896,12 @@
       "fgValue": -41.05686089257307,
       "isDrafted": false,
       "score": {
-        "total": 22,
+        "total": 24,
         "breakdown": {
           "plateDiscipline": 10,
           "contactQuality": 1,
           "onBaseAbility": 4,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -18913,7 +18913,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -18988,12 +18988,12 @@
       "fgValue": -41.18478313992565,
       "isDrafted": false,
       "score": {
-        "total": 34,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 0,
           "contactQuality": 22,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 8,
           "age": 4,
@@ -19005,7 +19005,7 @@
           "hardHitScore": 15,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 8,
@@ -19312,12 +19312,12 @@
       "fgValue": -41.93734302445237,
       "isDrafted": false,
       "score": {
-        "total": 25,
+        "total": 29,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 12,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -19329,7 +19329,7 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 2,
@@ -19589,12 +19589,12 @@
       "fgValue": -42.34020406520955,
       "isDrafted": false,
       "score": {
-        "total": 32,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 16,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 2,
           "age": 4,
@@ -19606,14 +19606,14 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "AVOID",
         "flags": [
           "REGRESSION RISK",
           "INJURY RISK"
@@ -20051,12 +20051,12 @@
       "fgValue": -43.05137726954407,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 35,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 15,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 2,
           "speedUpside": 2,
           "age": 4,
@@ -20068,7 +20068,7 @@
           "hardHitScore": 8,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 1,
           "speedScore": 2,
@@ -20097,12 +20097,12 @@
       "fgValue": -43.06492062404487,
       "isDrafted": false,
       "score": {
-        "total": 34,
+        "total": 31,
         "breakdown": {
           "plateDiscipline": 18,
           "contactQuality": 1,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 0,
           "age": 4,
@@ -20114,7 +20114,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -20374,12 +20374,12 @@
       "fgValue": -43.621772157402035,
       "isDrafted": false,
       "score": {
-        "total": 38,
+        "total": 32,
         "breakdown": {
           "plateDiscipline": 16,
           "contactQuality": 1,
           "onBaseAbility": 4,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -20391,7 +20391,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -20698,12 +20698,12 @@
       "fgValue": -44.367147613406274,
       "isDrafted": false,
       "score": {
-        "total": 27,
+        "total": 24,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -20715,7 +20715,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -20836,12 +20836,12 @@
       "fgValue": -44.57482726393958,
       "isDrafted": false,
       "score": {
-        "total": 28,
+        "total": 25,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 4,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 5,
           "age": 4,
@@ -20853,7 +20853,7 @@
           "hardHitScore": 4,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 5,
@@ -20975,12 +20975,12 @@
       "fgValue": -44.654184929860584,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 30,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 4,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -20992,7 +20992,7 @@
           "hardHitScore": 0,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -21161,12 +21161,12 @@
       "fgValue": -44.938254636783576,
       "isDrafted": false,
       "score": {
-        "total": 26,
+        "total": 23,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 1,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -21178,7 +21178,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -21299,12 +21299,12 @@
       "fgValue": -45.10802409470655,
       "isDrafted": false,
       "score": {
-        "total": 41,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 11,
           "contactQuality": 16,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -21316,14 +21316,14 @@
           "hardHitScore": 15,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "USABLE",
+        "tier": "CAUTION",
         "flags": [
           "INJURY RISK"
         ]
@@ -21485,12 +21485,12 @@
       "fgValue": -45.398112297485774,
       "isDrafted": false,
       "score": {
-        "total": 16,
+        "total": 18,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 4,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -21502,7 +21502,7 @@
           "hardHitScore": 4,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -21623,12 +21623,12 @@
       "fgValue": -45.44382096090616,
       "isDrafted": false,
       "score": {
-        "total": 52,
+        "total": 46,
         "breakdown": {
           "plateDiscipline": 18,
           "contactQuality": 13,
           "onBaseAbility": 4,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -21640,14 +21640,14 @@
           "hardHitScore": 12,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "GOOD TARGET",
+        "tier": "USABLE",
         "flags": [
           "INJURY RISK"
         ]
@@ -21715,12 +21715,12 @@
       "fgValue": -45.47660776297156,
       "isDrafted": false,
       "score": {
-        "total": 27,
+        "total": 24,
         "breakdown": {
           "plateDiscipline": 8,
           "contactQuality": 5,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -21732,7 +21732,7 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -21994,12 +21994,12 @@
       "fgValue": -45.931851130546214,
       "isDrafted": false,
       "score": {
-        "total": 27,
+        "total": 24,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 8,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -22011,7 +22011,7 @@
           "hardHitScore": 4,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -22225,12 +22225,12 @@
       "fgValue": -46.364417862999225,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 37,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 25,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -22242,7 +22242,7 @@
           "hardHitScore": 15,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -22411,12 +22411,12 @@
       "fgValue": -46.81295204408065,
       "isDrafted": false,
       "score": {
-        "total": 8,
+        "total": 12,
         "breakdown": {
           "plateDiscipline": 2,
           "contactQuality": 1,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -22428,7 +22428,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -22735,12 +22735,12 @@
       "fgValue": -47.50595363226208,
       "isDrafted": false,
       "score": {
-        "total": 22,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 12,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -22752,7 +22752,7 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -22967,12 +22967,12 @@
       "fgValue": -47.776415963584746,
       "isDrafted": false,
       "score": {
-        "total": 20,
+        "total": 22,
         "breakdown": {
           "plateDiscipline": 2,
           "contactQuality": 12,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 0,
           "age": 4,
@@ -22984,7 +22984,7 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -23060,12 +23060,12 @@
       "fgValue": -47.854146993086296,
       "isDrafted": false,
       "score": {
-        "total": 41,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 12,
           "onBaseAbility": 4,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -23077,14 +23077,14 @@
           "hardHitScore": 12,
           "barrelScore": 0,
           "obpScore": 4,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 1,
           "luckGapScore": 0,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "USABLE",
+        "tier": "CAUTION",
         "flags": [
           "BREAKOUT CANDIDATE",
           "INJURY RISK"
@@ -23107,12 +23107,12 @@
       "fgValue": -47.86411524020408,
       "isDrafted": false,
       "score": {
-        "total": 4,
+        "total": 8,
         "breakdown": {
           "plateDiscipline": 0,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 0,
           "age": 4,
@@ -23124,7 +23124,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -23477,12 +23477,12 @@
       "fgValue": -48.24131287383681,
       "isDrafted": false,
       "score": {
-        "total": 20,
+        "total": 24,
         "breakdown": {
           "plateDiscipline": 0,
           "contactQuality": 15,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 0,
           "age": 4,
@@ -23494,7 +23494,7 @@
           "hardHitScore": 8,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 0,
@@ -23569,12 +23569,12 @@
       "fgValue": -48.36283627482219,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 30,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 9,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 0,
           "age": 4,
@@ -23586,7 +23586,7 @@
           "hardHitScore": 8,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -23754,12 +23754,12 @@
       "fgValue": -48.50866694418235,
       "isDrafted": false,
       "score": {
-        "total": 27,
+        "total": 31,
         "breakdown": {
           "plateDiscipline": 1,
           "contactQuality": 19,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -23771,14 +23771,14 @@
           "hardHitScore": 12,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 2,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "AVOID",
+        "tier": "CAUTION",
         "flags": [
           "INJURY RISK"
         ]
@@ -24859,12 +24859,12 @@
       "fgValue": -49.8341808971322,
       "isDrafted": false,
       "score": {
-        "total": 11,
+        "total": 15,
         "breakdown": {
           "plateDiscipline": 1,
           "contactQuality": 1,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 5,
           "age": 4,
@@ -24876,7 +24876,7 @@
           "hardHitScore": 0,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 5,
@@ -25875,12 +25875,12 @@
       "fgValue": -50.80845402180455,
       "isDrafted": false,
       "score": {
-        "total": 24,
+        "total": 21,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 0,
           "age": 4,
@@ -25892,7 +25892,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -26337,12 +26337,12 @@
       "fgValue": -51.0603708660677,
       "isDrafted": false,
       "score": {
-        "total": 34,
+        "total": 38,
         "breakdown": {
           "plateDiscipline": 3,
           "contactQuality": 22,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 2,
           "age": 4,
@@ -26354,7 +26354,7 @@
           "hardHitScore": 12,
           "barrelScore": 10,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 2,
@@ -26843,12 +26843,12 @@
       "fgValue": -51.36340228540281,
       "isDrafted": false,
       "score": {
-        "total": 16,
+        "total": 20,
         "breakdown": {
           "plateDiscipline": 0,
           "contactQuality": 12,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 0,
           "age": 4,
@@ -26860,7 +26860,7 @@
           "hardHitScore": 8,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 0,
@@ -27350,12 +27350,12 @@
       "fgValue": -51.65322585845336,
       "isDrafted": false,
       "score": {
-        "total": 24,
+        "total": 21,
         "breakdown": {
           "plateDiscipline": 5,
           "contactQuality": 5,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 1,
           "speedUpside": 2,
           "age": 4,
@@ -27367,7 +27367,7 @@
           "hardHitScore": 4,
           "barrelScore": 1,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 1,
           "speedScore": 2,
@@ -27396,12 +27396,12 @@
       "fgValue": -51.66262802624341,
       "isDrafted": false,
       "score": {
-        "total": 22,
+        "total": 26,
         "breakdown": {
           "plateDiscipline": 0,
           "contactQuality": 16,
           "onBaseAbility": 0,
-          "contactRate": 0,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 2,
           "age": 4,
@@ -27413,7 +27413,7 @@
           "hardHitScore": 12,
           "barrelScore": 4,
           "obpScore": 0,
-          "contactRateScore": 0,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -27627,12 +27627,12 @@
       "fgValue": -51.73062468003312,
       "isDrafted": false,
       "score": {
-        "total": 22,
+        "total": 16,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 10,
+          "contactRate": 4,
           "sustainability": 0,
           "speedUpside": 2,
           "age": 4,
@@ -27644,7 +27644,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 10,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 0,
           "speedScore": 2,
@@ -28226,12 +28226,12 @@
       "fgValue": -52.05249419533047,
       "isDrafted": false,
       "score": {
-        "total": 39,
+        "total": 41,
         "breakdown": {
           "plateDiscipline": 13,
           "contactQuality": 13,
           "onBaseAbility": 4,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -28243,14 +28243,14 @@
           "hardHitScore": 12,
           "barrelScore": 1,
           "obpScore": 4,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "INJURY RISK"
         ]
@@ -29286,12 +29286,12 @@
       "fgValue": -52.48515575436278,
       "isDrafted": false,
       "score": {
-        "total": 39,
+        "total": 41,
         "breakdown": {
           "plateDiscipline": 6,
           "contactQuality": 19,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 5,
           "age": 4,
@@ -29303,14 +29303,14 @@
           "hardHitScore": 12,
           "barrelScore": 7,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 3,
           "luckGapScore": 0,
           "speedScore": 5,
           "ageScore": 4,
           "paScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "BREAKOUT CANDIDATE",
           "INJURY RISK"
@@ -30438,12 +30438,12 @@
       "fgValue": -52.989477062995604,
       "isDrafted": false,
       "score": {
-        "total": 24,
+        "total": 21,
         "breakdown": {
           "plateDiscipline": 10,
           "contactQuality": 0,
           "onBaseAbility": 0,
-          "contactRate": 7,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -30455,7 +30455,7 @@
           "hardHitScore": 0,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 7,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -31496,12 +31496,12 @@
       "fgValue": -54.19391366298819,
       "isDrafted": false,
       "score": {
-        "total": 15,
+        "total": 17,
         "breakdown": {
           "plateDiscipline": 2,
           "contactQuality": 4,
           "onBaseAbility": 0,
-          "contactRate": 2,
+          "contactRate": 4,
           "sustainability": 3,
           "speedUpside": 0,
           "age": 4,
@@ -31513,7 +31513,7 @@
           "hardHitScore": 4,
           "barrelScore": 0,
           "obpScore": 0,
-          "contactRateScore": 2,
+          "contactRateScore": 4,
           "xwOBAScore": 0,
           "luckGapScore": 3,
           "speedScore": 0,
@@ -32233,15 +32233,15 @@
       "fgValue": 20.45425494076045,
       "isDrafted": false,
       "score": {
-        "total": 51,
+        "total": 39,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 10,
-          "contactManagement": 4,
-          "volumeAndDurability": 9,
+          "stuffAndCommand": 5,
+          "contactManagement": 2,
+          "volumeAndDurability": 7,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 1,
           "ageAndHealth": 1
         },
         "details": {
@@ -32249,25 +32249,25 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
-          "stuffPlusScore": 3,
-          "eraEstimatorScore": 4,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 6,
-          "qsScore": 3,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 1,
           "ageScore": 1
         },
-        "tier": "GOOD TARGET",
+        "tier": "CAUTION",
         "flags": []
       },
       "stats": {
-        "SIERA": 3.66,
+        "SIERA": 4,
         "Proj IP": 187.2,
-        "Pitching+": 109,
-        "Stuff+": 108,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.66
       }
     },
@@ -32371,13 +32371,13 @@
       "fgValue": 19.830853823524155,
       "isDrafted": false,
       "score": {
-        "total": 44,
+        "total": 40,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 10,
+          "stuffAndCommand": 5,
           "contactManagement": 3,
-          "volumeAndDurability": 4,
+          "volumeAndDurability": 5,
           "teamAndEnvironment": 4,
           "sustainability": 1,
           "ageAndHealth": 3
@@ -32387,12 +32387,12 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
-          "stuffPlusScore": 3,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 1,
           "ipScore": 4,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 1,
@@ -32402,10 +32402,10 @@
         "flags": []
       },
       "stats": {
-        "SIERA": 3.58,
+        "SIERA": 4,
         "Proj IP": 169,
-        "Pitching+": 107,
-        "Stuff+": 108,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.55
       }
     },
@@ -32461,15 +32461,15 @@
       "fgValue": 18.20732759447668,
       "isDrafted": false,
       "score": {
-        "total": 43,
+        "total": 38,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
           "stuffAndCommand": 5,
-          "contactManagement": 4,
+          "contactManagement": 2,
           "volumeAndDurability": 5,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 1,
           "ageAndHealth": 0
         },
         "details": {
@@ -32479,25 +32479,25 @@
           "cswScore": 2,
           "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
-          "eraEstimatorScore": 4,
+          "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 4,
           "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 1,
           "ageScore": 0
         },
-        "tier": "USABLE",
+        "tier": "CAUTION",
         "flags": [
           "AGE CONCERN"
         ]
       },
       "stats": {
-        "SIERA": 3.29,
+        "SIERA": 4,
         "Proj IP": 167.2,
-        "Pitching+": 101,
-        "Stuff+": 96,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.28
       }
     },
@@ -32600,12 +32600,12 @@
       "fgValue": 17.691013594497434,
       "isDrafted": false,
       "score": {
-        "total": 54,
+        "total": 49,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 8,
-          "contactManagement": 9,
+          "stuffAndCommand": 5,
+          "contactManagement": 7,
           "volumeAndDurability": 5,
           "teamAndEnvironment": 4,
           "sustainability": 6,
@@ -32616,9 +32616,9 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
-          "eraEstimatorScore": 6,
+          "eraEstimatorScore": 4,
           "hardHitAgainstScore": 3,
           "ipScore": 4,
           "qsScore": 1,
@@ -32627,16 +32627,14 @@
           "regressionScore": 6,
           "ageScore": 3
         },
-        "tier": "GOOD TARGET",
-        "flags": [
-          "BREAKOUT CANDIDATE"
-        ]
+        "tier": "USABLE",
+        "flags": []
       },
       "stats": {
-        "SIERA": 3.68,
+        "SIERA": 4,
         "Proj IP": 164.2,
-        "Pitching+": 107,
-        "Stuff+": 102,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 2.7
       }
     },
@@ -33090,10 +33088,10 @@
         "flags": []
       },
       "stats": {
-        "SIERA": 3.8,
+        "SIERA": 4,
         "Proj IP": 156.1,
-        "Pitching+": 97,
-        "Stuff+": 98,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.17
       }
     },
@@ -33196,13 +33194,13 @@
       "fgValue": 10.562225910766207,
       "isDrafted": false,
       "score": {
-        "total": 56,
+        "total": 50,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 8,
+          "stuffAndCommand": 5,
           "contactManagement": 8,
-          "volumeAndDurability": 8,
+          "volumeAndDurability": 5,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 3
@@ -33212,12 +33210,12 @@
           "fStrikeScore": 5,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 4,
           "hardHitAgainstScore": 4,
           "ipScore": 4,
-          "qsScore": 4,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
@@ -33227,10 +33225,10 @@
         "flags": []
       },
       "stats": {
-        "SIERA": 3.73,
+        "SIERA": 4,
         "Proj IP": 164.2,
-        "Pitching+": 107,
-        "Stuff+": 96,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.2
       }
     },
@@ -33472,13 +33470,13 @@
       "fgValue": 8.74075080124428,
       "isDrafted": false,
       "score": {
-        "total": 46,
+        "total": 45,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
+          "stuffAndCommand": 5,
           "contactManagement": 4,
-          "volumeAndDurability": 7,
+          "volumeAndDurability": 5,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -33489,11 +33487,11 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 4,
           "hardHitAgainstScore": 0,
           "ipScore": 4,
-          "qsScore": 3,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -33505,10 +33503,10 @@
         ]
       },
       "stats": {
-        "SIERA": 3.95,
+        "SIERA": 4,
         "Proj IP": 163,
-        "Pitching+": 97,
-        "Stuff+": 90,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.52
       }
     },
@@ -33980,7 +33978,7 @@
       "fgValue": 6.794859727424643,
       "isDrafted": false,
       "score": {
-        "total": 42,
+        "total": 40,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
@@ -33988,7 +33986,7 @@
           "contactManagement": 5,
           "volumeAndDurability": 5,
           "teamAndEnvironment": 4,
-          "sustainability": 6,
+          "sustainability": 4,
           "ageAndHealth": 0
         },
         "details": {
@@ -34004,7 +34002,7 @@
           "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 6,
+          "regressionScore": 4,
           "ageScore": 0
         },
         "tier": "USABLE",
@@ -34013,10 +34011,10 @@
         ]
       },
       "stats": {
-        "SIERA": 3.92,
+        "SIERA": 4,
         "Proj IP": 165.1,
-        "Pitching+": 95,
-        "Stuff+": 96,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.96
       }
     },
@@ -34117,11 +34115,11 @@
       "fgValue": 6.611611874278172,
       "isDrafted": false,
       "score": {
-        "total": 45,
+        "total": 40,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 10,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
           "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
@@ -34133,8 +34131,8 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
-          "stuffPlusScore": 3,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
           "ipScore": 2,
@@ -34148,10 +34146,10 @@
         "flags": []
       },
       "stats": {
-        "SIERA": 3.95,
+        "SIERA": 4,
         "Proj IP": 155.2,
-        "Pitching+": 107,
-        "Stuff+": 107,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.87
       }
     },
@@ -34763,15 +34761,15 @@
       "fgValue": 1.9135144501620185,
       "isDrafted": false,
       "score": {
-        "total": 46,
+        "total": 40,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 10,
+          "stuffAndCommand": 5,
           "contactManagement": 4,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 6,
+          "sustainability": 4,
           "ageAndHealth": 3
         },
         "details": {
@@ -34779,15 +34777,15 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
-          "stuffPlusScore": 3,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 4,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 6,
+          "regressionScore": 4,
           "ageScore": 3
         },
         "tier": "USABLE",
@@ -34796,10 +34794,10 @@
         ]
       },
       "stats": {
-        "SIERA": 3.72,
+        "SIERA": 4,
         "Proj IP": 135.1,
-        "Pitching+": 107,
-        "Stuff+": 105,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.53
       }
     },
@@ -35931,7 +35929,7 @@
       "fgValue": -3.007540836756596,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 36,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
@@ -35939,7 +35937,7 @@
           "contactManagement": 0,
           "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
-          "sustainability": 1,
+          "sustainability": 4,
           "ageAndHealth": 3
         },
         "details": {
@@ -35955,17 +35953,17 @@
           "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 1,
+          "regressionScore": 4,
           "ageScore": 3
         },
         "tier": "CAUTION",
         "flags": []
       },
       "stats": {
-        "SIERA": 4.47,
+        "SIERA": 4,
         "Proj IP": 142.2,
-        "Pitching+": 97,
-        "Stuff+": 101,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.96
       }
     },
@@ -36071,13 +36069,13 @@
       "fgValue": -3.726292043725162,
       "isDrafted": false,
       "score": {
-        "total": 38,
+        "total": 39,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
           "stuffAndCommand": 5,
           "contactManagement": 2,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 4
@@ -36092,7 +36090,7 @@
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
@@ -36104,10 +36102,10 @@
         ]
       },
       "stats": {
-        "SIERA": 3.87,
+        "SIERA": 4,
         "Proj IP": 129.2,
-        "Pitching+": 98,
-        "Stuff+": 95,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.94
       }
     },
@@ -36165,13 +36163,13 @@
       "fgValue": -3.8592496614551948,
       "isDrafted": false,
       "score": {
-        "total": 40,
+        "total": 42,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
+          "stuffAndCommand": 5,
           "contactManagement": 2,
-          "volumeAndDurability": 5,
+          "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 3
@@ -36181,25 +36179,27 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 2,
-          "qsScore": 3,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
           "ageScore": 3
         },
         "tier": "USABLE",
-        "flags": []
+        "flags": [
+          "BREAKOUT CANDIDATE"
+        ]
       },
       "stats": {
-        "SIERA": 4.4,
+        "SIERA": 4,
         "Proj IP": 144.2,
-        "Pitching+": 93,
-        "Stuff+": 85,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.81
       }
     },
@@ -36257,12 +36257,12 @@
       "fgValue": -4.114065013093341,
       "isDrafted": false,
       "score": {
-        "total": 37,
+        "total": 40,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
-          "contactManagement": 3,
+          "stuffAndCommand": 5,
+          "contactManagement": 5,
           "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
           "sustainability": 4,
@@ -36274,8 +36274,8 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
-          "eraEstimatorScore": 0,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 2,
           "hardHitAgainstScore": 3,
           "ipScore": 2,
           "qsScore": 1,
@@ -36284,16 +36284,16 @@
           "regressionScore": 4,
           "ageScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "AGE CONCERN"
         ]
       },
       "stats": {
-        "SIERA": 4.59,
+        "SIERA": 4,
         "Proj IP": 141.1,
-        "Pitching+": 99,
-        "Stuff+": 91,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.45
       }
     },
@@ -36304,15 +36304,15 @@
       "fgValue": -4.389072825906431,
       "isDrafted": false,
       "score": {
-        "total": 30,
+        "total": 36,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 2,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
           "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 1,
+          "sustainability": 4,
           "ageAndHealth": 4
         },
         "details": {
@@ -36320,7 +36320,7 @@
           "fStrikeScore": 1,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
@@ -36328,7 +36328,7 @@
           "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 1,
+          "regressionScore": 4,
           "ageScore": 4
         },
         "tier": "CAUTION",
@@ -36337,10 +36337,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.45,
+        "SIERA": 4,
         "Proj IP": 131.2,
-        "Pitching+": 93,
-        "Stuff+": 102,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 5.05
       }
     },
@@ -36959,12 +36959,12 @@
       "fgValue": -6.513619049080396,
       "isDrafted": false,
       "score": {
-        "total": 42,
+        "total": 45,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
-          "contactManagement": 5,
+          "stuffAndCommand": 5,
+          "contactManagement": 7,
           "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
@@ -36976,8 +36976,8 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
-          "eraEstimatorScore": 4,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 6,
           "hardHitAgainstScore": 1,
           "ipScore": 0,
           "qsScore": 1,
@@ -36993,10 +36993,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.62,
+        "SIERA": 4,
         "Proj IP": 129.2,
-        "Pitching+": 102,
-        "Stuff+": 91,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 2.18
       }
     },
@@ -37291,11 +37291,11 @@
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 7,
+          "stuffAndCommand": 5,
           "contactManagement": 5,
           "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 6,
           "ageAndHealth": 0
         },
         "details": {
@@ -37304,14 +37304,14 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 3,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 3,
           "ipScore": 0,
           "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 6,
           "ageScore": 0
         },
         "tier": "USABLE",
@@ -37321,10 +37321,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.44,
+        "SIERA": 4,
         "Proj IP": 128.1,
-        "Pitching+": 98,
-        "Stuff+": 106,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.85
       }
     },
@@ -37335,13 +37335,13 @@
       "fgValue": -8.531477481505444,
       "isDrafted": false,
       "score": {
-        "total": 41,
+        "total": 42,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
-          "contactManagement": 2,
-          "volumeAndDurability": 5,
+          "stuffAndCommand": 5,
+          "contactManagement": 4,
+          "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 1
@@ -37352,24 +37352,26 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
-          "eraEstimatorScore": 2,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 4,
           "hardHitAgainstScore": 0,
           "ipScore": 2,
-          "qsScore": 3,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
           "ageScore": 1
         },
         "tier": "USABLE",
-        "flags": []
+        "flags": [
+          "BREAKOUT CANDIDATE"
+        ]
       },
       "stats": {
-        "SIERA": 4.46,
+        "SIERA": 4,
         "Proj IP": 141,
-        "Pitching+": 99,
-        "Stuff+": 93,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.31
       }
     },
@@ -37522,13 +37524,13 @@
       "fgValue": -9.171809626561053,
       "isDrafted": false,
       "score": {
-        "total": 43,
+        "total": 41,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 8,
+          "stuffAndCommand": 5,
           "contactManagement": 4,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -37538,12 +37540,12 @@
           "fStrikeScore": 5,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 4,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -37557,10 +37559,10 @@
         ]
       },
       "stats": {
-        "SIERA": 3.62,
+        "SIERA": 4,
         "Proj IP": 120.2,
-        "Pitching+": 109,
-        "Stuff+": 103,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.05
       }
     },
@@ -37665,15 +37667,15 @@
       "fgValue": -9.634253737539478,
       "isDrafted": false,
       "score": {
-        "total": 34,
+        "total": 41,
         "breakdown": {
           "control": 13,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
+          "stuffAndCommand": 5,
           "contactManagement": 0,
-          "volumeAndDurability": 2,
+          "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 6,
           "ageAndHealth": 0
         },
         "details": {
@@ -37681,27 +37683,27 @@
           "fStrikeScore": 7,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 0,
           "ipScore": 2,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 6,
           "ageScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "AGE CONCERN"
         ]
       },
       "stats": {
-        "SIERA": 4.83,
+        "SIERA": 4,
         "Proj IP": 143.1,
-        "Pitching+": 93,
-        "Stuff+": 89,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.84
       }
     },
@@ -37712,13 +37714,13 @@
       "fgValue": -10.989306886408892,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 37,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 2,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 1
@@ -37728,12 +37730,12 @@
           "fStrikeScore": 5,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
@@ -37745,10 +37747,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.45,
+        "SIERA": 4,
         "Proj IP": 121.1,
-        "Pitching+": 88,
-        "Stuff+": 98,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.85
       }
     },
@@ -37806,13 +37808,13 @@
       "fgValue": -11.817550865971164,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 38,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
-          "volumeAndDurability": 2,
+          "volumeAndDurability": 3,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -37822,12 +37824,12 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
           "ipScore": 2,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -37840,10 +37842,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.16,
+        "SIERA": 4,
         "Proj IP": 142,
-        "Pitching+": 94,
-        "Stuff+": 92,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.64
       }
     },
@@ -37854,13 +37856,13 @@
       "fgValue": -12.200035582253474,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 40,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
-          "contactManagement": 2,
-          "volumeAndDurability": 3,
+          "stuffAndCommand": 5,
+          "contactManagement": 4,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 1
@@ -37870,28 +37872,28 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
-          "eraEstimatorScore": 2,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 4,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 3,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
           "ageScore": 1
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "BREAKOUT CANDIDATE",
           "INJURY RISK"
         ]
       },
       "stats": {
-        "SIERA": 4.65,
+        "SIERA": 4,
         "Proj IP": 117,
-        "Pitching+": 91,
-        "Stuff+": 92,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.41
       }
     },
@@ -37949,13 +37951,13 @@
       "fgValue": -12.955986773343994,
       "isDrafted": false,
       "score": {
-        "total": 32,
+        "total": 36,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 2,
+          "stuffAndCommand": 5,
           "contactManagement": 2,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 3
@@ -37965,12 +37967,12 @@
           "fStrikeScore": 1,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
@@ -37982,10 +37984,10 @@
         ]
       },
       "stats": {
-        "SIERA": 3.78,
+        "SIERA": 4,
         "Proj IP": 95.1,
-        "Pitching+": 90,
-        "Stuff+": 95,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.52
       }
     },
@@ -38091,13 +38093,13 @@
       "fgValue": -13.953713481563142,
       "isDrafted": false,
       "score": {
-        "total": 39,
+        "total": 38,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 7,
+          "stuffAndCommand": 5,
           "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 3
@@ -38107,12 +38109,12 @@
           "fStrikeScore": 5,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 7,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
@@ -38124,10 +38126,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.64,
+        "SIERA": 4,
         "Proj IP": 118.1,
-        "Pitching+": 105,
-        "Stuff+": 92,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 5.35
       }
     },
@@ -38611,13 +38613,13 @@
       "fgValue": -16.772873598325653,
       "isDrafted": false,
       "score": {
-        "total": 33,
+        "total": 38,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
+          "stuffAndCommand": 5,
           "contactManagement": 2,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 3
@@ -38627,12 +38629,12 @@
           "fStrikeScore": 1,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -38640,14 +38642,15 @@
         },
         "tier": "CAUTION",
         "flags": [
+          "BREAKOUT CANDIDATE",
           "INJURY RISK"
         ]
       },
       "stats": {
-        "SIERA": 4.45,
+        "SIERA": 4,
         "Proj IP": 100.1,
-        "Pitching+": 92,
-        "Stuff+": 92,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.77
       }
     },
@@ -38753,13 +38756,13 @@
       "fgValue": -17.277691108403864,
       "isDrafted": false,
       "score": {
-        "total": 28,
+        "total": 35,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
-          "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "stuffAndCommand": 5,
+          "contactManagement": 2,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -38769,18 +38772,18 @@
           "fStrikeScore": 1,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
-          "eraEstimatorScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
           "ageScore": 0
         },
-        "tier": "AVOID",
+        "tier": "CAUTION",
         "flags": [
           "BREAKOUT CANDIDATE",
           "INJURY RISK",
@@ -38788,10 +38791,10 @@
         ]
       },
       "stats": {
-        "SIERA": 5.04,
+        "SIERA": 4,
         "Proj IP": 127.2,
-        "Pitching+": 91,
-        "Stuff+": 85,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.96
       }
     },
@@ -39323,13 +39326,13 @@
       "fgValue": -20.2851935423941,
       "isDrafted": false,
       "score": {
-        "total": 32,
+        "total": 34,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -39340,11 +39343,11 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -39358,10 +39361,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.69,
+        "SIERA": 4,
         "Proj IP": 114.2,
-        "Pitching+": 102,
-        "Stuff+": 92,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.64
       }
     },
@@ -39988,15 +39991,15 @@
       "fgValue": -23.981526768131676,
       "isDrafted": false,
       "score": {
-        "total": 31,
+        "total": 36,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
+          "stuffAndCommand": 5,
           "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 1,
+          "sustainability": 4,
           "ageAndHealth": 1
         },
         "details": {
@@ -40005,14 +40008,14 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 1,
+          "regressionScore": 4,
           "ageScore": 1
         },
         "tier": "CAUTION",
@@ -40021,10 +40024,10 @@
         ]
       },
       "stats": {
-        "SIERA": 5.6,
+        "SIERA": 4,
         "Proj IP": 98,
-        "Pitching+": 96,
-        "Stuff+": 91,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 5.49
       }
     },
@@ -40177,15 +40180,15 @@
       "fgValue": -24.47768091202603,
       "isDrafted": false,
       "score": {
-        "total": 23,
+        "total": 32,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
+          "stuffAndCommand": 5,
           "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 0,
+          "sustainability": 4,
           "ageAndHealth": 1
         },
         "details": {
@@ -40193,28 +40196,27 @@
           "fStrikeScore": 1,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 0,
+          "regressionScore": 4,
           "ageScore": 1
         },
-        "tier": "AVOID",
+        "tier": "CAUTION",
         "flags": [
-          "REGRESSION RISK",
           "INJURY RISK"
         ]
       },
       "stats": {
-        "SIERA": 5.26,
+        "SIERA": 4,
         "Proj IP": 96.1,
-        "Pitching+": 85,
-        "Stuff+": 88,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 6.7
       }
     },
@@ -40320,13 +40322,13 @@
       "fgValue": -25.040717063241107,
       "isDrafted": false,
       "score": {
-        "total": 36,
+        "total": 39,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
           "stuffAndCommand": 5,
-          "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "contactManagement": 2,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -40338,10 +40340,10 @@
           "cswScore": 2,
           "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
-          "eraEstimatorScore": 0,
+          "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -40349,15 +40351,16 @@
         },
         "tier": "CAUTION",
         "flags": [
+          "BREAKOUT CANDIDATE",
           "INJURY RISK",
           "AGE CONCERN"
         ]
       },
       "stats": {
-        "SIERA": 4.42,
+        "SIERA": 4,
         "Proj IP": 85.1,
-        "Pitching+": 98,
-        "Stuff+": 96,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.4
       }
     },
@@ -40416,15 +40419,15 @@
       "fgValue": -25.610060629993114,
       "isDrafted": false,
       "score": {
-        "total": 38,
+        "total": 41,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
           "stuffAndCommand": 5,
           "contactManagement": 2,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 6,
           "ageAndHealth": 4
         },
         "details": {
@@ -40437,22 +40440,22 @@
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 6,
           "ageScore": 4
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
           "INJURY RISK"
         ]
       },
       "stats": {
-        "SIERA": 4.32,
+        "SIERA": 4,
         "Proj IP": 78.2,
-        "Pitching+": 104,
-        "Stuff+": 98,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.13
       }
     },
@@ -40655,15 +40658,15 @@
       "fgValue": -28.291180033128132,
       "isDrafted": false,
       "score": {
-        "total": 30,
+        "total": 38,
         "breakdown": {
           "control": 7,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 2,
-          "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "stuffAndCommand": 5,
+          "contactManagement": 2,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 6,
           "ageAndHealth": 3
         },
         "details": {
@@ -40671,15 +40674,15 @@
           "fStrikeScore": 1,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
-          "eraEstimatorScore": 0,
+          "eraEstimatorScore": 2,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 6,
           "ageScore": 3
         },
         "tier": "CAUTION",
@@ -40688,10 +40691,10 @@
         ]
       },
       "stats": {
-        "SIERA": 5.18,
+        "SIERA": 4,
         "Proj IP": 67.2,
-        "Pitching+": 94,
-        "Stuff+": 96,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.45
       }
     },
@@ -40797,12 +40800,12 @@
       "fgValue": -29.447740867084732,
       "isDrafted": false,
       "score": {
-        "total": 40,
+        "total": 42,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
           "stuffAndCommand": 5,
-          "contactManagement": 2,
+          "contactManagement": 4,
           "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
@@ -40815,7 +40818,7 @@
           "cswScore": 2,
           "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
-          "eraEstimatorScore": 2,
+          "eraEstimatorScore": 4,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
           "qsScore": 1,
@@ -40826,14 +40829,15 @@
         },
         "tier": "USABLE",
         "flags": [
+          "BREAKOUT CANDIDATE",
           "INJURY RISK"
         ]
       },
       "stats": {
-        "SIERA": 4.39,
+        "SIERA": 4,
         "Proj IP": 63.1,
-        "Pitching+": 99,
-        "Stuff+": 96,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.51
       }
     },
@@ -40891,15 +40895,15 @@
       "fgValue": -30.220826456284346,
       "isDrafted": false,
       "score": {
-        "total": 31,
+        "total": 37,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 2,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
-          "sustainability": 4,
+          "sustainability": 6,
           "ageAndHealth": 1
         },
         "details": {
@@ -40907,15 +40911,15 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
-          "regressionScore": 4,
+          "regressionScore": 6,
           "ageScore": 1
         },
         "tier": "CAUTION",
@@ -40924,10 +40928,10 @@
         ]
       },
       "stats": {
-        "SIERA": 5.19,
+        "SIERA": 4,
         "Proj IP": 66.2,
-        "Pitching+": 91,
-        "Stuff+": 97,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.93
       }
     },
@@ -40938,13 +40942,13 @@
       "fgValue": -30.989553019949863,
       "isDrafted": false,
       "score": {
-        "total": 29,
+        "total": 33,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 2,
+          "stuffAndCommand": 5,
           "contactManagement": 0,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 0
@@ -40954,27 +40958,27 @@
           "fStrikeScore": 3,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
+          "pitchingPlusScore": 4,
           "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
           "ageScore": 0
         },
-        "tier": "AVOID",
+        "tier": "CAUTION",
         "flags": [
           "INJURY RISK",
           "AGE CONCERN"
         ]
       },
       "stats": {
-        "SIERA": 4.39,
+        "SIERA": 4,
         "Proj IP": 56.2,
-        "Pitching+": 94,
+        "Pitching+": 100,
         "Stuff+": 100,
         "xERA": 5.83
       }
@@ -41174,13 +41178,13 @@
       "fgValue": -31.890457307341663,
       "isDrafted": false,
       "score": {
-        "total": 42,
+        "total": 44,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
+          "stuffAndCommand": 5,
           "contactManagement": 5,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 4
@@ -41191,11 +41195,11 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 2,
           "hardHitAgainstScore": 3,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
@@ -41203,14 +41207,15 @@
         },
         "tier": "USABLE",
         "flags": [
+          "BREAKOUT CANDIDATE",
           "INJURY RISK"
         ]
       },
       "stats": {
-        "SIERA": 4.62,
+        "SIERA": 4,
         "Proj IP": 55.2,
-        "Pitching+": 98,
-        "Stuff+": 91,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.66
       }
     },
@@ -41269,13 +41274,13 @@
       "fgValue": -33.249899543638186,
       "isDrafted": false,
       "score": {
-        "total": 35,
+        "total": 37,
         "breakdown": {
           "control": 9,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 4,
+          "stuffAndCommand": 5,
           "contactManagement": 1,
-          "volumeAndDurability": 0,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 4,
           "ageAndHealth": 3
@@ -41286,11 +41291,11 @@
           "kBBScore": 8,
           "cswScore": 2,
           "pitchingPlusScore": 4,
-          "stuffPlusScore": 0,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 1,
           "ipScore": 0,
-          "qsScore": 0,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 4,
@@ -41302,10 +41307,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.5,
+        "SIERA": 4,
         "Proj IP": 45.2,
-        "Pitching+": 96,
-        "Stuff+": 94,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 5.04
       }
     },
@@ -41458,11 +41463,11 @@
       "fgValue": -34.80274132474041,
       "isDrafted": false,
       "score": {
-        "total": 32,
+        "total": 36,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
+          "stuffAndCommand": 5,
           "contactManagement": 0,
           "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
@@ -41474,8 +41479,8 @@
           "fStrikeScore": 5,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
           "eraEstimatorScore": 0,
           "hardHitAgainstScore": 0,
           "ipScore": 0,
@@ -41491,10 +41496,10 @@
         ]
       },
       "stats": {
-        "SIERA": 4.35,
+        "SIERA": 4,
         "Proj IP": 46.2,
-        "Pitching+": 92,
-        "Stuff+": 88,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 4.77
       }
     },
@@ -41744,13 +41749,13 @@
       "fgValue": -35.746807759194525,
       "isDrafted": false,
       "score": {
-        "total": 38,
+        "total": 42,
         "breakdown": {
           "control": 11,
           "strikeoutAbility": 10,
-          "stuffAndCommand": 1,
-          "contactManagement": 3,
-          "volumeAndDurability": 3,
+          "stuffAndCommand": 5,
+          "contactManagement": 5,
+          "volumeAndDurability": 1,
           "teamAndEnvironment": 4,
           "sustainability": 6,
           "ageAndHealth": 0
@@ -41760,28 +41765,29 @@
           "fStrikeScore": 5,
           "kBBScore": 8,
           "cswScore": 2,
-          "pitchingPlusScore": 1,
-          "stuffPlusScore": 0,
-          "eraEstimatorScore": 2,
+          "pitchingPlusScore": 4,
+          "stuffPlusScore": 1,
+          "eraEstimatorScore": 4,
           "hardHitAgainstScore": 1,
           "ipScore": 0,
-          "qsScore": 3,
+          "qsScore": 1,
           "teamWinsScore": 2,
           "parkFactorScore": 2,
           "regressionScore": 6,
           "ageScore": 0
         },
-        "tier": "CAUTION",
+        "tier": "USABLE",
         "flags": [
+          "BREAKOUT CANDIDATE",
           "INJURY RISK",
           "AGE CONCERN"
         ]
       },
       "stats": {
-        "SIERA": 4.78,
+        "SIERA": 4,
         "Proj IP": 47,
-        "Pitching+": 86,
-        "Stuff+": 81,
+        "Pitching+": 100,
+        "Stuff+": 100,
         "xERA": 3.54
       }
     },
@@ -42118,5 +42124,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-03-22T05:35:42.525Z"
+  "lastUpdated": "2026-03-22T13:03:53.789Z"
 }
