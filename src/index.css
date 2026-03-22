@@ -170,7 +170,7 @@ tr:hover {
 }
 
 .tooltip {
-  position: absolute;
+  position: fixed;
   background: white;
   border: 1px solid #ddd;
   padding: 15px;

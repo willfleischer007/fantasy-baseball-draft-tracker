@@ -39,8 +39,8 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
     let bValue: any = b[key as keyof Player] || b.stats[key] || 0;
 
     if (key === 'score') {
-      aValue = a.score.totalScore;
-      bValue = b.score.totalScore;
+      aValue = a.score.total;
+      bValue = b.score.total;
     }
 
     if (aValue < bValue) return direction === 'asc' ? -1 : 1;
@@ -69,16 +69,16 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
     return (
       <div className="tooltip-content">
         <h4>{type === 'hitter' ? 'Hitter' : 'Pitcher'} Score Breakdown</h4>
-        {Object.entries(score.componentScores).map(([name, val]: [string, any]) => (
+        {Object.entries(score.breakdown).map(([name, val]: [string, any]) => (
           <div key={name} className="tooltip-row">
-            <span className="label">{name}</span>
+            <span className="label" style={{ textTransform: 'capitalize' }}>{name.replace(/([A-Z])/g, ' $1')}</span>
             <span className="value">{val >= 0 ? `+${val}` : val}</span>
           </div>
         ))}
         <div className="tooltip-total">
           <div className="tooltip-row">
             <span className="label">Total Score</span>
-            <span className="value">{score.totalScore}</span>
+            <span className="value">{score.total}</span>
           </div>
         </div>
         <div style={{ marginTop: '10px', fontSize: '0.8rem', color: '#666' }}>
@@ -127,7 +127,7 @@ const PlayerTable: React.FC<PlayerTableProps> = ({ players, onUpdatePlayer, type
                 }}
                 onMouseLeave={() => setTooltip(null)}
               >
-                {player.score.totalScore}
+                {player.score.total}
               </td>
               <td>
                 <span 

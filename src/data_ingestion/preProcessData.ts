@@ -53,6 +53,7 @@ const main = () => {
     isDrafted: false,
     score: calculateHitterScore(data),
     stats: {
+      PA: data.pa,
       OBP: data.obp,
       'K%': (data.kRate * 100).toFixed(1) + '%',
       'BB%': (data.bbRate * 100).toFixed(1) + '%',
